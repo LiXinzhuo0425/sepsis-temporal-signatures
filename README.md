@@ -1,10 +1,10 @@
-# Fixed blood transcriptomic signatures: version 1.3.0
+# Fixed blood transcriptomic signatures: version 1.3.1
 
-This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.0 aligns the reader-facing package with the Biomedical Reports submission: it adds the S27 common-cohort sensitivity summary, identifies the figure-source workbook as Data S2, and adopts the author-adjusted Figure 3 layout as the final submission TIFF.
+This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.1 is a metadata- and wording-only maintenance update of v1.3.0: it removes obsolete journal-specific labels from retained reproducibility provenance and makes the Data S1/Data S2 version boundary explicit. The S27 common-cohort sensitivity summary, Data S2 figure-source mapping, and author-adjusted Figure 3 layout introduced in v1.3.0 are retained unchanged.
 
 The corrected v1.2.1 numerical workflow was not rerun. Cohorts, published formulas, analysis populations, effect estimates, uncertainty estimates, multiplicity conclusions, numerical figure-source values, and scientific conclusions are unchanged. S27 reports a common-cohort comparison from retained results and does not replace or redefine the frozen primary analysis; the Figure 3 revision changes typography only.
 
-The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, and version 1.2.2 updated inference presentation in Table 2.
+The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 aligned the reader-facing package with the Biomedical Reports submission.
 
 ## Evidence boundary
 
@@ -39,12 +39,19 @@ The retained v1.2.1 numerical workflow includes the corrected SIG001 implementat
 
 The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TOOL_MJS` points to a compatible workbook renderer. If that optional dependency is absent, the reproducibility runner skips workbook assembly after all scientific CSV/parquet outputs and verification checks have completed; the release workbooks are already included in `tables`.
 
-## Reproduce the v1.3.0 additions
+## Reproduce the retained v1.3.0 additions
 
 - In the frozen Stage 3 environment recorded by `code/portable_analysis/03_00_09_environment_lock/requirements_frozen.txt`, run `python code/analyse_common_cohort_sensitivity.py` to regenerate the S27 common-cohort evidence under `reproducibility_evidence/common_cohort_sensitivity`.
 - Run `python code/build_biomedical_reports_figures.py` to regenerate the Biomedical Reports figure references and their source extracts under `reproducibility_evidence/generated_biomedical_reports_v1.3.0`.
 
 The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference, while `reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff` is the author-approved final layout.
+
+## Version 1.3.1 changes
+
+- Removed obsolete journal-specific labels from retained code comments, internal reproduction identifiers, audit labels, and two table-workbook provenance cells. Historical version meaning and all audit outcomes are preserved.
+- Clarified in the Data S1 and Data S2 README worksheets that v1.3.1 is the current release, the corrected v1.2.1 workflow remains the numerical source, and v1.2.2 is retained as legacy documentation history.
+- Updated release, citation, DOI, changelog, and manifest metadata to v1.3.1 and DOI `10.5281/zenodo.21862582`.
+- Did not rerun or alter the frozen primary analysis. Cohorts, formulas, analysis populations, numeric values, statistical results, figures, and scientific interpretation are unchanged.
 
 ## Version 1.3.0 changes
 
@@ -114,7 +121,7 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 - `tables`: Supplementary Data (Data S1), the figure-source workbook (Data S2), implementation registry and main Tables 1–2.
 - `reference_outputs/main_figures_v1.2.1`: frozen main-figure references used by the numerical reproduction verifier.
 - `reference_outputs/supplementary_figures_v1.2.1`: frozen Supplementary Figures S1–S5, including the corrected S2 terminology.
-- `reference_outputs/biomedical_reports_v1.3.0`: Biomedical Reports-facing TIFF files retained for the v1.3.0 presentation package.
+- `reference_outputs/biomedical_reports_v1.3.0`: Biomedical Reports-facing TIFF files retained unchanged from the v1.3.0 presentation package.
 - `editable_author_sources`: retained PowerPoint sources for the earlier author-reviewed layouts of Figures 1, 4, 5, and 6.
 - `code/portable_analysis`: release-relative corrected analysis scripts.
 - `reproducibility_evidence`: numerical comparisons, clean-run results, sensitivity evidence and the frozen Stage 2 signature-selection audit.
@@ -122,13 +129,13 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Version and citation
 
-Release identifier: `sepsis-temporal-signatures-v1.3.0`.
+Release identifier: `sepsis-temporal-signatures-v1.3.1`.
 
 Public repository: `https://github.com/LiXinzhuo0425/sepsis-temporal-signatures`.
 
 Concept DOI for all versions: `10.5281/zenodo.21415496`.
 
-Version-specific DOI for v1.3.0: `10.5281/zenodo.21861200` (https://doi.org/10.5281/zenodo.21861200).
+Version-specific DOI for v1.3.1: `10.5281/zenodo.21862582` (https://doi.org/10.5281/zenodo.21862582).
 
 Do not cite the superseded v1.0.1 version DOI as the corrected analysis.
 

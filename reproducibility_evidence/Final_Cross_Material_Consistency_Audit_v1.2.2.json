@@ -122,7 +122,7 @@
       "expected": true
     },
     {
-      "name": "Clean Word state: Scientific_Reports_Manuscript.docx",
+      "name": "Clean Word state: legacy manuscript source (journal-specific filename normalized in v1.3.1)",
       "status": "PASS",
       "observed": {
         "comments": [],
@@ -135,7 +135,7 @@
       "expected": "no comments, revisions, moves, or hidden text"
     },
     {
-      "name": "Native Word equation count: Scientific_Reports_Manuscript.docx",
+      "name": "Native Word equation count: legacy manuscript source (journal-specific filename normalized in v1.3.1)",
       "status": "PASS",
       "observed": 15,
       "expected": 15
@@ -677,7 +677,7 @@
       "expected": "22 of 22 true"
     },
     {
-      "name": "PDF page count: Scientific_Reports_Manuscript.pdf",
+      "name": "PDF page count: legacy manuscript source (journal-specific filename normalized in v1.3.1)",
       "status": "PASS",
       "observed": 24,
       "expected": 24
@@ -689,7 +689,7 @@
       "expected": 31
     },
     {
-      "name": "PDF page count: Scientific_Reports_Cover_Letter.pdf",
+      "name": "PDF page count: legacy cover-letter source (journal-specific filename normalized in v1.3.1)",
       "status": "PASS",
       "observed": 1,
       "expected": 1

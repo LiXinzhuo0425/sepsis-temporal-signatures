@@ -1,15 +1,15 @@
 {
-  "release_id": "sepsis-temporal-signatures-v1.3.0",
-  "release_date": "2026-08-09",
-  "doi": "10.5281/zenodo.21861200",
+  "release_id": "sepsis-temporal-signatures-v1.3.1",
+  "release_date": "2026-08-10",
+  "doi": "10.5281/zenodo.21862582",
   "concept_doi": "10.5281/zenodo.21415496",
   "publication_status": "public immutable release",
   "repository": "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 1701,
-      "sha256": "45712c0d94fc245742a8b828a9a2bd757b65509a0611e8d940c330543398b1fa"
+      "size_bytes": 1515,
+      "sha256": "905af5baaabb2f53efb6cceaa0a4242577898acaeaeeb874bfe92a0e07e4a119"
     },
     {
       "path": "CHANGELOG_v1.0.1.md",
@@ -42,9 +42,14 @@
       "sha256": "45712c0d94fc245742a8b828a9a2bd757b65509a0611e8d940c330543398b1fa"
     },
     {
+      "path": "CHANGELOG_v1.3.1.md",
+      "size_bytes": 1515,
+      "sha256": "905af5baaabb2f53efb6cceaa0a4242577898acaeaeeb874bfe92a0e07e4a119"
+    },
+    {
       "path": "CITATION.cff",
       "size_bytes": 733,
-      "sha256": "5c214e15f0b92c0a12f5f40b5f426ecc6d1a204b9ab23f4bb3fea20dae3c27cf"
+      "sha256": "d18ef34817775e90cb3e0ca48895022e6a7ed104d3b06d39725198e339d4a510"
     },
     {
       "path": "LICENSE_CODE",
@@ -63,8 +68,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 15733,
-      "sha256": "e052b92724c916e4242b4e43553b07e02c1b3316c95c4dd92ca4c762c429252d"
+      "size_bytes": 16710,
+      "sha256": "d8470be2601e9a8ff0537e561f266cbc7a01e9898dca2577a954e32b7301f5c8"
     },
     {
       "path": "code/analyse_common_cohort_sensitivity.py",
@@ -503,8 +508,8 @@
     },
     {
       "path": "code/stage6_figures.py",
-      "size_bytes": 40214,
-      "sha256": "f63731a8604943a6c653081adee24e744019d44515f7be60c5e183361bd27fa4"
+      "size_bytes": 40206,
+      "sha256": "793390c61ff1a09e2b3888024d7f43fac0575f146fa08f3891cf63e0b1fe4567"
     },
     {
       "path": "data/analysis_audits/10_02_baseline_reconstruction_check.csv",
@@ -1053,13 +1058,13 @@
     },
     {
       "path": "reproducibility_evidence/Final_Cross_Material_Consistency_Audit_v1.2.1.json",
-      "size_bytes": 19809,
-      "sha256": "3a77028b5f91f427a9a45da803e205d6bebe6bf06cdbb4fbd2f3d1e237c09458"
+      "size_bytes": 19848,
+      "sha256": "b2c04679cd8532a391e52dae8432c88a8d687822abd0650c754ddc2fe3526a27"
     },
     {
       "path": "reproducibility_evidence/Final_Cross_Material_Consistency_Audit_v1.2.2.json",
-      "size_bytes": 18574,
-      "sha256": "caf6a56031f16a4e48ac8cb4502c8765c5a4faebb30d509fa791495a4a7e8b6b"
+      "size_bytes": 18732,
+      "sha256": "76a6379b01b505770925d9bc53f4122652d9a5d1cb2db81ecbedfb8b6738169b"
     },
     {
       "path": "reproducibility_evidence/S25_ModifiedHK.csv",
@@ -1353,13 +1358,13 @@
     },
     {
       "path": "reproducibility_evidence/reproduction_result_v1.2.1.json",
-      "size_bytes": 13677,
-      "sha256": "b0150cab5fc7fd26f2c9a35e2782b35ffd1a03d7cf15ed5cf6eff880af398a90"
+      "size_bytes": 13672,
+      "sha256": "41d997af72082ba939614520dfc5a5f53c87a4923d5ed55373f146ec59715335"
     },
     {
       "path": "reproducibility_evidence/reproduction_v1.2.1_console.log",
-      "size_bytes": 10538,
-      "sha256": "51ccc1cfe7d4ee44d31d0b3dc11775569303dda38f2f5b051ab0fa9557c5cb59"
+      "size_bytes": 10532,
+      "sha256": "646d6572ff4f21f5a11487ed02ddbc99387d8f1e1e9df02a2841df8808bad3f2"
     },
     {
       "path": "reproducibility_evidence/stage2_signature_selection_audit/02_01_signature_eligibility_criteria_v1.0.docx",
@@ -2038,8 +2043,8 @@
     },
     {
       "path": "reproduction_project/reproduction_result_v1.2.1.json",
-      "size_bytes": 13677,
-      "sha256": "b0150cab5fc7fd26f2c9a35e2782b35ffd1a03d7cf15ed5cf6eff880af398a90"
+      "size_bytes": 13672,
+      "sha256": "41d997af72082ba939614520dfc5a5f53c87a4923d5ed55373f146ec59715335"
     },
     {
       "path": "reproduction_project/stage5_manuscript/06_supplementary/figures/Supplementary_Figure_2_robustness.pdf",
@@ -2398,23 +2403,23 @@
     },
     {
       "path": "reproduction_project/stage6_submission/06_02_revision/08_code/stage6_figures.py",
-      "size_bytes": 36913,
-      "sha256": "060fcbbd482c142c2fad0f3ff1c03bb72cebffe2b8589a816dbd974df7682d66"
+      "size_bytes": 36905,
+      "sha256": "bac76155808bdde6773d7bd69b74394b7ae74449233847dcb0df61f8ec55eb61"
     },
     {
       "path": "scripts/build_release_manifest.py",
-      "size_bytes": 2328,
-      "sha256": "2b2757ba6e9556bf20ee8949bfae15b5974ab64a41162399360bd89900221f5e"
+      "size_bytes": 2287,
+      "sha256": "f1ad6f631eb06562da297a0a758f17112262913603202ec3667672dc1c5324c4"
     },
     {
       "path": "scripts/run_reproduction.py",
-      "size_bytes": 14844,
-      "sha256": "bc4afb421ec514ea7aac1d4c4af2b6f41de72332a443c518ab34c92583cdc334"
+      "size_bytes": 14839,
+      "sha256": "7004939a848ba7b30be2ebfc4c2727af58e3fa31de4798ec7800c0e3422f0def"
     },
     {
       "path": "tables/Figure_Source_Data.xlsx",
-      "size_bytes": 812810,
-      "sha256": "46628e6ae028f2902abfdb4916e4b83ac222c43cc7886797d3051aafe6c67760"
+      "size_bytes": 812822,
+      "sha256": "d0213e22585d54400b459b89390b495957bfcf204bc8386d5059e65ce6c051a2"
     },
     {
       "path": "tables/Signature_Implementation_Registry_v1.2.1.xlsx",
@@ -2423,18 +2428,18 @@
     },
     {
       "path": "tables/Supplementary_Data.xlsx",
-      "size_bytes": 651524,
-      "sha256": "205905ab06dc369042d9f069568021f4a43162c4d3fe20c8a44ec5c23c21b8a7"
+      "size_bytes": 651533,
+      "sha256": "872abb3fc8946e39f7bc4addeb9bb9251af848b6cecc92caae72ab21da561ede"
     },
     {
       "path": "tables/Table_1_cohort_characteristics.xlsx",
-      "size_bytes": 5281,
-      "sha256": "6afc992dd8d8cb787bca9644f6f35cba06351866b22f772cdbedd23b9629882f"
+      "size_bytes": 5304,
+      "sha256": "28e2f4c3117da6058adf001a67882135a114b86acc421af6fee60a047c37a29e"
     },
     {
       "path": "tables/Table_2_signature_summary.xlsx",
-      "size_bytes": 6694,
-      "sha256": "1256756796f116cb7c0ded0b4cd32b27734855dce388b3cebbaa4c9b24d51845"
+      "size_bytes": 6724,
+      "sha256": "0a610e659694e6db5000721ac60452c7475d8192c959f2e69e03220c1cf1c341"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "release_id": "srep-sepsis-temporal-signatures-v1.2.1",
+  "release_id": "sepsis-temporal-signatures-v1.2.1",
   "run_date": "2026-07-23T01:32:52.158472+08:00",
   "command_exit_code": 0,
   "stdout": "",
@@ -227,4 +227,3 @@
   ],
   "status": "PASS"
 }
-

@@ -326,7 +326,7 @@ if not recorded_render_environment and all_sources_exact:
         )
 
 result = {
-    "release_id": "srep-sepsis-temporal-signatures-v1.2.1",
+    "release_id": "sepsis-temporal-signatures-v1.2.1",
     "run_date": __import__("datetime").datetime.now().astimezone().isoformat(),
     "command_exit_code": completed.returncode,
     "stdout": completed.stdout,

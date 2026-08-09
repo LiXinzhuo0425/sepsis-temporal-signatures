@@ -9,12 +9,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {".git", "__pycache__", ".DS_Store", "MANIFEST_SHA256.txt", "release_manifest.json"}
-RELEASE_ID = "sepsis-temporal-signatures-v1.3.0"
-RELEASE_DATE = "2026-08-09"
-DEFAULT_VERSION_DOI = "10.5281/zenodo.21861200"
+RELEASE_ID = "sepsis-temporal-signatures-v1.3.1"
+RELEASE_DATE = "2026-08-10"
+DEFAULT_VERSION_DOI = "10.5281/zenodo.21862582"
 CONCEPT_DOI = "10.5281/zenodo.21415496"
 REPOSITORY = "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures"
 VERSION_DOI = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_VERSION_DOI
+PUBLICATION_STATUS = "public immutable release"
 
 
 def digest(path: Path) -> str:
@@ -43,7 +44,7 @@ manifest = {
     "release_date": RELEASE_DATE,
     "doi": VERSION_DOI,
     "concept_doi": CONCEPT_DOI,
-    "publication_status": "public immutable release" if VERSION_DOI else "local release prepared; GitHub tag and version DOI pending",
+    "publication_status": PUBLICATION_STATUS,
     "repository": REPOSITORY,
     "files": files,
 }

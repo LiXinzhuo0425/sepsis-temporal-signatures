@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Scientific Reports figures from frozen Stage 3 and corrected Stage 4 results.
+"""Generate submission figures from frozen Stage 3 and corrected Stage 4 results.
 
 Only presentation and reviewer-facing terminology change here; all plotted
 scientific values are read from the frozen Stage 3/4 result tables.
