@@ -1,10 +1,10 @@
-# Fixed blood transcriptomic signatures: version 1.2.2
+# Fixed blood transcriptomic signatures: version 1.3.0
 
-This release accompanies *Fixed blood transcriptomic signatures show distinct longitudinal behavior and gene-contribution patterns across sepsis cohorts*. Version 1.2.2 is a presentation-only maintenance release: it preserves the corrected v1.2.1 numerical workflow, cohorts, point estimates, figures, numerical source values, and reproducibility outputs, while updating the manuscript-facing Table 2 and the associated documentation.
+This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.0 aligns the reader-facing package with the Biomedical Reports submission: it adds the S27 common-cohort sensitivity summary, identifies the figure-source workbook as Data S2, and adopts the author-adjusted Figure 3 layout with its editable PowerPoint source.
 
-Table 2 now presents modified Knapp–Hartung confidence intervals and Holm-adjusted P values alongside the prespecified standard Hartung–Knapp results for the eight diagnostic signature–window contrasts. It also removes the threshold-dependent pattern label so that the continuous dominance and cancellation metrics carry the main interpretation. Four changes are supported under both procedures; the FAIM3:PLAC8 T24 and sNIP T48 estimates are identified as inference-sensitive. No analysis was rerun and no figure was changed.
+The corrected v1.2.1 numerical workflow was not rerun. Cohorts, published formulas, analysis populations, effect estimates, uncertainty estimates, multiplicity conclusions, numerical figure-source values, and scientific conclusions are unchanged. S27 reports a common-cohort comparison from retained results and does not replace or redefine the frozen primary analysis; the Figure 3 revision changes typography only.
 
-The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, and version 1.2.1 completed the manuscript-facing data and documentation package.
+The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, and version 1.2.2 updated inference presentation in Table 2.
 
 ## Evidence boundary
 
@@ -22,7 +22,7 @@ Before running any code, verify the pristine extracted release from its root wit
 2. Install `environment/requirements_release.txt`.
 3. From the release root, run `python scripts/run_reproduction.py`.
 
-The script uses only release-relative paths and regenerates Figures 1–6 plus Supplementary Figure S1 under `reproducibility_evidence/generated_v1.2.1`; it does not overwrite the retained historical project snapshots. Scientific content is verified through byte-identical comparison of all 12 main-figure source-data CSVs and the frozen Supplementary Figure S1 source CSV. Figures 2 and 3 and Supplementary Figure S1 are additionally required to match the decoded reference pixels only in the recorded Python/package, macOS arm64, and Arial environment. In another software, operating-system, or font-rendering environment, a clearly labelled `PASS_PLATFORM_RENDER_VARIATION` is permitted only when all scientific source files remain byte-identical and every relevant export check passes. Where the submission reference retains an author-reviewed presentation layout, the verifier records `PASS_AUTHORED_LAYOUT` after the source-data comparison. The verifier also checks that TIFF files are RGB, 600 dpi and LZW-compressed, SVG files retain editable text, and PDFs exist. A successful run writes `reproducibility_evidence/reproduction_result_v1.2.1.json` with `PASS`.
+The script uses only release-relative paths and regenerates Figures 1–6 plus Supplementary Figure S1 under `reproducibility_evidence/generated_v1.2.1`; it does not overwrite the retained historical project snapshots. Scientific content is verified through byte-identical comparison of all 12 main-figure source-data CSVs and the frozen Supplementary Figure S1 source CSV. Figure 2 and Supplementary Figure S1 are additionally required to match the decoded reference pixels only in the recorded Python/package, macOS arm64, and Arial environment. In another software, operating-system, or font-rendering environment, a clearly labelled `PASS_PLATFORM_RENDER_VARIATION` is permitted only when all scientific source files remain byte-identical and every relevant export check passes. For Figures 1, 3, 4, 5, and 6, the submission reference retains an author-reviewed presentation layout and the verifier records `PASS_AUTHORED_LAYOUT` after source-data comparison. The verifier also checks that TIFF files are RGB, 600 dpi and LZW-compressed, SVG files retain editable text, PDFs exist, and the retained PowerPoint sources remain editable. A successful run writes `reproducibility_evidence/reproduction_result_v1.2.1.json` with `PASS`.
 
 ## Reproduce the corrected analysis from GEO inputs
 
@@ -38,6 +38,22 @@ The bundled DESeq2 1.50.2 library is a macOS arm64 environment snapshot licensed
 The retained v1.2.1 numerical workflow includes the corrected SIG001 implementation and the v1.2.0 regression guard requiring every Stage 4 architecture component to match the exact signature-specific primary-independent cohort IDs, cohort count, and patient count from Stage 3. The complete formula registry, threshold-sensitivity evidence, architecture-set verification, Stage 4 log, and semantic rerun comparison are retained in `tables` and `reproducibility_evidence`.
 
 The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TOOL_MJS` points to a compatible workbook renderer. If that optional dependency is absent, the reproducibility runner skips workbook assembly after all scientific CSV/parquet outputs and verification checks have completed; the release workbooks are already included in `tables`.
+
+## Reproduce the v1.3.0 additions
+
+- In the frozen Stage 3 environment recorded by `code/portable_analysis/03_00_09_environment_lock/requirements_frozen.txt`, run `python code/analyse_common_cohort_sensitivity.py` to regenerate the S27 common-cohort evidence under `reproducibility_evidence/common_cohort_sensitivity`.
+- Run `python code/build_biomedical_reports_figures.py` to regenerate the Biomedical Reports figure references and their source extracts under `reproducibility_evidence/generated_biomedical_reports_v1.3.0`.
+
+The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference; `editable_author_sources/Biomedical_Reports_Figure_3.pptx` and `reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff` are the author-approved final layout.
+
+## Version 1.3.0 changes
+
+- Adapted reader-facing terminology and file mapping for the Biomedical Reports submission while keeping the public release journal-neutral.
+- Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`, which derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
+- Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its traceable mapping to the figure-source CSVs.
+- Updated the submission-facing Figure 3 typography and added its editable PowerPoint source; plotted values, panel content, and numerical source data are unchanged.
+- Updated repository, release, citation, DOI, changelog, and manifest metadata to v1.3.0.
+- Preserved the corrected v1.2.1 numerical workflow without rerunning the frozen primary analysis.
 
 ## Version 1.2.2 changes
 
@@ -94,23 +110,25 @@ The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TO
 
 - `data/derived_patient_level`: corrected de-identified score, paired-change, gene-contribution and pathway-change matrices.
 - `data/figure_source_data`: versioned CSV source data for Figures 1–6.
-- `tables`: Supplementary Data, figure-source workbook, implementation registry and main Tables 1–2.
-- `reference_outputs/main_figures_v1.2.1`: submission-reference figures used by the verifier.
-- `reference_outputs/supplementary_figures_v1.2.1`: submission-matched Supplementary Figures S1–S5, including the corrected S2 terminology.
-- `editable_author_sources`: PowerPoint sources for the author-reviewed layouts of Figures 1, 4, 5, and 6.
+- `data/figure_source_data/biomedical_reports_v1.3.0`: source extracts for the three Biomedical Reports-facing main figures.
+- `tables`: Supplementary Data (Data S1), the figure-source workbook (Data S2), implementation registry and main Tables 1–2.
+- `reference_outputs/main_figures_v1.2.1`: frozen main-figure references used by the numerical reproduction verifier.
+- `reference_outputs/supplementary_figures_v1.2.1`: frozen Supplementary Figures S1–S5, including the corrected S2 terminology.
+- `reference_outputs/biomedical_reports_v1.3.0`: Biomedical Reports-facing TIFF files retained for the v1.3.0 presentation package.
+- `editable_author_sources`: PowerPoint sources for the author-reviewed layouts of Figures 1, 3, 4, 5, and 6, including `Biomedical_Reports_Figure_3.pptx`.
 - `code/portable_analysis`: release-relative corrected analysis scripts.
 - `reproducibility_evidence`: numerical comparisons, clean-run results, sensitivity evidence and the frozen Stage 2 signature-selection audit.
 - `reproducibility_evidence/stage2_signature_selection_audit`: the prespecified eligibility criteria, complete 34-candidate registry and frozen A1/A2/B/X reproducibility grades.
 
 ## Version and citation
 
-Release identifier: `srep-sepsis-temporal-signatures-v1.2.2`.
+Release identifier: `sepsis-temporal-signatures-v1.3.0`.
 
-Public repository: `https://github.com/LiXinzhuo0425/srep-sepsis-temporal-signatures`.
+Public repository: `https://github.com/LiXinzhuo0425/sepsis-temporal-signatures`.
 
 Concept DOI for all versions: `10.5281/zenodo.21415496`.
 
-Version-specific DOI for v1.2.2: `10.5281/zenodo.21506111` (https://doi.org/10.5281/zenodo.21506111).
+Version-specific DOI for v1.3.0: `10.5281/zenodo.21861200` (https://doi.org/10.5281/zenodo.21861200).
 
 Do not cite the superseded v1.0.1 version DOI as the corrected analysis.
 

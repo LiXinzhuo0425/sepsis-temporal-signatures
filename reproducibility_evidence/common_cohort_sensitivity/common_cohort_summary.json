@@ -1,0 +1,143 @@
+{
+  "analysis_date": "2026-08-08",
+  "purpose": "Descriptive common-cohort sensitivity; no new multiplicity testing",
+  "canonical_method": "Frozen Stage 3 REML random-effects point estimate; standard Hartung-Knapp interval only when k>=3",
+  "source_files": {
+    "reproduction_project/longitudinal_stage3/source_data/03_04_cohort_signature_primary_effects.csv": "58f30878af25253d9935daf2c042a567a15b2053aca4661fbfbcf771e1e98b09",
+    "reproduction_project/longitudinal_stage3/source_data/03_05_signature_level_meta_analysis.csv": "77e1082eaa98dc47a5c49155f65493f2145e58bcdd2948a27cefc32706269f25",
+    "code/portable_analysis/03_00_09_environment_lock/run_stage3.py": "a4492a1b5ab4af9dda5d8758fcd1ac5fd3cafc520068d46b2f7e710f87cf531f"
+  },
+  "primary_reconstruction": {
+    "comparisons": 16,
+    "max_absolute_numeric_error": 4.161435279703696e-09,
+    "component_max_absolute_errors": {
+      "mu_abs_error": 1.8007599855707213e-09,
+      "tau2_abs_error": 4.161435279703696e-09,
+      "hk_se_abs_error": 5.333647828953403e-10
+    },
+    "tolerance": 1e-08,
+    "status": "PASS"
+  },
+  "definitions": {
+    "FIXED_THREE_LANDMARK_COHORTS": {
+      "cohorts": [
+        "GSE54514",
+        "GSE57065",
+        "GSE95233"
+      ],
+      "note": "Fixed three-cohort definition; includes GSE54514 for SIG002-SIG004 even though that cohort was excluded from their primary syntheses because of possible same-program reuse."
+    },
+    "SHARED_PRIMARY_ELIGIBLE_COHORTS": {
+      "cohorts_by_signature": {
+        "SIG001": [
+          "GSE54514",
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG002": [
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG003": [
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG004": [
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG022": [
+          "GSE54514",
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG023": [
+          "GSE54514",
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG033": [
+          "GSE54514",
+          "GSE57065",
+          "GSE95233"
+        ],
+        "SIG034": [
+          "GSE54514",
+          "GSE57065",
+          "GSE95233"
+        ]
+      },
+      "note": "Intersection of the signature-specific PRIMARY_INDEPENDENT cohort sets at T24 and T48; preserves original eligibility rules."
+    }
+  },
+  "concordance": {
+    "FIXED_THREE_LANDMARK_COHORTS": {
+      "all_signatures_landmark_direction_concordance": {
+        "numerator": 16,
+        "denominator": 16
+      },
+      "all_signatures_direction_pair_concordance": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "all_signatures_cross_window_difference_direction_concordance": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "all_signatures_absolute_magnitude_relation_concordance": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "diagnostic_landmark_direction_concordance": {
+        "numerator": 8,
+        "denominator": 8
+      },
+      "diagnostic_direction_pair_concordance": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "diagnostic_cross_window_difference_direction_concordance": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "diagnostic_absolute_magnitude_relation_concordance": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    },
+    "SHARED_PRIMARY_ELIGIBLE_COHORTS": {
+      "all_signatures_landmark_direction_concordance": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "all_signatures_direction_pair_concordance": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "all_signatures_cross_window_difference_direction_concordance": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "all_signatures_absolute_magnitude_relation_concordance": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "diagnostic_landmark_direction_concordance": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "diagnostic_direction_pair_concordance": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "diagnostic_cross_window_difference_direction_concordance": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "diagnostic_absolute_magnitude_relation_concordance": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    }
+  }
+}

@@ -9,7 +9,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {".git", "__pycache__", ".DS_Store", "MANIFEST_SHA256.txt", "release_manifest.json"}
-VERSION_DOI = sys.argv[1] if len(sys.argv) > 1 else None
+RELEASE_ID = "sepsis-temporal-signatures-v1.3.0"
+RELEASE_DATE = "2026-08-09"
+DEFAULT_VERSION_DOI = "10.5281/zenodo.21861200"
+CONCEPT_DOI = "10.5281/zenodo.21415496"
+REPOSITORY = "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures"
+VERSION_DOI = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_VERSION_DOI
 
 
 def digest(path: Path) -> str:
@@ -34,11 +39,12 @@ for path in sorted(ROOT.rglob("*")):
     )
 
 manifest = {
-    "release_id": "srep-sepsis-temporal-signatures-v1.2.2",
+    "release_id": RELEASE_ID,
+    "release_date": RELEASE_DATE,
     "doi": VERSION_DOI,
-    "concept_doi": "10.5281/zenodo.21415496",
+    "concept_doi": CONCEPT_DOI,
     "publication_status": "public immutable release" if VERSION_DOI else "local release prepared; GitHub tag and version DOI pending",
-    "repository": "https://github.com/LiXinzhuo0425/srep-sepsis-temporal-signatures",
+    "repository": REPOSITORY,
     "files": files,
 }
 (ROOT / "release_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
