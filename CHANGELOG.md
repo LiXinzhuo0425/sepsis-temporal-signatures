@@ -8,7 +8,7 @@ Version 1.3.0 is a journal-neutral reporting and presentation release aligned wi
 - Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`; they derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
 - Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its mapping to the numerical figure-source files.
 - Added release-relative builders and source extracts for the common-cohort sensitivity and the Biomedical Reports-facing figures.
-- Updated the submission-facing Figure 3 typography and added its editable PowerPoint source. Plotted values and panel content are unchanged.
+- Updated the submission-facing Figure 3 typography and retained its final 600-dpi TIFF. Plotted values and panel content are unchanged.
 - Updated repository, release, citation, DOI, changelog, and manifest metadata to version 1.3.0 and DOI `10.5281/zenodo.21861200`.
 
 ## Unchanged scientific content

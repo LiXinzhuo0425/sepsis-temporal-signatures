@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 1706,
-      "sha256": "8177b9a0763a6c59abb483cf18081020f8ec0f0b13d14f7c3a80c40c09dd355b"
+      "size_bytes": 1701,
+      "sha256": "45712c0d94fc245742a8b828a9a2bd757b65509a0611e8d940c330543398b1fa"
     },
     {
       "path": "CHANGELOG_v1.0.1.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "CHANGELOG_v1.3.0.md",
-      "size_bytes": 1706,
-      "sha256": "8177b9a0763a6c59abb483cf18081020f8ec0f0b13d14f7c3a80c40c09dd355b"
+      "size_bytes": 1701,
+      "sha256": "45712c0d94fc245742a8b828a9a2bd757b65509a0611e8d940c330543398b1fa"
     },
     {
       "path": "CITATION.cff",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 15835,
-      "sha256": "e118c803356b146ce1ecbe6ea0e96d727c2020150b909e71d708521ad72e0e1b"
+      "size_bytes": 15733,
+      "sha256": "e052b92724c916e4242b4e43553b07e02c1b3316c95c4dd92ca4c762c429252d"
     },
     {
       "path": "code/analyse_common_cohort_sensitivity.py",
@@ -78,8 +78,8 @@
     },
     {
       "path": "code/build_biomedical_reports_figures.py",
-      "size_bytes": 26295,
-      "sha256": "3c51b298316b2f1e3ae4b7593a56d408700ce0440234adbfecffe7a002314711"
+      "size_bytes": 26211,
+      "sha256": "69bf9325750be4d3c51ad97954b734f4fae13cef601388494c219b06251f5b95"
     },
     {
       "path": "code/modified_hk_sensitivity.py",
@@ -750,11 +750,6 @@
       "path": "data/source_tables/stage4/04_20_integrated_signature_interpretation_matrix.csv",
       "size_bytes": 4868,
       "sha256": "9108210e06998528ff5470d76c7587ef16342df8f2e4782df9f641fb7b7daaaf"
-    },
-    {
-      "path": "editable_author_sources/Biomedical_Reports_Figure_3.pptx",
-      "size_bytes": 58416,
-      "sha256": "f637fddf44d9ae4d840071777f72756e5bef452048c1113c624e6653bf69a5c8"
     },
     {
       "path": "editable_author_sources/Figure_1.pptx",

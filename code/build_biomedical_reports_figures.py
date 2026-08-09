@@ -4,8 +4,8 @@
 The script is release-relative and changes presentation only. It does not
 estimate, refit, or alter any scientific value. Figures 1 and 2 reproduce the
 submitted layouts. Figure 3 is a computational reference for the same source
-values; the author-edited PowerPoint file in ``editable_author_sources`` is the
-authoritative final layout and is never overwritten by this script.
+values; the author-approved TIFF in ``reference_outputs`` is the authoritative
+final layout and is never overwritten by this script.
 """
 
 from __future__ import annotations
@@ -748,7 +748,6 @@ def main() -> None:
         print(OUT / name)
     print(
         "AUTHORED_FINAL Figure 3: "
-        "editable_author_sources/Biomedical_Reports_Figure_3.pptx; "
         "reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff"
     )
 

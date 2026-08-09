@@ -1,6 +1,6 @@
 # Fixed blood transcriptomic signatures: version 1.3.0
 
-This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.0 aligns the reader-facing package with the Biomedical Reports submission: it adds the S27 common-cohort sensitivity summary, identifies the figure-source workbook as Data S2, and adopts the author-adjusted Figure 3 layout with its editable PowerPoint source.
+This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.0 aligns the reader-facing package with the Biomedical Reports submission: it adds the S27 common-cohort sensitivity summary, identifies the figure-source workbook as Data S2, and adopts the author-adjusted Figure 3 layout as the final submission TIFF.
 
 The corrected v1.2.1 numerical workflow was not rerun. Cohorts, published formulas, analysis populations, effect estimates, uncertainty estimates, multiplicity conclusions, numerical figure-source values, and scientific conclusions are unchanged. S27 reports a common-cohort comparison from retained results and does not replace or redefine the frozen primary analysis; the Figure 3 revision changes typography only.
 
@@ -44,14 +44,14 @@ The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TO
 - In the frozen Stage 3 environment recorded by `code/portable_analysis/03_00_09_environment_lock/requirements_frozen.txt`, run `python code/analyse_common_cohort_sensitivity.py` to regenerate the S27 common-cohort evidence under `reproducibility_evidence/common_cohort_sensitivity`.
 - Run `python code/build_biomedical_reports_figures.py` to regenerate the Biomedical Reports figure references and their source extracts under `reproducibility_evidence/generated_biomedical_reports_v1.3.0`.
 
-The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference; `editable_author_sources/Biomedical_Reports_Figure_3.pptx` and `reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff` are the author-approved final layout.
+The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference, while `reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff` is the author-approved final layout.
 
 ## Version 1.3.0 changes
 
 - Adapted reader-facing terminology and file mapping for the Biomedical Reports submission while keeping the public release journal-neutral.
 - Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`, which derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
 - Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its traceable mapping to the figure-source CSVs.
-- Updated the submission-facing Figure 3 typography and added its editable PowerPoint source; plotted values, panel content, and numerical source data are unchanged.
+- Updated the submission-facing Figure 3 typography and retained its final 600-dpi TIFF; plotted values, panel content, and numerical source data are unchanged.
 - Updated repository, release, citation, DOI, changelog, and manifest metadata to v1.3.0.
 - Preserved the corrected v1.2.1 numerical workflow without rerunning the frozen primary analysis.
 
@@ -115,7 +115,7 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 - `reference_outputs/main_figures_v1.2.1`: frozen main-figure references used by the numerical reproduction verifier.
 - `reference_outputs/supplementary_figures_v1.2.1`: frozen Supplementary Figures S1–S5, including the corrected S2 terminology.
 - `reference_outputs/biomedical_reports_v1.3.0`: Biomedical Reports-facing TIFF files retained for the v1.3.0 presentation package.
-- `editable_author_sources`: PowerPoint sources for the author-reviewed layouts of Figures 1, 3, 4, 5, and 6, including `Biomedical_Reports_Figure_3.pptx`.
+- `editable_author_sources`: retained PowerPoint sources for the earlier author-reviewed layouts of Figures 1, 4, 5, and 6.
 - `code/portable_analysis`: release-relative corrected analysis scripts.
 - `reproducibility_evidence`: numerical comparisons, clean-run results, sensitivity evidence and the frozen Stage 2 signature-selection audit.
 - `reproducibility_evidence/stage2_signature_selection_audit`: the prespecified eligibility criteria, complete 34-candidate registry and frozen A1/A2/B/X reproducibility grades.
