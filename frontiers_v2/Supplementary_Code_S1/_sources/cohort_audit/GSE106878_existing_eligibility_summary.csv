@@ -1,0 +1,2 @@
+dataset,decision,baseline_cases,paired_T24,required_genes,covered_genes,public_matrix,platform,normalization,role
+GSE106878,INCLUDE_POST_FREEZE_CONFIRMATION,47,47,74,74,GEO series matrix,GPL10295 Illumina human-6 v2.0 expression beadchip,GEO submitter: log2 transformation followed by quantile normalization,post-freeze confirmation only; randomized treatment arms retained and reported

@@ -8,14 +8,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED = {".git", "__pycache__", ".DS_Store", "MANIFEST_SHA256.txt", "release_manifest.json"}
-RELEASE_ID = "sepsis-temporal-signatures-v1.3.1"
-RELEASE_DATE = "2026-08-10"
-DEFAULT_VERSION_DOI = "10.5281/zenodo.21862582"
+EXCLUDED_DIRECTORIES = {".git", "__pycache__"}
+EXCLUDED_FILES = {".DS_Store"}
+SELF_REFERENTIAL_ROOT_FILES = {"MANIFEST_SHA256.txt", "release_manifest.json"}
+RELEASE_ID = "sepsis-temporal-signatures-v2.0.0"
+RELEASE_DATE = "2026-08-20"
+DEFAULT_VERSION_DOI = "10.5281/zenodo.22028159"
 CONCEPT_DOI = "10.5281/zenodo.21415496"
 REPOSITORY = "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures"
 VERSION_DOI = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_VERSION_DOI
-PUBLICATION_STATUS = "public immutable release"
+PUBLICATION_STATUS = "prepared public release"
 
 
 def digest(path: Path) -> str:
@@ -29,7 +31,13 @@ def digest(path: Path) -> str:
 files = []
 for path in sorted(ROOT.rglob("*")):
     rel = path.relative_to(ROOT)
-    if not path.is_file() or path.name.endswith(".inspect.ndjson") or any(part in EXCLUDED for part in rel.parts):
+    if (
+        not path.is_file()
+        or path.name.endswith(".inspect.ndjson")
+        or any(part in EXCLUDED_DIRECTORIES for part in rel.parts)
+        or path.name in EXCLUDED_FILES
+        or (len(rel.parts) == 1 and path.name in SELF_REFERENTIAL_ROOT_FILES)
+    ):
         continue
     files.append(
         {

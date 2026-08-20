@@ -1,0 +1,7 @@
+PASS GSE54514: 35 baseline patients (26/9); one Day-4-only orphan ID20 flagged
+PASS GSE95233: 51 complete pairs; 34/17 D28 outcome; 20 D2 and 31 D3 follow-ups
+PASS GSE110487: 31 complete pairs; 17/14 R/NR; 21 GEO characteristic conflicts isolated
+PASS GSE57065: 28 patient maps; 14/14 SAPSII class; H0/H24=28 and H48=26
+PASS GSE106878: 47 complete pairs; 24/23 treatment; 34/13 D28 outcome
+PASS PRJEB111201: 10 complete trajectories plus one D1-only patient; 162.58 GiB; no ENA analysis row
+PASS score reconstruction: all 8 signatures complete in four primary cohorts; GSE106878 covers 74/74 genes

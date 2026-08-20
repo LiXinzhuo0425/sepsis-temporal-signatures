@@ -1,0 +1,63 @@
+sample_id,title,source_name_ch1,tissue,patient,timepoint,clinical_classification,platform_id,instrument_model,patient_id,deposited_timepoint_characteristic,source_time,relative_hours,clinical_status,mapping_status
+GSM2992274,E04T1,Responder T1 patient1,Whole blood cells collected from patient after septic shock,E04,T1,R,GPL16791,Illumina HiSeq 2500,E04,T1,T1,0,R,resolved
+GSM2992275,E04T2,Responder T2 patient1,Whole blood cells collected from patient after septic shock,E04,T2,R,GPL16791,Illumina HiSeq 2500,E04,T2,T2,48,R,resolved
+GSM2992276,E07T1,Not Responder T1 patient1,Whole blood cells collected from patient after septic shock,E07,T1,NR,GPL16791,Illumina HiSeq 2500,E07,T1,T1,0,NR,resolved
+GSM2992277,E07T2,Not Responder T2 patient1,Whole blood cells collected from patient after septic shock,E07,T2,NR,GPL16791,Illumina HiSeq 2500,E07,T2,T2,48,NR,resolved
+GSM2992278,E15T1,Not Responder T1 patient2,Whole blood cells collected from patient after septic shock,E15,T1,NR,GPL16791,Illumina HiSeq 2500,E15,T1,T1,0,NR,resolved
+GSM2992279,E15T2,Not Responder T2 patient2,Whole blood cells collected from patient after septic shock,E15,T2,NR,GPL16791,Illumina HiSeq 2500,E15,T2,T2,48,NR,resolved
+GSM2992280,E16T1,Not Responder T1 patient3,Whole blood cells collected from patient after septic shock,E16,T1,NR,GPL16791,Illumina HiSeq 2500,E16,T1,T1,0,NR,resolved
+GSM2992281,E16T2,Not Responder T2 patient3,Whole blood cells collected from patient after septic shock,E16,T2,NR,GPL16791,Illumina HiSeq 2500,E16,T2,T2,48,NR,resolved
+GSM2992282,E17T1,Not Responder T1 patient4,Whole blood cells collected from patient after septic shock,E17,T2,NR,GPL16791,Illumina HiSeq 2500,E17,T2,T1,0,NR,resolved_title_source_name_characteristic_conflict
+GSM2992283,E17T2,Not Responder T2 patient4,Whole blood cells collected from patient after septic shock,E17,T1,NR,GPL16791,Illumina HiSeq 2500,E17,T1,T2,48,NR,resolved_title_source_name_characteristic_conflict
+GSM2992284,E18T1,Responder T1 patient2,Whole blood cells collected from patient after septic shock,E18,T2,R,GPL16791,Illumina HiSeq 2500,E18,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992285,E18T2,Responder T2 patient2,Whole blood cells collected from patient after septic shock,E18,T1,R,GPL16791,Illumina HiSeq 2500,E18,T1,T2,48,R,resolved_title_source_name_characteristic_conflict
+GSM2992286,E26T1,Not Responder T1 patient5,Whole blood cells collected from patient after septic shock,E26,T2,NR,GPL16791,Illumina HiSeq 2500,E26,T2,T1,0,NR,resolved_title_source_name_characteristic_conflict
+GSM2992287,E26T2,Not Responder T2 patient5,Whole blood cells collected from patient after septic shock,E26,T1,NR,GPL16791,Illumina HiSeq 2500,E26,T1,T2,48,NR,resolved_title_source_name_characteristic_conflict
+GSM2992288,E32T1,Responder T1 patient3,Whole blood cells collected from patient after septic shock,E32,T2,R,GPL16791,Illumina HiSeq 2500,E32,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992289,E32T2,Responder T2 patient3,Whole blood cells collected from patient after septic shock,E32,T2,R,GPL16791,Illumina HiSeq 2500,E32,T2,T2,48,R,resolved
+GSM2992290,E33T1,Not Responder T1 patient6,Whole blood cells collected from patient after septic shock,E33,T1,NR,GPL16791,Illumina HiSeq 2500,E33,T1,T1,0,NR,resolved
+GSM2992291,E33T2,Not Responder T2 patient6,Whole blood cells collected from patient after septic shock,E33,T2,NR,GPL16791,Illumina HiSeq 2500,E33,T2,T2,48,NR,resolved
+GSM2992292,E40T1,Not Responder T1 patient7,Whole blood cells collected from patient after septic shock,E40,T1,NR,GPL16791,Illumina HiSeq 2500,E40,T1,T1,0,NR,resolved
+GSM2992293,E40T2,Not Responder T2 patient7,Whole blood cells collected from patient after septic shock,E40,T2,NR,GPL16791,Illumina HiSeq 2500,E40,T2,T2,48,NR,resolved
+GSM2992294,E41T1,Not Responder T1 patient8,Whole blood cells collected from patient after septic shock,E41,T1,NR,GPL16791,Illumina HiSeq 2500,E41,T1,T1,0,NR,resolved
+GSM2992295,E41T2,Not Responder T2 patient8,Whole blood cells collected from patient after septic shock,E41,T2,NR,GPL16791,Illumina HiSeq 2500,E41,T2,T2,48,NR,resolved
+GSM2992296,G01T1,Not Responder T1 patient9,Whole blood cells collected from patient after septic shock,G01,T1,NR,GPL10999,Illumina Genome Analyzer IIx,G01,T1,T1,0,NR,resolved
+GSM2992297,G01T2,Not Responder T2 patient9,Whole blood cells collected from patient after septic shock,G01,T2,NR,GPL10999,Illumina Genome Analyzer IIx,G01,T2,T2,48,NR,resolved
+GSM2992298,G07T1,Responder T1 patient4,Whole blood cells collected from patient after septic shock,G07,T1,R,GPL10999,Illumina Genome Analyzer IIx,G07,T1,T1,0,R,resolved
+GSM2992299,G07T2,Responder T2 patient4,Whole blood cells collected from patient after septic shock,G07,T2,R,GPL10999,Illumina Genome Analyzer IIx,G07,T2,T2,48,R,resolved
+GSM2992300,G08T1,Not Responder T1 patient10,Whole blood cells collected from patient after septic shock,G08,T1,NR,GPL10999,Illumina Genome Analyzer IIx,G08,T1,T1,0,NR,resolved
+GSM2992301,G08T2,Not Responder T2 patient10,Whole blood cells collected from patient after septic shock,G08,T2,NR,GPL10999,Illumina Genome Analyzer IIx,G08,T2,T2,48,NR,resolved
+GSM2992302,G11T1,Responder T1 patient5,Whole blood cells collected from patient after septic shock,G11,T2,R,GPL16791,Illumina HiSeq 2500,G11,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992303,G11T2,Responder T2 patient5,Whole blood cells collected from patient after septic shock,G11,T1,R,GPL16791,Illumina HiSeq 2500,G11,T1,T2,48,R,resolved_title_source_name_characteristic_conflict
+GSM2992304,G12T1,Not Responder T1 patient11,Whole blood cells collected from patient after septic shock,G12,T2,NR,GPL16791,Illumina HiSeq 2500,G12,T2,T1,0,NR,resolved_title_source_name_characteristic_conflict
+GSM2992305,G12T2,Not Responder T2 patient11,Whole blood cells collected from patient after septic shock,G12,T1,NR,GPL16791,Illumina HiSeq 2500,G12,T1,T2,48,NR,resolved_title_source_name_characteristic_conflict
+GSM2992306,G23T1,Responder T1 patient6,Whole blood cells collected from patient after septic shock,G23,T2,R,GPL16791,Illumina HiSeq 2500,G23,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992307,G23T2,Responder T2 patient6,Whole blood cells collected from patient after septic shock,G23,T1,R,GPL16791,Illumina HiSeq 2500,G23,T1,T2,48,R,resolved_title_source_name_characteristic_conflict
+GSM2992308,G28T1,Responder T1 patient7,Whole blood cells collected from patient after septic shock,G28,T2,R,GPL16791,Illumina HiSeq 2500,G28,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992309,G28T2,Responder T2 patient7,Whole blood cells collected from patient after septic shock,G28,T2,R,GPL16791,Illumina HiSeq 2500,G28,T2,T2,48,R,resolved
+GSM2992310,G29T1,Responder T1 patient8,Whole blood cells collected from patient after septic shock,G29,T1,R,GPL16791,Illumina HiSeq 2500,G29,T1,T1,0,R,resolved
+GSM2992311,G29T2,Responder T2 patient8,Whole blood cells collected from patient after septic shock,G29,T2,R,GPL16791,Illumina HiSeq 2500,G29,T2,T2,48,R,resolved
+GSM2992312,G33T1,Responder T1 patient9,Whole blood cells collected from patient after septic shock,G33,T1,R,GPL16791,Illumina HiSeq 2500,G33,T1,T1,0,R,resolved
+GSM2992313,G33T2,Responder T2 patient9,Whole blood cells collected from patient after septic shock,G33,T2,R,GPL16791,Illumina HiSeq 2500,G33,T2,T2,48,R,resolved
+GSM2992314,G34T1,Responder T1 patient10,Whole blood cells collected from patient after septic shock,G34,T1,R,GPL16791,Illumina HiSeq 2500,G34,T1,T1,0,R,resolved
+GSM2992315,G34T2,Responder T2 patient10,Whole blood cells collected from patient after septic shock,G34,T2,R,GPL16791,Illumina HiSeq 2500,G34,T2,T2,48,R,resolved
+GSM2992316,G35T1,Not Responder T1 patient12,Whole blood cells collected from patient after septic shock,G35,T1,NR,GPL16791,Illumina HiSeq 2500,G35,T1,T1,0,NR,resolved
+GSM2992317,G35T2,Not Responder T2 patient12,Whole blood cells collected from patient after septic shock,G35,T2,NR,GPL16791,Illumina HiSeq 2500,G35,T2,T2,48,NR,resolved
+GSM2992318,G39T1,Responder T1 patient11,Whole blood cells collected from patient after septic shock,G39,T1,R,GPL16791,Illumina HiSeq 2500,G39,T1,T1,0,R,resolved
+GSM2992319,G39T2,Responder T2 patient11,Whole blood cells collected from patient after septic shock,G39,T2,R,GPL16791,Illumina HiSeq 2500,G39,T2,T2,48,R,resolved
+GSM2992320,G41T1,Responder T1 patient12,Whole blood cells collected from patient after septic shock,G41,T1,R,GPL16791,Illumina HiSeq 2500,G41,T1,T1,0,R,resolved
+GSM2992321,G41T2,Responder T2 patient12,Whole blood cells collected from patient after septic shock,G41,T2,R,GPL16791,Illumina HiSeq 2500,G41,T2,T2,48,R,resolved
+GSM2992322,G42T1,Not Responder T1 patient13,Whole blood cells collected from patient after septic shock,G42,T2,NR,GPL16791,Illumina HiSeq 2500,G42,T2,T1,0,NR,resolved_title_source_name_characteristic_conflict
+GSM2992323,G42T2,Not Responder T2 patient13,Whole blood cells collected from patient after septic shock,G42,T1,NR,GPL16791,Illumina HiSeq 2500,G42,T1,T2,48,NR,resolved_title_source_name_characteristic_conflict
+GSM2992324,G43T1,Responder T1 patient13,Whole blood cells collected from patient after septic shock,G43,T2,R,GPL16791,Illumina HiSeq 2500,G43,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992325,G43T2,Responder T2 patient13,Whole blood cells collected from patient after septic shock,G43,T1,R,GPL16791,Illumina HiSeq 2500,G43,T1,T2,48,R,resolved_title_source_name_characteristic_conflict
+GSM2992326,G44T1,Responder T1 patient14,Whole blood cells collected from patient after septic shock,G44,T2,R,GPL16791,Illumina HiSeq 2500,G44,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992327,G44T2,Responder T2 patient14,Whole blood cells collected from patient after septic shock,G44,T1,R,GPL16791,Illumina HiSeq 2500,G44,T1,T2,48,R,resolved_title_source_name_characteristic_conflict
+GSM2992328,G45T1,Responder T1 patient15,Whole blood cells collected from patient after septic shock,G45,T2,R,GPL16791,Illumina HiSeq 2500,G45,T2,T1,0,R,resolved_title_source_name_characteristic_conflict
+GSM2992329,G45T2,Responder T2 patient15,Whole blood cells collected from patient after septic shock,G45,T2,R,GPL16791,Illumina HiSeq 2500,G45,T2,T2,48,R,resolved
+GSM2992330,G47T1,Not Responder T1 patient14,Whole blood cells collected from patient after septic shock,G47,T1,NR,GPL16791,Illumina HiSeq 2500,G47,T1,T1,0,NR,resolved
+GSM2992331,G47T2,Not Responder T2 patient14,Whole blood cells collected from patient after septic shock,G47,T2,NR,GPL16791,Illumina HiSeq 2500,G47,T2,T2,48,NR,resolved
+GSM2992332,G49T1,Responder T1 patient16,Whole blood cells collected from patient after septic shock,G49,T1,R,GPL16791,Illumina HiSeq 2500,G49,T1,T1,0,R,resolved
+GSM2992333,G49T2,Responder T2 patient16,Whole blood cells collected from patient after septic shock,G49,T2,R,GPL16791,Illumina HiSeq 2500,G49,T2,T2,48,R,resolved
+GSM2992334,G51T1,Responder T1 patient17,Whole blood cells collected from patient after septic shock,G51,T1,R,GPL16791,Illumina HiSeq 2500,G51,T1,T1,0,R,resolved
+GSM2992335,G51T2,Responder T2 patient17,Whole blood cells collected from patient after septic shock,G51,T2,R,GPL16791,Illumina HiSeq 2500,G51,T2,T2,48,R,resolved

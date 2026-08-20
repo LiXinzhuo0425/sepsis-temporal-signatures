@@ -1,0 +1,125 @@
+sample_id,title,source_name_ch1,platform_id,gender,age,time_point,survival,patient_id,source_day,relative_hours,clinical_status,mapping_status
+GSM2500349,Blood-CS_500_D00,Control 500,GPL570,F,52,NA,NA,CS_500,NA,,control,resolved
+GSM2500350,Blood-CS_526_D00,Control 526,GPL570,F,53,NA,NA,CS_526,NA,,control,resolved
+GSM2500351,Blood-CS_529_D00,Control 529,GPL570,F,52,NA,NA,CS_529,NA,,control,resolved
+GSM2500352,Blood-CS_530_D00,Control 530,GPL570,F,53,NA,NA,CS_530,NA,,control,resolved
+GSM2500353,Blood-CS_535_D00,Control 535,GPL570,F,76,NA,NA,CS_535,NA,,control,resolved
+GSM2500354,Blood-CS_553_D00,Control 553,GPL570,F,50,NA,NA,CS_553,NA,,control,resolved
+GSM2500355,Blood-CS_598_D00,Control 598,GPL570,F,57,NA,NA,CS_598,NA,,control,resolved
+GSM2500356,Blood-CS_628_D00,Control 628,GPL570,F,61,NA,NA,CS_628,NA,,control,resolved
+GSM2500357,Blood-CS_742_D00,Control 742,GPL570,F,51,NA,NA,CS_742,NA,,control,resolved
+GSM2500358,Blood-CS_789_D00,Control 789,GPL570,F,52,NA,NA,CS_789,NA,,control,resolved
+GSM2500359,Blood-CS_793_D00,Control 793,GPL570,F,67,NA,NA,CS_793,NA,,control,resolved
+GSM2500360,Blood-PC_511_D00,Control 511,GPL570,M,61,NA,NA,PC_511,NA,,control,resolved
+GSM2500361,Blood-PC_513_D00,Control 513,GPL570,M,57,NA,NA,PC_513,NA,,control,resolved
+GSM2500362,Blood-PC_517_D00,Control 517,GPL570,M,60,NA,NA,PC_517,NA,,control,resolved
+GSM2500363,Blood-PC_523_D00,Control 523,GPL570,M,57,NA,NA,PC_523,NA,,control,resolved
+GSM2500364,Blood-PC_528_D00,Control 528,GPL570,M,67,NA,NA,PC_528,NA,,control,resolved
+GSM2500365,Blood-PC_530_D00,Control 530,GPL570,M,56,NA,NA,PC_530,NA,,control,resolved
+GSM2500366,Blood-PC_532_D00,Control 532,GPL570,M,62,NA,NA,PC_532,NA,,control,resolved
+GSM2500367,Blood-PC_534_D00,Control 534,GPL570,M,52,NA,NA,PC_534,NA,,control,resolved
+GSM2500368,Blood-PC_535_D00,Control 535,GPL570,M,57,NA,NA,PC_535,NA,,control,resolved
+GSM2500369,Blood-PC_537_D00,Control 537,GPL570,M,60,NA,NA,PC_537,NA,,control,resolved
+GSM2500370,Blood-PC_538_D00,Control 538,GPL570,M,59,NA,NA,PC_538,NA,,control,resolved
+GSM2500371,Blood-SV_108_D01,"Patient 108, Day1",GPL570,M,80,D01,Survivor,SV_108,D01,0,survivor,resolved
+GSM2500372,Blood-SV_108_D02,"Patient 108, Day2",GPL570,M,80,D02,Survivor,SV_108,D02,24,survivor,resolved
+GSM2500373,Blood-SV_115_D01,"Patient 115, Day1",GPL570,M,59,D01,Survivor,SV_115,D01,0,survivor,resolved
+GSM2500374,Blood-SV_115_D03,"Patient 115, Day3",GPL570,M,59,D03,Survivor,SV_115,D03,48,survivor,resolved
+GSM2500375,Blood-SV_119_D01,"Patient 119, Day1",GPL570,F,68,D01,Survivor,SV_119,D01,0,survivor,resolved
+GSM2500376,Blood-SV_119_D02,"Patient 119, Day2",GPL570,F,68,D02,Survivor,SV_119,D02,24,survivor,resolved
+GSM2500377,Blood-SV_121_D01,"Patient 121, Day1",GPL570,M,36,D01,Survivor,SV_121,D01,0,survivor,resolved
+GSM2500378,Blood-SV_121_D03,"Patient 121, Day3",GPL570,M,36,D03,Survivor,SV_121,D03,48,survivor,resolved
+GSM2500379,Blood-SV_124_D01,"Patient 124, Day1",GPL570,M,66,D01,Survivor,SV_124,D01,0,survivor,resolved
+GSM2500380,Blood-SV_124_D03,"Patient 124, Day3",GPL570,M,66,D03,Survivor,SV_124,D03,48,survivor,resolved
+GSM2500381,Blood-SV_135_D01,"Patient 135, Day1",GPL570,M,72,D01,Survivor,SV_135,D01,0,survivor,resolved
+GSM2500382,Blood-SV_135_D03,"Patient 135, Day3",GPL570,M,72,D03,Survivor,SV_135,D03,48,survivor,resolved
+GSM2500383,Blood-SV_142_D01,"Patient 142, Day1",GPL570,M,60,D01,Survivor,SV_142,D01,0,survivor,resolved
+GSM2500384,Blood-SV_142_D03,"Patient 142, Day3",GPL570,M,60,D03,Survivor,SV_142,D03,48,survivor,resolved
+GSM2500385,Blood-SV_151_D01,"Patient 151, Day1",GPL570,M,81,D01,Survivor,SV_151,D01,0,survivor,resolved
+GSM2500386,Blood-SV_151_D03,"Patient 151, Day3",GPL570,M,81,D03,Survivor,SV_151,D03,48,survivor,resolved
+GSM2500387,Blood-SV_153_D01,"Patient 153, Day1",GPL570,F,78,D01,Survivor,SV_153,D01,0,survivor,resolved
+GSM2500388,Blood-SV_153_D03,"Patient 153, Day3",GPL570,F,78,D03,Survivor,SV_153,D03,48,survivor,resolved
+GSM2500389,Blood-SV_016_D01,"Patient 16, Day1",GPL570,M,65,D01,Survivor,SV_016,D01,0,survivor,resolved
+GSM2500390,Blood-SV_016_D02,"Patient 16, Day2",GPL570,M,65,D02,Survivor,SV_016,D02,24,survivor,resolved
+GSM2500391,Blood-SV_175_D01,"Patient 175, Day1",GPL570,M,37,D01,Survivor,SV_175,D01,0,survivor,resolved
+GSM2500392,Blood-SV_175_D03,"Patient 175, Day3",GPL570,M,37,D03,Survivor,SV_175,D03,48,survivor,resolved
+GSM2500393,Blood-SV_183_D01,"Patient 183, Day1",GPL570,M,66,D01,Survivor,SV_183,D01,0,survivor,resolved
+GSM2500394,Blood-SV_183_D02,"Patient 183, Day2",GPL570,M,66,D02,Survivor,SV_183,D02,24,survivor,resolved
+GSM2500395,Blood-SV_019_D01,"Patient 19, Day1",GPL570,M,80,D01,Survivor,SV_019,D01,0,survivor,resolved
+GSM2500396,Blood-SV_019_D02,"Patient 19, Day2",GPL570,M,80,D02,Survivor,SV_019,D02,24,survivor,resolved
+GSM2500397,Blood-SV_209_D01,"Patient 209, Day1",GPL570,M,83,D01,Survivor,SV_209,D01,0,survivor,resolved
+GSM2500398,Blood-SV_209_D03,"Patient 209, Day3",GPL570,M,83,D03,Survivor,SV_209,D03,48,survivor,resolved
+GSM2500399,Blood-SV_211_D01,"Patient 211, Day1",GPL570,F,34,D01,Survivor,SV_211,D01,0,survivor,resolved
+GSM2500400,Blood-SV_211_D03,"Patient 211, Day3",GPL570,F,34,D03,Survivor,SV_211,D03,48,survivor,resolved
+GSM2500401,Blood-SV_213_D01,"Patient 213, Day1",GPL570,F,27,D01,Survivor,SV_213,D01,0,survivor,resolved
+GSM2500402,Blood-SV_213_D02,"Patient 213, Day2",GPL570,F,27,D02,Survivor,SV_213,D02,24,survivor,resolved
+GSM2500403,Blood-SV_215_D01,"Patient 215, Day1",GPL570,M,55,D01,Survivor,SV_215,D01,0,survivor,resolved
+GSM2500404,Blood-SV_215_D02,"Patient 215, Day2",GPL570,M,55,D02,Survivor,SV_215,D02,24,survivor,resolved
+GSM2500405,Blood-SV_021_D01,"Patient 21, Day1",GPL570,M,76,D01,Survivor,SV_021,D01,0,survivor,resolved
+GSM2500406,Blood-SV_021_D03,"Patient 21, Day3",GPL570,M,76,D03,Survivor,SV_021,D03,48,survivor,resolved
+GSM2500407,Blood-SV_248_D01,"Patient 248, Day1",GPL570,M,66,D01,Survivor,SV_248,D01,0,survivor,resolved
+GSM2500408,Blood-SV_248_D02,"Patient 248, Day2",GPL570,M,66,D02,Survivor,SV_248,D02,24,survivor,resolved
+GSM2500409,Blood-SV_027_D01,"Patient 27, Day1",GPL570,F,42,D01,Survivor,SV_027,D01,0,survivor,resolved
+GSM2500410,Blood-SV_027_D02,"Patient 27, Day2",GPL570,F,42,D02,Survivor,SV_027,D02,24,survivor,resolved
+GSM2500411,Blood-SV_032_D01,"Patient 32, Day1",GPL570,F,76,D01,Survivor,SV_032,D01,0,survivor,resolved
+GSM2500412,Blood-SV_032_D03,"Patient 32, Day3",GPL570,F,76,D03,Survivor,SV_032,D03,48,survivor,resolved
+GSM2500413,Blood-SV_033_D01,"Patient 33, Day1",GPL570,M,75,D01,Survivor,SV_033,D01,0,survivor,resolved
+GSM2500414,Blood-SV_033_D03,"Patient 33, Day3",GPL570,M,75,D03,Survivor,SV_033,D03,48,survivor,resolved
+GSM2500415,Blood-SV_043_D01,"Patient 43, Day1",GPL570,M,54,D01,Survivor,SV_043,D01,0,survivor,resolved
+GSM2500416,Blood-SV_043_D03,"Patient 43, Day3",GPL570,M,54,D03,Survivor,SV_043,D03,48,survivor,resolved
+GSM2500417,Blood-SV_044_D01,"Patient 44, Day1",GPL570,M,69,D01,Survivor,SV_044,D01,0,survivor,resolved
+GSM2500418,Blood-SV_044_D03,"Patient 44, Day3",GPL570,M,69,D03,Survivor,SV_044,D03,48,survivor,resolved
+GSM2500419,Blood-SV_046_D01,"Patient 46, Day1",GPL570,F,65,D01,Survivor,SV_046,D01,0,survivor,resolved
+GSM2500420,Blood-SV_046_D03,"Patient 46, Day3",GPL570,F,65,D03,Survivor,SV_046,D03,48,survivor,resolved
+GSM2500421,Blood-SV_054_D01,"Patient 54, Day1",GPL570,M,63,D01,Survivor,SV_054,D01,0,survivor,resolved
+GSM2500422,Blood-SV_054_D03,"Patient 54, Day3",GPL570,M,63,D03,Survivor,SV_054,D03,48,survivor,resolved
+GSM2500423,Blood-SV_069_D01,"Patient 69, Day1",GPL570,M,76,D01,Survivor,SV_069,D01,0,survivor,resolved
+GSM2500424,Blood-SV_069_D03,"Patient 69, Day3",GPL570,M,76,D03,Survivor,SV_069,D03,48,survivor,resolved
+GSM2500425,Blood-SV_070_D01,"Patient 70, Day1",GPL570,F,85,D01,Survivor,SV_070,D01,0,survivor,resolved
+GSM2500426,Blood-SV_070_D02,"Patient 70, Day2",GPL570,F,85,D02,Survivor,SV_070,D02,24,survivor,resolved
+GSM2500427,Blood-SV_072_D01,"Patient 72, Day1",GPL570,M,25,D01,Survivor,SV_072,D01,0,survivor,resolved
+GSM2500428,Blood-SV_072_D03,"Patient 72, Day3",GPL570,M,25,D03,Survivor,SV_072,D03,48,survivor,resolved
+GSM2500429,Blood-SV_074_D01,"Patient 74, Day1",GPL570,M,70,D01,Survivor,SV_074,D01,0,survivor,resolved
+GSM2500430,Blood-SV_074_D02,"Patient 74, Day2",GPL570,M,70,D02,Survivor,SV_074,D02,24,survivor,resolved
+GSM2500431,Blood-SV_080_D01,"Patient 80, Day1",GPL570,F,53,D01,Survivor,SV_080,D01,0,survivor,resolved
+GSM2500432,Blood-SV_080_D03,"Patient 80, Day3",GPL570,F,53,D03,Survivor,SV_080,D03,48,survivor,resolved
+GSM2500433,Blood-SV_086_D01,"Patient 86, Day1",GPL570,M,70,D01,Survivor,SV_086,D01,0,survivor,resolved
+GSM2500434,Blood-SV_086_D02,"Patient 86, Day2",GPL570,M,70,D02,Survivor,SV_086,D02,24,survivor,resolved
+GSM2500435,Blood-SV_093_D01,"Patient 93, Day1",GPL570,M,58,D01,Survivor,SV_093,D01,0,survivor,resolved
+GSM2500436,Blood-SV_093_D03,"Patient 93, Day3",GPL570,M,58,D03,Survivor,SV_093,D03,48,survivor,resolved
+GSM2500437,Blood-SV_095_D01,"Patient 95, Day1",GPL570,M,67,D01,Survivor,SV_095,D01,0,survivor,resolved
+GSM2500438,Blood-SV_095_D03,"Patient 95, Day3",GPL570,M,67,D03,Survivor,SV_095,D03,48,survivor,resolved
+GSM2500439,Blood-NS_102_D01,"Patient 102, Day1",GPL570,M,85,D01,Non Survivor,NS_102,D01,0,non_survivor,resolved
+GSM2500440,Blood-NS_102_D02,"Patient 102, Day2",GPL570,M,85,D02,Non Survivor,NS_102,D02,24,non_survivor,resolved
+GSM2500441,Blood-NS_123_D01,"Patient 123, Day1",GPL570,F,67,D01,Non Survivor,NS_123,D01,0,non_survivor,resolved
+GSM2500442,Blood-NS_123_D02,"Patient 123, Day2",GPL570,F,67,D02,Non Survivor,NS_123,D02,24,non_survivor,resolved
+GSM2500443,Blood-NS_168_D01,"Patient 168, Day1",GPL570,M,47,D01,Non Survivor,NS_168,D01,0,non_survivor,resolved
+GSM2500444,Blood-NS_168_D02,"Patient 168, Day2",GPL570,M,47,D02,Non Survivor,NS_168,D02,24,non_survivor,resolved
+GSM2500445,Blood-NS_179_D01,"Patient 179, Day1",GPL570,M,65,D01,Non Survivor,NS_179,D01,0,non_survivor,resolved
+GSM2500446,Blood-NS_179_D02,"Patient 179, Day2",GPL570,M,65,D02,Non Survivor,NS_179,D02,24,non_survivor,resolved
+GSM2500447,Blood-NS_018_D01,"Patient 18, Day1",GPL570,H,66,D01,Non Survivor,NS_018,D01,0,non_survivor,resolved
+GSM2500448,Blood-NS_018_D02,"Patient 18, Day2",GPL570,H,66,D02,Non Survivor,NS_018,D02,24,non_survivor,resolved
+GSM2500449,Blood-NS_198_D01,"Patient 198, Day1",GPL570,F,47,D01,Non Survivor,NS_198,D01,0,non_survivor,resolved
+GSM2500450,Blood-NS_198_D03,"Patient 198, Day3",GPL570,F,47,D03,Non Survivor,NS_198,D03,48,non_survivor,resolved
+GSM2500451,Blood-NS_201_D01,"Patient 201, Day1",GPL570,F,48,D01,Non Survivor,NS_201,D01,0,non_survivor,resolved
+GSM2500452,Blood-NS_201_D02,"Patient 201, Day2",GPL570,F,48,D02,Non Survivor,NS_201,D02,24,non_survivor,resolved
+GSM2500453,Blood-NS_212_D01,"Patient 212, Day1",GPL570,F,45,D01,Non Survivor,NS_212,D01,0,non_survivor,resolved
+GSM2500454,Blood-NS_212_D02,"Patient 212, Day2",GPL570,F,45,D02,Non Survivor,NS_212,D02,24,non_survivor,resolved
+GSM2500455,Blood-NS_216_D01,"Patient 216, Day1",GPL570,M,59,D01,Non Survivor,NS_216,D01,0,non_survivor,resolved
+GSM2500456,Blood-NS_216_D03,"Patient 216, Day3",GPL570,M,59,D03,Non Survivor,NS_216,D03,48,non_survivor,resolved
+GSM2500457,Blood-NS_035_D01,"Patient 35, Day1",GPL570,M,78,D01,Non Survivor,NS_035,D01,0,non_survivor,resolved
+GSM2500458,Blood-NS_035_D03,"Patient 35, Day3",GPL570,M,78,D03,Non Survivor,NS_035,D03,48,non_survivor,resolved
+GSM2500459,Blood-NS_036_D01,"Patient 36, Day1",GPL570,F,55,D01,Non Survivor,NS_036,D01,0,non_survivor,resolved
+GSM2500460,Blood-NS_036_D03,"Patient 36, Day3",GPL570,F,55,D03,Non Survivor,NS_036,D03,48,non_survivor,resolved
+GSM2500461,Blood-NS_062_D01,"Patient 62, Day1",GPL570,F,70,D01,Non Survivor,NS_062,D01,0,non_survivor,resolved
+GSM2500462,Blood-NS_062_D03,"Patient 62, Day3",GPL570,F,70,D03,Non Survivor,NS_062,D03,48,non_survivor,resolved
+GSM2500463,Blood-NS_067_D01,"Patient 67, Day1",GPL570,H,72,D01,Non Survivor,NS_067,D01,0,non_survivor,resolved
+GSM2500464,Blood-NS_067_D03,"Patient 67, Day3",GPL570,H,72,D03,Non Survivor,NS_067,D03,48,non_survivor,resolved
+GSM2500465,Blood-NS_068_D01,"Patient 68, Day1",GPL570,M,46,D01,Non Survivor,NS_068,D01,0,non_survivor,resolved
+GSM2500466,Blood-NS_068_D03,"Patient 68, Day3",GPL570,M,46,D03,Non Survivor,NS_068,D03,48,non_survivor,resolved
+GSM2500467,Blood-NS_077_D01,"Patient 77, Day1",GPL570,F,78,D01,Non Survivor,NS_077,D01,0,non_survivor,resolved
+GSM2500468,Blood-NS_077_D02,"Patient 77, Day2",GPL570,F,78,D02,Non Survivor,NS_077,D02,24,non_survivor,resolved
+GSM2500469,Blood-NS_078_D01,"Patient 78, Day1",GPL570,F,53,D01,Non Survivor,NS_078,D01,0,non_survivor,resolved
+GSM2500470,Blood-NS_078_D03,"Patient 78, Day3",GPL570,F,53,D03,Non Survivor,NS_078,D03,48,non_survivor,resolved
+GSM2500471,Blood-NS_081_D01,"Patient 81, Day1",GPL570,F,54,D01,Non Survivor,NS_081,D01,0,non_survivor,resolved
+GSM2500472,Blood-NS_081_D03,"Patient 81, Day3",GPL570,F,54,D03,Non Survivor,NS_081,D03,48,non_survivor,resolved
