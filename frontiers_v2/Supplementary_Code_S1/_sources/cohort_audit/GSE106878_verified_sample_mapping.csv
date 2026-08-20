@@ -1,0 +1,95 @@
+sample_id,title,source_name_ch1,platform_id,individual,timepoint,treatment,acth,survival_(28_days),age,gender,pre-treatment_ifng_il10_ratio,disease,cell_type,patient_id,source_time,relative_hours,mapping_status
+GSM2856531,C01 Pre placebo,C01 Pre placebo,GPL10295,Pid C01,Pre,placebo,Non responder,survived,66,male,high,septic shock,blood leukocytes,C01,Pre,0,resolved
+GSM2856532,C01 Post(24h) placebo,C01 Post(24h) placebo,GPL10295,Pid C01,Post(24h),placebo,Non responder,survived,66,male,high,septic shock,blood leukocytes,C01,Post(24h),24,resolved
+GSM2856533,C04 Pre hydrocortisone,C04 Pre hydrocortisone,GPL10295,Pid C04,Pre,hydrocortisone,Responder,died,75,female,low,septic shock,blood leukocytes,C04,Pre,0,resolved
+GSM2856534,C04 Post(24h) hydrocortisone,C04 Post(24h) hydrocortisone,GPL10295,Pid C04,Post(24h),hydrocortisone,Responder,died,75,female,low,septic shock,blood leukocytes,C04,Post(24h),24,resolved
+GSM2856535,C05 Pre hydrocortisone,C05 Pre hydrocortisone,GPL10295,Pid C05,Pre,hydrocortisone,Responder,survived,87,female,low,septic shock,blood leukocytes,C05,Pre,0,resolved
+GSM2856536,C05 Post(24h) hydrocortisone,C05 Post(24h) hydrocortisone,GPL10295,Pid C05,Post(24h),hydrocortisone,Responder,survived,87,female,low,septic shock,blood leukocytes,C05,Post(24h),24,resolved
+GSM2856537,C06 Pre placebo,C06 Pre placebo,GPL10295,Pid C06,Pre,placebo,Responder,died,65,male,high,septic shock,blood leukocytes,C06,Pre,0,resolved
+GSM2856538,C06 Post(24h) placebo,C06 Post(24h) placebo,GPL10295,Pid C06,Post(24h),placebo,Responder,died,65,male,high,septic shock,blood leukocytes,C06,Post(24h),24,resolved
+GSM2856539,C07 Pre placebo,C07 Pre placebo,GPL10295,Pid C07,Pre,placebo,Responder,survived,88,female,high,septic shock,blood leukocytes,C07,Pre,0,resolved
+GSM2856540,C07 Post(24h) placebo,C07 Post(24h) placebo,GPL10295,Pid C07,Post(24h),placebo,Responder,survived,88,female,high,septic shock,blood leukocytes,C07,Post(24h),24,resolved
+GSM2856541,C08 Pre hydrocortisone,C08 Pre hydrocortisone,GPL10295,Pid C08,Pre,hydrocortisone,Responder,survived,82,female,low,septic shock,blood leukocytes,C08,Pre,0,resolved
+GSM2856542,C08 Post(24h) hydrocortisone,C08 Post(24h) hydrocortisone,GPL10295,Pid C08,Post(24h),hydrocortisone,Responder,survived,82,female,low,septic shock,blood leukocytes,C08,Post(24h),24,resolved
+GSM2856543,C16 Pre placebo,C16 Pre placebo,GPL10295,Pid C16,Pre,placebo,Responder,survived,61,male,low,septic shock,blood leukocytes,C16,Pre,0,resolved
+GSM2856544,C16 Post(24h) placebo,C16 Post(24h) placebo,GPL10295,Pid C16,Post(24h),placebo,Responder,survived,61,male,low,septic shock,blood leukocytes,C16,Post(24h),24,resolved
+GSM2856545,C17 Pre hydrocortisone,C17 Pre hydrocortisone,GPL10295,Pid C17,Pre,hydrocortisone,Non responder,survived,31,male,high,septic shock,blood leukocytes,C17,Pre,0,resolved
+GSM2856546,C17 Post(24h) hydrocortisone,C17 Post(24h) hydrocortisone,GPL10295,Pid C17,Post(24h),hydrocortisone,Non responder,survived,31,male,high,septic shock,blood leukocytes,C17,Post(24h),24,resolved
+GSM2856547,C18 Pre hydrocortisone,C18 Pre hydrocortisone,GPL10295,Pid C18,Pre,hydrocortisone,Responder,survived,54,male,low,septic shock,blood leukocytes,C18,Pre,0,resolved
+GSM2856548,C18 Post(24h) hydrocortisone,C18 Post(24h) hydrocortisone,GPL10295,Pid C18,Post(24h),hydrocortisone,Responder,survived,54,male,low,septic shock,blood leukocytes,C18,Post(24h),24,resolved
+GSM2856549,C19 Pre placebo,C19 Pre placebo,GPL10295,Pid C19,Pre,placebo,Responder,survived,56,female,low,septic shock,blood leukocytes,C19,Pre,0,resolved
+GSM2856550,C19 Post(24h) placebo,C19 Post(24h) placebo,GPL10295,Pid C19,Post(24h),placebo,Responder,survived,56,female,low,septic shock,blood leukocytes,C19,Post(24h),24,resolved
+GSM2856551,C23 Pre hydrocortisone,C23 Pre hydrocortisone,GPL10295,Pid C23,Pre,hydrocortisone,Non responder,died,69,male,high,septic shock,blood leukocytes,C23,Pre,0,resolved
+GSM2856552,C23 Post(24h) hydrocortisone,C23 Post(24h) hydrocortisone,GPL10295,Pid C23,Post(24h),hydrocortisone,Non responder,died,69,male,high,septic shock,blood leukocytes,C23,Post(24h),24,resolved
+GSM2856553,C24 Pre hydrocortisone,C24 Pre hydrocortisone,GPL10295,Pid C24,Pre,hydrocortisone,Non responder,survived,48,male,high,septic shock,blood leukocytes,C24,Pre,0,resolved
+GSM2856554,C24 Post(24h) hydrocortisone,C24 Post(24h) hydrocortisone,GPL10295,Pid C24,Post(24h),hydrocortisone,Non responder,survived,48,male,high,septic shock,blood leukocytes,C24,Post(24h),24,resolved
+GSM2856555,C25 Pre hydrocortisone,C25 Pre hydrocortisone,GPL10295,Pid C25,Pre,hydrocortisone,Responder,died,77,female,high,septic shock,blood leukocytes,C25,Pre,0,resolved
+GSM2856556,C25 Post(24h) hydrocortisone,C25 Post(24h) hydrocortisone,GPL10295,Pid C25,Post(24h),hydrocortisone,Responder,died,77,female,high,septic shock,blood leukocytes,C25,Post(24h),24,resolved
+GSM2856557,C26 Pre hydrocortisone,C26 Pre hydrocortisone,GPL10295,Pid C26,Pre,hydrocortisone,Non responder,survived,44,male,high,septic shock,blood leukocytes,C26,Pre,0,resolved
+GSM2856558,C26 Post(24h) hydrocortisone,C26 Post(24h) hydrocortisone,GPL10295,Pid C26,Post(24h),hydrocortisone,Non responder,survived,44,male,high,septic shock,blood leukocytes,C26,Post(24h),24,resolved
+GSM2856559,C28 Pre hydrocortisone,C28 Pre hydrocortisone,GPL10295,Pid C28,Pre,hydrocortisone,Non responder,survived,57,female,high,septic shock,blood leukocytes,C28,Pre,0,resolved
+GSM2856560,C28 Post(24h) hydrocortisone,C28 Post(24h) hydrocortisone,GPL10295,Pid C28,Post(24h),hydrocortisone,Non responder,survived,57,female,high,septic shock,blood leukocytes,C28,Post(24h),24,resolved
+GSM2856561,C29 Pre placebo,C29 Pre placebo,GPL10295,Pid C29,Pre,placebo,Responder,survived,63,male,high,septic shock,blood leukocytes,C29,Pre,0,resolved
+GSM2856562,C29 Post(24h) placebo,C29 Post(24h) placebo,GPL10295,Pid C29,Post(24h),placebo,Responder,survived,63,male,high,septic shock,blood leukocytes,C29,Post(24h),24,resolved
+GSM2856563,C31 Pre placebo,C31 Pre placebo,GPL10295,Pid C31,Pre,placebo,Responder,survived,74,female,high,septic shock,blood leukocytes,C31,Pre,0,resolved
+GSM2856564,C31 Post(24h) placebo,C31 Post(24h) placebo,GPL10295,Pid C31,Post(24h),placebo,Responder,survived,74,female,high,septic shock,blood leukocytes,C31,Post(24h),24,resolved
+GSM2856565,C33 Pre hydrocortisone,C33 Pre hydrocortisone,GPL10295,Pid C33,Pre,hydrocortisone,Non responder,survived,72,male,high,septic shock,blood leukocytes,C33,Pre,0,resolved
+GSM2856566,C33 Post(24h) hydrocortisone,C33 Post(24h) hydrocortisone,GPL10295,Pid C33,Post(24h),hydrocortisone,Non responder,survived,72,male,high,septic shock,blood leukocytes,C33,Post(24h),24,resolved
+GSM2856567,C35 Pre hydrocortisone,C35 Pre hydrocortisone,GPL10295,Pid C35,Pre,hydrocortisone,Responder,died,70,male,high,septic shock,blood leukocytes,C35,Pre,0,resolved
+GSM2856568,C35 Post(24h) hydrocortisone,C35 Post(24h) hydrocortisone,GPL10295,Pid C35,Post(24h),hydrocortisone,Responder,died,70,male,high,septic shock,blood leukocytes,C35,Post(24h),24,resolved
+GSM2856569,C37 Pre hydrocortisone,C37 Pre hydrocortisone,GPL10295,Pid C37,Pre,hydrocortisone,Non responder,died,65,male,high,septic shock,blood leukocytes,C37,Pre,0,resolved
+GSM2856570,C37 Post(24h) hydrocortisone,C37 Post(24h) hydrocortisone,GPL10295,Pid C37,Post(24h),hydrocortisone,Non responder,died,65,male,high,septic shock,blood leukocytes,C37,Post(24h),24,resolved
+GSM2856571,C39 Pre hydrocortisone,C39 Pre hydrocortisone,GPL10295,Pid C39,Pre,hydrocortisone,Responder,survived,42,male,high,septic shock,blood leukocytes,C39,Pre,0,resolved
+GSM2856572,C39 Post(24h) hydrocortisone,C39 Post(24h) hydrocortisone,GPL10295,Pid C39,Post(24h),hydrocortisone,Responder,survived,42,male,high,septic shock,blood leukocytes,C39,Post(24h),24,resolved
+GSM2856573,C40 Pre placebo,C40 Pre placebo,GPL10295,Pid C40,Pre,placebo,Responder,survived,69,male,high,septic shock,blood leukocytes,C40,Pre,0,resolved
+GSM2856574,C40 Post(24h) placebo,C40 Post(24h) placebo,GPL10295,Pid C40,Post(24h),placebo,Responder,survived,69,male,high,septic shock,blood leukocytes,C40,Post(24h),24,resolved
+GSM2856575,C41 Pre hydrocortisone,C41 Pre hydrocortisone,GPL10295,Pid C41,Pre,hydrocortisone,Responder,died,58,male,high,septic shock,blood leukocytes,C41,Pre,0,resolved
+GSM2856576,C41 Post(24h) hydrocortisone,C41 Post(24h) hydrocortisone,GPL10295,Pid C41,Post(24h),hydrocortisone,Responder,died,58,male,high,septic shock,blood leukocytes,C41,Post(24h),24,resolved
+GSM2856577,C43 Pre hydrocortisone,C43 Pre hydrocortisone,GPL10295,Pid C43,Pre,hydrocortisone,Non responder,survived,54,female,high,septic shock,blood leukocytes,C43,Pre,0,resolved
+GSM2856578,C43 Post(24h) hydrocortisone,C43 Post(24h) hydrocortisone,GPL10295,Pid C43,Post(24h),hydrocortisone,Non responder,survived,54,female,high,septic shock,blood leukocytes,C43,Post(24h),24,resolved
+GSM2856579,C44 Pre hydrocortisone,C44 Pre hydrocortisone,GPL10295,Pid C44,Pre,hydrocortisone,Responder,survived,62,male,high,septic shock,blood leukocytes,C44,Pre,0,resolved
+GSM2856580,C44 Post(24h) hydrocortisone,C44 Post(24h) hydrocortisone,GPL10295,Pid C44,Post(24h),hydrocortisone,Responder,survived,62,male,high,septic shock,blood leukocytes,C44,Post(24h),24,resolved
+GSM2856581,C45 Pre placebo,C45 Pre placebo,GPL10295,Pid C45,Pre,placebo,Responder,died,65,male,low,septic shock,blood leukocytes,C45,Pre,0,resolved
+GSM2856582,C45 Post(24h) placebo,C45 Post(24h) placebo,GPL10295,Pid C45,Post(24h),placebo,Responder,died,65,male,low,septic shock,blood leukocytes,C45,Post(24h),24,resolved
+GSM2856583,C46 Pre hydrocortisone,C46 Pre hydrocortisone,GPL10295,Pid C46,Pre,hydrocortisone,Non responder,survived,47,male,low,septic shock,blood leukocytes,C46,Pre,0,resolved
+GSM2856584,C46 Post(24h) hydrocortisone,C46 Post(24h) hydrocortisone,GPL10295,Pid C46,Post(24h),hydrocortisone,Non responder,survived,47,male,low,septic shock,blood leukocytes,C46,Post(24h),24,resolved
+GSM2856585,C47 Pre placebo,C47 Pre placebo,GPL10295,Pid C47,Pre,placebo,Non responder,survived,76,male,low,septic shock,blood leukocytes,C47,Pre,0,resolved
+GSM2856586,C47 Post(24h) placebo,C47 Post(24h) placebo,GPL10295,Pid C47,Post(24h),placebo,Non responder,survived,76,male,low,septic shock,blood leukocytes,C47,Post(24h),24,resolved
+GSM2856587,C48 Pre hydrocortisone,C48 Pre hydrocortisone,GPL10295,Pid C48,Pre,hydrocortisone,Responder,survived,58,female,high,septic shock,blood leukocytes,C48,Pre,0,resolved
+GSM2856588,C48 Post(24h) hydrocortisone,C48 Post(24h) hydrocortisone,GPL10295,Pid C48,Post(24h),hydrocortisone,Responder,survived,58,female,high,septic shock,blood leukocytes,C48,Post(24h),24,resolved
+GSM2856589,C49 Pre placebo,C49 Pre placebo,GPL10295,Pid C49,Pre,placebo,Non responder,survived,77,male,high,septic shock,blood leukocytes,C49,Pre,0,resolved
+GSM2856590,C49 Post(24h) placebo,C49 Post(24h) placebo,GPL10295,Pid C49,Post(24h),placebo,Non responder,survived,77,male,high,septic shock,blood leukocytes,C49,Post(24h),24,resolved
+GSM2856591,C50 Pre placebo,C50 Pre placebo,GPL10295,Pid C50,Pre,placebo,Non responder,survived,66,male,high,septic shock,blood leukocytes,C50,Pre,0,resolved
+GSM2856592,C50 Post(24h) placebo,C50 Post(24h) placebo,GPL10295,Pid C50,Post(24h),placebo,Non responder,survived,66,male,high,septic shock,blood leukocytes,C50,Post(24h),24,resolved
+GSM2856593,C52 Pre hydrocortisone,C52 Pre hydrocortisone,GPL10295,Pid C52,Pre,hydrocortisone,Responder,survived,59,female,low,septic shock,blood leukocytes,C52,Pre,0,resolved
+GSM2856594,C52 Post(24h) hydrocortisone,C52 Post(24h) hydrocortisone,GPL10295,Pid C52,Post(24h),hydrocortisone,Responder,survived,59,female,low,septic shock,blood leukocytes,C52,Post(24h),24,resolved
+GSM2856595,C57 Pre hydrocortisone,C57 Pre hydrocortisone,GPL10295,Pid C57,Pre,hydrocortisone,Non responder,survived,53,male,high,septic shock,blood leukocytes,C57,Pre,0,resolved
+GSM2856596,C57 Post(24h) hydrocortisone,C57 Post(24h) hydrocortisone,GPL10295,Pid C57,Post(24h),hydrocortisone,Non responder,survived,53,male,high,septic shock,blood leukocytes,C57,Post(24h),24,resolved
+GSM2856597,C59 Pre placebo,C59 Pre placebo,GPL10295,Pid C59,Pre,placebo,Responder,died,60,male,low,septic shock,blood leukocytes,C59,Pre,0,resolved
+GSM2856598,C59 Post(24h) placebo,C59 Post(24h) placebo,GPL10295,Pid C59,Post(24h),placebo,Responder,died,60,male,low,septic shock,blood leukocytes,C59,Post(24h),24,resolved
+GSM2856599,C61 Pre placebo,C61 Pre placebo,GPL10295,Pid C61,Pre,placebo,Non responder,survived,57,male,low,septic shock,blood leukocytes,C61,Pre,0,resolved
+GSM2856600,C61 Post(24h) placebo,C61 Post(24h) placebo,GPL10295,Pid C61,Post(24h),placebo,Non responder,survived,57,male,low,septic shock,blood leukocytes,C61,Post(24h),24,resolved
+GSM2856601,C63 Pre hydrocortisone,C63 Pre hydrocortisone,GPL10295,Pid C63,Pre,hydrocortisone,Responder,survived,58,male,high,septic shock,blood leukocytes,C63,Pre,0,resolved
+GSM2856602,C63 Post(24h) hydrocortisone,C63 Post(24h) hydrocortisone,GPL10295,Pid C63,Post(24h),hydrocortisone,Responder,survived,58,male,high,septic shock,blood leukocytes,C63,Post(24h),24,resolved
+GSM2856603,C69 Pre placebo,C69 Pre placebo,GPL10295,Pid C69,Pre,placebo,Non responder,survived,69,female,low,septic shock,blood leukocytes,C69,Pre,0,resolved
+GSM2856604,C69 Post(24h) placebo,C69 Post(24h) placebo,GPL10295,Pid C69,Post(24h),placebo,Non responder,survived,69,female,low,septic shock,blood leukocytes,C69,Post(24h),24,resolved
+GSM2856605,C75 Pre placebo,C75 Pre placebo,GPL10295,Pid C75,Pre,placebo,Responder,survived,77,female,high,septic shock,blood leukocytes,C75,Pre,0,resolved
+GSM2856606,C75 Post(24h) placebo,C75 Post(24h) placebo,GPL10295,Pid C75,Post(24h),placebo,Responder,survived,77,female,high,septic shock,blood leukocytes,C75,Post(24h),24,resolved
+GSM2856607,C79 Pre placebo,C79 Pre placebo,GPL10295,Pid C79,Pre,placebo,Non responder,died,67,male,low,septic shock,blood leukocytes,C79,Pre,0,resolved
+GSM2856608,C79 Post(24h) placebo,C79 Post(24h) placebo,GPL10295,Pid C79,Post(24h),placebo,Non responder,died,67,male,low,septic shock,blood leukocytes,C79,Post(24h),24,resolved
+GSM2856609,C82 Pre placebo,C82 Pre placebo,GPL10295,Pid C82,Pre,placebo,Non responder,survived,46,female,low,septic shock,blood leukocytes,C82,Pre,0,resolved
+GSM2856610,C82 Post(24h) placebo,C82 Post(24h) placebo,GPL10295,Pid C82,Post(24h),placebo,Non responder,survived,46,female,low,septic shock,blood leukocytes,C82,Post(24h),24,resolved
+GSM2856611,C83 Pre hydrocortisone,C83 Pre hydrocortisone,GPL10295,Pid C83,Pre,hydrocortisone,Responder,survived,45,male,high,septic shock,blood leukocytes,C83,Pre,0,resolved
+GSM2856612,C83 Post(24h) hydrocortisone,C83 Post(24h) hydrocortisone,GPL10295,Pid C83,Post(24h),hydrocortisone,Responder,survived,45,male,high,septic shock,blood leukocytes,C83,Post(24h),24,resolved
+GSM2856613,C10 Pre placebo,C10 Pre placebo,GPL10295,Pid C10,Pre,placebo,Non responder,died,63,male,low,septic shock,blood leukocytes,C10,Pre,0,resolved
+GSM2856614,C10 Post(24h) placebo,C10 Post(24h) placebo,GPL10295,Pid C10,Post(24h),placebo,Non responder,died,63,male,low,septic shock,blood leukocytes,C10,Post(24h),24,resolved
+GSM2856615,C11 Pre placebo,C11 Pre placebo,GPL10295,Pid C11,Pre,placebo,Non responder,died,87,female,low,septic shock,blood leukocytes,C11,Pre,0,resolved
+GSM2856616,C11 Post(24h) placebo,C11 Post(24h) placebo,GPL10295,Pid C11,Post(24h),placebo,Non responder,died,87,female,low,septic shock,blood leukocytes,C11,Post(24h),24,resolved
+GSM2856617,C12 Pre hydrocortisone,C12 Pre hydrocortisone,GPL10295,Pid C12,Pre,hydrocortisone,Non responder,survived,83,male,low,septic shock,blood leukocytes,C12,Pre,0,resolved
+GSM2856618,C12 Post(24h) hydrocortisone,C12 Post(24h) hydrocortisone,GPL10295,Pid C12,Post(24h),hydrocortisone,Non responder,survived,83,male,low,septic shock,blood leukocytes,C12,Post(24h),24,resolved
+GSM2856619,C13 Pre placebo,C13 Pre placebo,GPL10295,Pid C13,Pre,placebo,Responder,died,73,male,low,septic shock,blood leukocytes,C13,Pre,0,resolved
+GSM2856620,C13 Post(24h) placebo,C13 Post(24h) placebo,GPL10295,Pid C13,Post(24h),placebo,Responder,died,73,male,low,septic shock,blood leukocytes,C13,Post(24h),24,resolved
+GSM2856621,C15 Pre placebo,C15 Pre placebo,GPL10295,Pid C15,Pre,placebo,Responder,survived,43,male,high,septic shock,blood leukocytes,C15,Pre,0,resolved
+GSM2856622,C15 Post(24h) placebo,C15 Post(24h) placebo,GPL10295,Pid C15,Post(24h),placebo,Responder,survived,43,male,high,septic shock,blood leukocytes,C15,Post(24h),24,resolved
+GSM2856623,C09 Pre placebo,C09 Pre placebo,GPL10295,Pid C09,Pre,placebo,Non responder,survived,70,male,high,septic shock,blood leukocytes,C09,Pre,0,resolved
+GSM2856624,C09 Post(24h) placebo,C09 Post(24h) placebo,GPL10295,Pid C09,Post(24h),placebo,Non responder,survived,70,male,high,septic shock,blood leukocytes,C09,Post(24h),24,resolved

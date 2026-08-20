@@ -1,0 +1,7 @@
+Cohort,Population,Sample type,Platform,Locked baseline,Available windows,Baseline case patients,Patients with ≥2 windows,T24 paired n,T48 paired n,Analysis role
+GSE236713,Adult sepsis,PBL,Agilent GPL17077,Study day 1,T24,126,106,93,0,Prespecified non-pilot
+GSE57065,Adult septic shock,Whole blood,Affymetrix GPL570,H0,T24; T48,28,28,28,26,Pilot
+GSE95233,Adult septic shock,Whole blood,Affymetrix GPL570,Day 1,T24; T48,51,51,20,31,Prespecified non-pilot
+GSE54514,Adult sepsis,Whole blood,Illumina GPL6947,First ICU sample/day 1,T24; T48; extended,36,31,31,28,Pilot
+GSE110487,Adult septic shock,Whole blood,"RNA-seq, GENCODE v25",Immediately after inclusion,T48,31,31,0,31,Prespecified non-pilot
+GSE8121,Pediatric septic shock,Whole blood,Affymetrix GPL570,PICU day 1,T48,30,30,0,30,Prespecified non-pilot
