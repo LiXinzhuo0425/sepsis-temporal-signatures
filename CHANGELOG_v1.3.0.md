@@ -1,13 +1,13 @@
 # Version 1.3.0 (2026-08-09)
 
-Version 1.3.0 is a journal-neutral reporting and presentation release aligned with the Biomedical Reports submission. It preserves the corrected v1.2.1 primary numerical workflow and all previously released scientific source values.
+Version 1.3.0 is a venue-independent reporting and presentation release. It preserves the corrected v1.2.1 primary numerical workflow and all previously released scientific source values.
 
 ## Changes
 
-- Adapted reader-facing terminology and file mapping for the Biomedical Reports submission without making the repository journal-specific.
+- Adapted reader-facing terminology and file mapping for the version 1.3.0 presentation without making the repository venue-specific.
 - Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`; they derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
 - Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its mapping to the numerical figure-source files.
-- Added release-relative builders and source extracts for the common-cohort sensitivity and the Biomedical Reports-facing figures.
+- Added release-relative builders and source extracts for the common-cohort sensitivity and the version 1.3.0 presentation figures.
 - Updated the submission-facing Figure 3 typography and retained its final 600-dpi TIFF. Plotted values and panel content are unchanged.
 - Updated repository, release, citation, DOI, changelog, and manifest metadata to version 1.3.0 and DOI `10.5281/zenodo.21861200`.
 

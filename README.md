@@ -1,10 +1,10 @@
-# Published blood RNA signatures in sepsis: version 2.0.0
+# Published blood RNA signatures in sepsis: version 2.0.1
 
-This release accompanies *Longitudinal behavior and clinical associations of published blood RNA signatures in sepsis*. Version 2.0.0 adds the Frontiers V2 statistical analysis plan, portable analysis code, derived result workbooks, figure-source tables and publication figures. The supplied `_sources/repo_subset_v1.3.1` directory is retained byte-for-byte as immutable historical input.
+This venue-independent release accompanies *Longitudinal behavior and clinical associations of published blood RNA signatures in sepsis*. Version 2.0.1 retains the dated longitudinal analysis plan, portable analysis code, derived result workbooks, figure-source tables and publication figures. Numerical and scientific source content is preserved; public-facing paths, documentation and metadata have been normalized.
 
 The eight published formulas are not refitted, recalibrated or replaced. Version 2.0.0 extends the frozen longitudinal baseline with rank-persistence, diagnostic-change concordance, cohort-specific clinical-context, GSE106878, formula-preserving matched-background and contribution-recurrence analyses. Clinical endpoints remain cohort-specific, and GSE106878 is counted once as a separate replication cohort.
 
-The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 aligned the reader-facing package with the Biomedical Reports submission.
+The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 updated the reader-facing presentation.
 
 ## Evidence boundary
 
@@ -14,7 +14,7 @@ The study evaluates published blood transcriptomic formulas under repeated sampl
 
 Original expression data are available from NCBI GEO under GSE236713, GSE57065, GSE95233, GSE54514, GSE110487, GSE8121 and GSE106878. The first six cohorts constituted the primary analysis; GSE106878 was used as a separate replication cohort. PRJEB111201 was assessed for external-cohort feasibility using ENA public records but contributes no numerical manuscript result. Source-study terms govern reuse. No direct identifiers or newly linked clinical data are included. Patient and sample identifiers in `data/derived_patient_level` are the pseudonymous identifiers used in the public deposits.
 
-The public v2.0.0 supplement excludes downloaded GEO quick/family records and PMC/PubMed XML snapshots. Project-generated mappings retain official source URLs, retrieval dates and recorded checksums. See `LICENSE_NOTICE.md` and `frontiers_v2/Supplementary_Code_S1/README.md`.
+The public v2 supplement excludes downloaded GEO quick/family records and PMC/PubMed XML snapshots. Project-generated mappings retain official source URLs, retrieval dates and recorded checksums. See `LICENSE_NOTICE.md` and `analysis_v2/Supplementary_Code_S1/README.md`.
 
 ## Reproduce Figures 1–6 and Supplementary Figure S1
 
@@ -41,23 +41,30 @@ The retained v1.2.1 numerical workflow includes the corrected SIG001 implementat
 
 The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TOOL_MJS` points to a compatible workbook renderer. If that optional dependency is absent, the reproducibility runner skips workbook assembly after all scientific CSV/parquet outputs and verification checks have completed; the release workbooks are already included in `tables`.
 
-## Reproduce the version 2.0.0 additions
+## Reproduce the version 2 additions
 
-From `frontiers_v2/Supplementary_Code_S1`, install `requirements.txt` and run `python run_all.py`. The workflow uses release-relative paths, verifies downloaded GSE106878 inputs against fixed SHA-256 values and writes generated analyses and figures inside the supplement working tree. The formula-preserving benchmark is the longest step. The supplied Data S1 and Data S2 workbooks are the submission-facing result records.
+From `analysis_v2/Supplementary_Code_S1`, install `requirements.txt` and run `python run_all.py`. The workflow uses release-relative paths, verifies downloaded GSE106878 inputs against fixed SHA-256 values and writes generated analyses and figures inside the supplement working tree. The formula-preserving benchmark is the longest step. The supplied Data S1 and Data S2 workbooks are the submission-facing result records.
 
 ## Reproduce the retained v1.3.0 additions
 
 - In the frozen Stage 3 environment recorded by `code/portable_analysis/03_00_09_environment_lock/requirements_frozen.txt`, run `python code/analyse_common_cohort_sensitivity.py` to regenerate the S27 common-cohort evidence under `reproducibility_evidence/common_cohort_sensitivity`.
-- Run `python code/build_biomedical_reports_figures.py` to regenerate the Biomedical Reports figure references and their source extracts under `reproducibility_evidence/generated_biomedical_reports_v1.3.0`.
+- Run `python code/build_presentation_figures.py` to regenerate the version 1.3.0 presentation figure references and their source extracts under `reproducibility_evidence/generated_presentation_v1.3.0`.
 
-The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference, while `reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff` is the author-approved final layout.
+The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference, while `reference_outputs/presentation_v1.3.0/Figure_3.tiff` is the author-approved final layout.
+
+## Version 2.0.1 changes
+
+- Removed venue-specific labels from current public paths, documentation, code comments, workbook provenance fields and release metadata.
+- Corrected creator order to Xinzhuo Li, Zihao Yan, Xinyue Tu and Yi Gong.
+- Preserved all analysis inputs, formulas, numerical outputs, figures and interpretation boundaries from version 2.0.0.
+- Rebuilt the standalone code archive and SHA-256 manifests after the packaging-only normalization.
 
 ## Version 2.0.0 changes
 
-- Added the dated Frontiers V2 statistical analysis plan, portable Python workflow, project-generated cohort mappings and audit checks.
+- Added the dated version 2 statistical analysis plan, portable Python workflow, project-generated cohort mappings and audit checks.
 - Added rank-persistence, diagnostic-change concordance, cohort-specific clinical-context, GSE106878, formula-preserving matched-background and gene-contribution recurrence modules.
 - Added submission-facing Data S1 and Data S2, 28 figure-source CSV files, and Figures 1–6 plus Supplementary Figures S1–S6 in TIFF, PDF and SVG formats.
-- Removed local workstation paths from the public supplement without modifying the frozen `_sources/repo_subset_v1.3.1` history.
+- Removed local workstation paths from the public supplement while preserving the frozen numerical source content in `_sources/repo_subset_v1.3.1`.
 - Excluded downloaded GEO quick/family records and PMC/PubMed XML snapshots from the public supplement; official URLs, retrieval dates and recorded checksums remain available for verification.
 - Updated version-specific metadata to DOI `10.5281/zenodo.22028159`; the concept DOI remains `10.5281/zenodo.21415496`.
 
@@ -70,7 +77,7 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Version 1.3.0 changes
 
-- Adapted reader-facing terminology and file mapping for the Biomedical Reports submission while keeping the public release journal-neutral.
+- Adapted reader-facing terminology and file mapping for the version 1.3.0 presentation while keeping the public release venue-independent.
 - Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`, which derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
 - Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its traceable mapping to the figure-source CSVs.
 - Updated the submission-facing Figure 3 typography and retained its final 600-dpi TIFF; plotted values, panel content, and numerical source data are unchanged.
@@ -130,18 +137,18 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Directory map
 
-- `frontiers_v2/Supplementary_Code_S1`: version 2.0.0 analysis plan, portable Python workflow, frozen v1.3.1 subset and project-generated cohort-audit records.
-- `frontiers_v2/Supplementary_Code_S1.zip`: integrity-matched standalone copy of the version 2.0.0 code supplement.
-- `frontiers_v2/Supplementary_Data_S1.xlsx` and `frontiers_v2/Supplementary_Data_S2.xlsx`: submission-facing result and figure-source workbooks.
-- `frontiers_v2/Figure_Source_Data`: 28 CSV files supporting Figures 1–6 and Supplementary Figures S1–S6.
-- `frontiers_v2/Figures`: TIFF, PDF and SVG exports for Figures 1–6 and Supplementary Figures S1–S6.
+- `analysis_v2/Supplementary_Code_S1`: version 2 analysis plan, portable Python workflow, frozen v1.3.1 numerical subset and project-generated cohort-audit records.
+- `analysis_v2/Supplementary_Code_S1.zip`: integrity-matched standalone copy of the version 2 code supplement.
+- `analysis_v2/Supplementary_Data_S1.xlsx` and `analysis_v2/Supplementary_Data_S2.xlsx`: submission-facing result and figure-source workbooks.
+- `analysis_v2/Figure_Source_Data`: 28 CSV files supporting Figures 1–6 and Supplementary Figures S1–S6.
+- `analysis_v2/Figures`: TIFF, PDF and SVG exports for Figures 1–6 and Supplementary Figures S1–S6.
 - `data/derived_patient_level`: corrected de-identified score, paired-change, gene-contribution and pathway-change matrices.
 - `data/figure_source_data`: versioned CSV source data for Figures 1–6.
-- `data/figure_source_data/biomedical_reports_v1.3.0`: source extracts for the three Biomedical Reports-facing main figures.
+- `data/figure_source_data/presentation_v1.3.0`: source extracts for the three version 1.3.0 presentation figures.
 - `tables`: Supplementary Data (Data S1), the figure-source workbook (Data S2), implementation registry and main Tables 1–2.
 - `reference_outputs/main_figures_v1.2.1`: frozen main-figure references used by the numerical reproduction verifier.
 - `reference_outputs/supplementary_figures_v1.2.1`: frozen Supplementary Figures S1–S5, including the corrected S2 terminology.
-- `reference_outputs/biomedical_reports_v1.3.0`: Biomedical Reports-facing TIFF files retained unchanged from the v1.3.0 presentation package.
+- `reference_outputs/presentation_v1.3.0`: TIFF files retained unchanged from the v1.3.0 presentation package.
 - `editable_author_sources`: retained PowerPoint sources for the earlier author-reviewed layouts of Figures 1, 4, 5, and 6.
 - `code/portable_analysis`: release-relative corrected analysis scripts.
 - `reproducibility_evidence`: numerical comparisons, clean-run results, sensitivity evidence and the frozen Stage 2 signature-selection audit.
@@ -149,13 +156,13 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Version and citation
 
-Release identifier: `sepsis-temporal-signatures-v2.0.0`.
+Release identifier: `sepsis-temporal-signatures-v2.0.1`.
 
 Public repository: `https://github.com/LiXinzhuo0425/sepsis-temporal-signatures`.
 
 Concept DOI for all versions: `10.5281/zenodo.21415496`.
 
-Version-specific DOI for v2.0.0: `10.5281/zenodo.22028159` (https://doi.org/10.5281/zenodo.22028159).
+The version-specific DOI for v2.0.1 is assigned by Zenodo when the release is archived. Until then, use the concept DOI above for the current version.
 
 Do not cite the superseded v1.0.1 version DOI as the corrected analysis.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build six Frontiers-facing manuscript figures with Python only."""
+"""Build six manuscript-facing figures with Python only."""
 
 from __future__ import annotations
 

@@ -1,15 +1,15 @@
 {
-  "release_id": "sepsis-temporal-signatures-v2.0.0",
-  "release_date": "2026-08-20",
-  "doi": "10.5281/zenodo.22028159",
+  "release_id": "sepsis-temporal-signatures-v2.0.1",
+  "release_date": "2026-08-28",
+  "doi": "10.5281/zenodo.21415496",
   "concept_doi": "10.5281/zenodo.21415496",
   "publication_status": "prepared public release",
   "repository": "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "size_bytes": 1763,
-      "sha256": "d9fb6720e1ac18cd4420443ad2b611f8bcdf8c437b08215bdfeff92a6336a95e"
+      "size_bytes": 1217,
+      "sha256": "6147441d0ec6aa698c6298e0b011c720188d732a1e438be53f1559e6e917841e"
     },
     {
       "path": "CHANGELOG_v1.0.1.md",
@@ -38,23 +38,28 @@
     },
     {
       "path": "CHANGELOG_v1.3.0.md",
-      "size_bytes": 1701,
-      "sha256": "45712c0d94fc245742a8b828a9a2bd757b65509a0611e8d940c330543398b1fa"
+      "size_bytes": 1652,
+      "sha256": "a2bbf66ab4c83a64de5d9700f5971345771a6b4ed4b7543ca137b0384f911b69"
     },
     {
       "path": "CHANGELOG_v1.3.1.md",
-      "size_bytes": 1515,
-      "sha256": "905af5baaabb2f53efb6cceaa0a4242577898acaeaeeb874bfe92a0e07e4a119"
+      "size_bytes": 1511,
+      "sha256": "e743afc491078f83b5ce169d8f7fdafc8117f9b3c4d0b2077f2fd2b9e6bb7e07"
     },
     {
       "path": "CHANGELOG_v2.0.0.md",
-      "size_bytes": 1763,
-      "sha256": "d9fb6720e1ac18cd4420443ad2b611f8bcdf8c437b08215bdfeff92a6336a95e"
+      "size_bytes": 1746,
+      "sha256": "86bfdedcadaa7e8a394d738644c420b0294760105c6ad0ebd0be4795537d5041"
+    },
+    {
+      "path": "CHANGELOG_v2.0.1.md",
+      "size_bytes": 1217,
+      "sha256": "6147441d0ec6aa698c6298e0b011c720188d732a1e438be53f1559e6e917841e"
     },
     {
       "path": "CITATION.cff",
-      "size_bytes": 727,
-      "sha256": "909291377a50347eb4be7e5032a4dffbce2b3d8f15a04cbdb9e5bbb75b2592c5"
+      "size_bytes": 1034,
+      "sha256": "00debe165364aeb08c62405ede6475e664eae9ffe068fbbbb17097058d51a932"
     },
     {
       "path": "LICENSE_CODE",
@@ -73,8 +78,768 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 19069,
-      "sha256": "28fdc207d141de62c3e7dec87d332dfb281c0f6ee004bb0d773948a9a6a0bb6d"
+      "size_bytes": 19522,
+      "sha256": "5655ec4fe2f47a4659cf9610d7a98467f15412d214e7e18489c5204ab5b9a419"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_1A_cohorts.csv",
+      "size_bytes": 806,
+      "sha256": "db30ce9779db062c7986fcce9df1a2e610463d421f816234ac47f5a03dd9b912"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_1C_signatures.csv",
+      "size_bytes": 8261,
+      "sha256": "6a92f7a25e53dcb623bec81fc4e7aad9ffed008d502ddc944658d06c072e3ac4"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_2AB_pooled_effects.csv",
+      "size_bytes": 4574,
+      "sha256": "1c02366cf250fd834212eb823f3a60ef7c9247db60a1f632069df26100a92dcd"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_2C_cohort_effects.csv",
+      "size_bytes": 23264,
+      "sha256": "220ca5002c9d6031fbba5966b76a0fee44fa0de650d05cf1f9c35a82fc1e5feb"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_3AC_rank_meta.csv",
+      "size_bytes": 6093,
+      "sha256": "452fd422a56c082d052d45269fb472acf2e05af71bd482f403fdad440c4ceaa3"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_3B_rank_cohort.csv",
+      "size_bytes": 17319,
+      "sha256": "8a4600f7bd53d99b423af54f1e6c8ecfa6af365c1662f127e8c8d817e62e4900"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_3C_drift_rank_map.csv",
+      "size_bytes": 6496,
+      "sha256": "53b06573341dbac57742cd84d60804dfa9b25e0afb6b56d024897cf6d41f1931"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_4_gse95233_day_sensitivity.csv",
+      "size_bytes": 13241,
+      "sha256": "d1bba26668b5d7e9d5823c4ba70053bf0f4732ce4353809b8e9a75e9f6af1c68"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_4_primary_clinical_contrasts.csv",
+      "size_bytes": 44417,
+      "sha256": "3b25449e601d2d3427bbc7a86babd724e109c383713897f6460d0f3c6183c901"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_5A_replication.csv",
+      "size_bytes": 1250,
+      "sha256": "c2ee22cc0df0ef861007fe3512e13ebda0f96a91417d06600935e0847aa4b2d1"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_5B_patient_changes.csv",
+      "size_bytes": 50441,
+      "sha256": "bd025388808f8e2bdb2fda3ea0c99232ccc4eacf7de15a4ccd357c9c34729cea"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_5C_primary_concordance.csv",
+      "size_bytes": 4797,
+      "sha256": "788565486c2620e1a666bd5d0759bbdc41cd79ac42fd8de1c429d6aab7f37d8b"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_5C_replication_concordance.csv",
+      "size_bytes": 331,
+      "sha256": "b8fb3cf78bb0c1677d60a3016832e8ed6be188088c2e2f8851d2b4bb73cc98e9"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_5D_background_summary.csv",
+      "size_bytes": 1127,
+      "sha256": "5474ba3ef18ccf584c9b39ec50c98493c6310f62e28c7515942ffd1cc7f461c4"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_6A_top_contributions.csv",
+      "size_bytes": 5093,
+      "sha256": "69219f3d25f6e3a7716eb992294e06a9e2bea39bbc6b957b6ca476c9d61b3440"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_6BD_architecture.csv",
+      "size_bytes": 3471,
+      "sha256": "aefd4e181c2a696e9d145dee53aa3f5d0c5c8cde1d0ffc237cabf74d965b24ab"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_6C_recurrence.csv",
+      "size_bytes": 967,
+      "sha256": "a9d5440429bdfb8a4dcdea10fd3f5e7af5fdfe96c4a844b52ace214e878844ed"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_6D_architecture_rank.csv",
+      "size_bytes": 3815,
+      "sha256": "60216718f0dea647ab3655c94668625ad2e3665efc2f452ea7e938666c830a2d"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S1A_landmark_missingness.csv",
+      "size_bytes": 1924,
+      "sha256": "fec387f39865c63c0e4a8b3f9d57a60c97f62dd7f382d488a9d3e4364af17c7a"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S1B_tipping_point.csv",
+      "size_bytes": 4029,
+      "sha256": "681328415be14fcaada58c62b76096284a0bcd78a7b80bc0c382547857e27cf4"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S2_rank_persistence_all_cohorts.csv",
+      "size_bytes": 17319,
+      "sha256": "8a4600f7bd53d99b423af54f1e6c8ecfa6af365c1662f127e8c8d817e62e4900"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S3_clinical_group_trajectories.csv",
+      "size_bytes": 19453,
+      "sha256": "398f0ed6c5d42f8762882f7de06ef90e68370c7ce10610ef5ced2c1171d673bc"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S4A_gse106878_mortality.csv",
+      "size_bytes": 2937,
+      "sha256": "84c1b0ba002e3ddd366a0c9e2cb1ae9d0e8cde378317533ff29d19f0fab1c9a7"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S4B_gse106878_rank.csv",
+      "size_bytes": 1440,
+      "sha256": "f83f9ec68d07e96926643f9750083bd6e76829a0331115ef790bf43b7ce7f4c3"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S5_formula_preserving_null_distributions.csv",
+      "size_bytes": 418491,
+      "sha256": "8d3f268a5ea55b1d1ef961041b10cbf28970bd1e50b829fdcb5217fe7f5b4ed8"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S5_observed_effects_and_statistics.csv",
+      "size_bytes": 1127,
+      "sha256": "5474ba3ef18ccf584c9b39ec50c98493c6310f62e28c7515942ffd1cc7f461c4"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S6A_prespecified_pathway_correlations.csv",
+      "size_bytes": 37990,
+      "sha256": "5ff5d2153c1617dbaf6dc1d4754fa035e039477795f127b2147126536e170ccb"
+    },
+    {
+      "path": "analysis_v2/Figure_Source_Data/Figure_S6B_hpa_broad_lineage_contributions.csv",
+      "size_bytes": 4559,
+      "sha256": "9913ff9efb5bc88af46201d6cb8899c015e028954c1fc7354ae2589eab82e6ba"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_1.pdf",
+      "size_bytes": 49838,
+      "sha256": "e2db9f58599baa9d5dff9e45bcffa6dcd68ae593a9945f3c063d617acd7aff7a"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_1.svg",
+      "size_bytes": 20663,
+      "sha256": "b0752645ba82d259caee56cb7f798d911420f13a9087dc9fe2e79c33bc2b37d9"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_1.tiff",
+      "size_bytes": 1040734,
+      "sha256": "100a3ce7f3df2414aa2aec8640974e24c30f38eb86e0e0fc6e1a17d5e51ec043"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_2.pdf",
+      "size_bytes": 195561,
+      "sha256": "5d22af7d2af02368710d50df036709ad7886f967a9fc7a753f57a4b0219e1000"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_2.svg",
+      "size_bytes": 1440049,
+      "sha256": "d463b0d1846aacfb2af678b48cbf53c5d3cc7b8eda83ceb302800e98734323af"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_2.tif",
+      "size_bytes": 1079036,
+      "sha256": "9b0047041d10f712d79e3394876bfaa3b0c3c6514f3cf1453b553acabeac4867"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_3.pdf",
+      "size_bytes": 320829,
+      "sha256": "61c12b2eabebfdd3c74bd488e97d48ba27ac329e8c41caf5668a31e550f147b1"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_3.svg",
+      "size_bytes": 2734702,
+      "sha256": "1fe60a0aa28472af09aaeede134c3a52ed1ed3c4f8b12c15f790e888b2c6f1e9"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_3.tif",
+      "size_bytes": 1364528,
+      "sha256": "0151de26dc26f920abb1ff113eeb4ee4bc4ce49dec4899129f5cd8c099601141"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_4.pdf",
+      "size_bytes": 50241,
+      "sha256": "499415ea5920ad5625655b94214238db6daf1da2bb96dcf469848fa4bf17866f"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_4.svg",
+      "size_bytes": 50251,
+      "sha256": "ffba65a9f0c77e6b5e72bae35b2296c333ca76a4b29f2671c8a3eca8ed86ca89"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_4.tiff",
+      "size_bytes": 897416,
+      "sha256": "47f13076f55d3a3ca6b70f554205bf2c0ce29799e833f4a461296b41a9a81994"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_5.pdf",
+      "size_bytes": 282711,
+      "sha256": "4c7c5a040b7dc3c0fe17ca2286953a9f2448ef53c74e5a0f2a66690e4475e3ff"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_5.svg",
+      "size_bytes": 348524,
+      "sha256": "e33195fe3546e21ac96e36fe213cdf40b18e860cfd74b0e806ef8e22f35f0918"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_5.tif",
+      "size_bytes": 1398388,
+      "sha256": "24655593a1179f64739a901076c0cf4f3bf96d7637c83f20196ce5190fbd66ff"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_6.pdf",
+      "size_bytes": 284439,
+      "sha256": "7603ca5691df91658b7e9ee5adc5e8bf894514c00df5a137a87bf448c1ca6920"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_6.svg",
+      "size_bytes": 229327,
+      "sha256": "d9e4826aa23c998d73bd52b81e97b47d5035b8ae4a04f411831f525e6ee23bd8"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_6.tif",
+      "size_bytes": 1680212,
+      "sha256": "8061c48af7f191f9c0467fe11738791bf75cedc3e6937982dbb96591b171b5aa"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S1.pdf",
+      "size_bytes": 44732,
+      "sha256": "29fa20e8a87e470ebfc1ab244a68f5f9f64759ef68ac844e7f52811854fd2ce4"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S1.svg",
+      "size_bytes": 26579,
+      "sha256": "9e76943f1820a79358b482860544e1c67bdd04b5886130145db5a70c9a3817cb"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S1.tiff",
+      "size_bytes": 667258,
+      "sha256": "7db96640ead1ebffa747cdcb6e407ae12032b723f989609e5f9c74eea66491cf"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S2.pdf",
+      "size_bytes": 50867,
+      "sha256": "a802e7a2c8f662b0d0f52e196bb5a6f76a456e84295bf4b46b2e0b0d6b480fcd"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S2.svg",
+      "size_bytes": 87787,
+      "sha256": "c8fa787b1a9934fe61f866c201fbe54ed511e1d9aabffb2fda90570c6d6ba379"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S2.tiff",
+      "size_bytes": 1494030,
+      "sha256": "607830c1d8919bac2f6708087e2f2d0882d5e080b433d6dafb41adeff6dab976"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S3.pdf",
+      "size_bytes": 59010,
+      "sha256": "b76735c203aad205dedd2304460daae3ba1a5b8ed10eb79e4c3beeac2e4a9558"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S3.svg",
+      "size_bytes": 126547,
+      "sha256": "a3c8828014d2725435697f26167e86d52f9c145bc2d5688deb20d9336c754455"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S3.tiff",
+      "size_bytes": 2260880,
+      "sha256": "cb952136fd7d36409712b13354f52ad6190bebf89f0147b8544f727e9dff8fb4"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S4.pdf",
+      "size_bytes": 44257,
+      "sha256": "4667557920d4f40b99513460c8e8c31dbab758262abd1c4ffaef3551bb52449a"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S4.svg",
+      "size_bytes": 23762,
+      "sha256": "0a75145f8f63bbb04f290ed6b78e1c81668b182bec399f8c56455482bc0c45ce"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S4.tiff",
+      "size_bytes": 495070,
+      "sha256": "7d24abd0d9425b8634e6bcbec00a978cdb24d0fec23525be599abb4f52f7b86f"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S5.pdf",
+      "size_bytes": 56412,
+      "sha256": "74f88210b18bd85f50bc6c195e125501786e11bbc9a8f8c72b7c2afab2bf49a3"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S5.svg",
+      "size_bytes": 132746,
+      "sha256": "386f01fdd63a8ee396ede140a5a1714f7d23024ce0b040ac63a353f4c32f7a04"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S5.tiff",
+      "size_bytes": 1590974,
+      "sha256": "ed7ee04429603db3bc7e90020dfc5da152eefddcabc1d6a2356dce0841a282ce"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S6.pdf",
+      "size_bytes": 54245,
+      "sha256": "6cac68437821eda81619f47cea6a1b7bb6c98037be644f38d64811c7758108cf"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S6.svg",
+      "size_bytes": 82989,
+      "sha256": "5ea672c7a6defc617e635b3fd4d275f3f765e499e5e9fd4313cdfe426cf2f9ad"
+    },
+    {
+      "path": "analysis_v2/Figures/Figure_S6.tiff",
+      "size_bytes": 2045164,
+      "sha256": "ba604ee75feb1038a0057d25b106acf4d0af7d75b11aab7efc040146944ec75f"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/MANIFEST_SHA256.txt",
+      "size_bytes": 10917,
+      "sha256": "b2c2bb71066149c2c1bd9091082fc34fe1b27a6b581fc0d9ae3bb678def0706c"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/README.md",
+      "size_bytes": 3458,
+      "sha256": "a1bb44ffcbd496c4489d62a490dffd51254bfe7446eaec6a04b2fc8a2eab2680"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/SAP_LONGITUDINAL_V2_20260816.md",
+      "size_bytes": 13050,
+      "sha256": "f6536ddd39b0a1b85d17475b6c6a1a6343bae506500cff7e9edf0d08932d4b5a"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/AUDIT_QA.txt",
+      "size_bytes": 598,
+      "sha256": "017d334dd6bbf6de4acd11116d294418b86d779f4d5fde3668300ff09db36e17"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/ENA_analysis_return_fields.tsv",
+      "size_bytes": 9882,
+      "sha256": "2336a20e8c070f44dfa358de45f8e9fda5633f47065b8b7b27fe88cb830b6099"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/ENA_read_run_return_fields.tsv",
+      "size_bytes": 11958,
+      "sha256": "0af650cb8eb31f1e760a3c187c8df1019f8e4c038ae3592d1554c4a3f48a02e1"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_directional_replication_effects.csv",
+      "size_bytes": 3636,
+      "sha256": "0630d08a4b6fcf8bb42fd43b0f645891036a68b1df775916a7a130cadea6d511"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_eligibility_summary.csv",
+      "size_bytes": 387,
+      "sha256": "226ebea9f2cfdedc77fcb0cee10583c95705fa3f968d045a3a9c5d4b93c9c228"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_sample_registry.csv",
+      "size_bytes": 5326,
+      "sha256": "3929c26e5be1d49d3b3747ba95a1d595eb790948c6c3a048598747500d41a9d4"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_verified_sample_mapping.csv",
+      "size_bytes": 16965,
+      "sha256": "f23cb845decb70a08cbea3d57b2c431c94f3dc788feb0f62f80d903f99c1c183"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE110487_existing_score_qc.csv",
+      "size_bytes": 831,
+      "sha256": "9fc50580fe9846fb72a08e168c083c38d21ebe2c7c1e02f8a575708bca7af1b8"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE110487_verified_sample_mapping.csv",
+      "size_bytes": 11358,
+      "sha256": "a6a99b352ce8d2a4934e087622616e32671bec05be37924ea03e591f376c51ad"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE54514_existing_score_qc.csv",
+      "size_bytes": 852,
+      "sha256": "b3293c5cbe9c8251532bc750228d92750ec699202a43ba5e868a07b4b2ad930f"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE54514_verified_sample_mapping.csv",
+      "size_bytes": 34593,
+      "sha256": "eaf5e8c817bc3c428bd5e35baa258fdacfe68def79234e8e09825dc3fa91f312"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE57065_existing_score_qc.csv",
+      "size_bytes": 830,
+      "sha256": "40f8e0d74ef57b58d22938c4c0858ad2c389ec6601480ce76eea71e567940e74"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE57065_verified_sample_mapping.csv",
+      "size_bytes": 11101,
+      "sha256": "0dfb4abf404a279a8dc9e88567bccdf5941d0e41ccdd52ebfc9d8e8454aec7f5"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE95233_existing_score_qc.csv",
+      "size_bytes": 848,
+      "sha256": "a0f36b519c2de03d114dad1153f5ac4750a93f34b77ff31d38e52286050d9509"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE95233_verified_sample_mapping.csv",
+      "size_bytes": 13037,
+      "sha256": "bc4e054a0085053a6372b9f5ce8cb3e9ef985ec1f83902737cf1a0255034dc05"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_ENA_analysis.tsv",
+      "size_bytes": 201,
+      "sha256": "093cb9f6de41df358e5f7bab454a2dade752c07593bcbdbcb87a54e2a7ec2f69"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_ENA_read_run.tsv",
+      "size_bytes": 15150,
+      "sha256": "96a233211124cd16a60cd895b3b9cf0829f1504bbdcbbccd894608d7387cd992"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_verified_sample_mapping.csv",
+      "size_bytes": 17210,
+      "sha256": "6feaba85c7877c6a570343f6ba4277f86018427091026cfdd3eb028a251146dd"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/PROVENANCE.csv",
+      "size_bytes": 5680,
+      "sha256": "e66165ecc9843098c971bfcde8a9678a348c56be5446e1796e09cab5ae11b55c"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/cohort_feasibility_audit.csv",
+      "size_bytes": 6387,
+      "sha256": "a5fb5d649ed7f6dcdfcce1fe932e906e750c0fde3feda56adfe9716e5a71c721"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/cohort_feasibility_audit.md",
+      "size_bytes": 9349,
+      "sha256": "412bb0374ac5e29a478a2e0c8e1761dc726a93049e1bb7943e7dd673b2f9be47"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/existing_longitudinal_sample_manifest.csv",
+      "size_bytes": 649489,
+      "sha256": "80fc6853cc4cc818b96546c6cc657decb130ee3dd12826c4e6b6485188d0f4f5"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/extract_verified_metadata.py",
+      "size_bytes": 14784,
+      "sha256": "4966376879783bf351bd1611c0848c3bc5127aace3cebe65db0148e48d1e4e0e"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/cohort_audit/validate_cohort_audit.py",
+      "size_bytes": 5242,
+      "sha256": "03597fa7fcdab7635a69951d1c014d32473ddda58aa9be292f7686916308c3e0"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CHANGELOG_v1.2.1.md",
+      "size_bytes": 3487,
+      "sha256": "1b84cd25846fe1faec923ef86ba00b78bda70279974211adf5fcef15e9a17926"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CHANGELOG_v1.3.1.md",
+      "size_bytes": 1511,
+      "sha256": "e743afc491078f83b5ce169d8f7fdafc8117f9b3c4d0b2077f2fd2b9e6bb7e07"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CITATION.cff",
+      "size_bytes": 733,
+      "sha256": "4bca4c5525ae76572272f94fd48a64b3e9274b8e1262d8c000ee3d65e1eba509"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/MANIFEST_SHA256.txt",
+      "size_bytes": 5301,
+      "sha256": "6e3f71fd3102582b94084f7a507608eac4797722b05c4ff7760c163153476041"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/README.md",
+      "size_bytes": 16623,
+      "sha256": "d487264fb49251a0655d4d1cb325714b18dd70fec6a76dee4eb70fe35699208b"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/analyse_common_cohort_sensitivity.py",
+      "size_bytes": 17900,
+      "sha256": "5bc27fc566955f5403d96a60194bbd6a5da0281a672a0090c672fe83a5b559fa"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/analyse_gse106878_directional_replication.py",
+      "size_bytes": 10410,
+      "sha256": "44e08209e1aa95c60b9799c4201f553454aa8e30b8d43937b33bd7ff1f19bb32"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/build_presentation_figures.py",
+      "size_bytes": 26195,
+      "sha256": "bab0f639beefbaf347b5b20563c41a012259509ae6085a31c3c09ee7ef8c6b52"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/modified_hk_sensitivity.py",
+      "size_bytes": 4402,
+      "sha256": "b2b4484d10a9557305c91532421c6516402cff31955989bc79a2f1236b251ef7"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_08_protocol_deviations.json",
+      "size_bytes": 2143,
+      "sha256": "c843278126666b7dea808046386a22bd3877085d71bb89fb21c2c854747bc2fe"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/analysis_config.json",
+      "size_bytes": 184122,
+      "sha256": "cfdef8f27e1994cf41b467cdba39dc8a3c7fcae987ef7b213ef0eef1cef81247"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/run_stage3.py",
+      "size_bytes": 60297,
+      "sha256": "a4492a1b5ab4af9dda5d8758fcd1ac5fd3cafc520068d46b2f7e710f87cf531f"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/signatures.py",
+      "size_bytes": 12357,
+      "sha256": "106469dd5776f7dcc9927204c310678e0854f5aec25115af77ca5b13a02e944d"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/test_signature_functions.py",
+      "size_bytes": 5270,
+      "sha256": "92c995870428b6d77f5017cca9d8624ebba3a3b7d0459f12251f11cc813004ee"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/verify_stage3.py",
+      "size_bytes": 6407,
+      "sha256": "030efb84211e1f7585d5c9fc97593010b05a64d979936a8d442c752adc6756d5"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_clinical_audit.py",
+      "size_bytes": 6034,
+      "sha256": "9bcea54c3d18e2df035808b606aa36be5bf00b626811b89f69b3b8b6360a68e8"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_config.json",
+      "size_bytes": 2790,
+      "sha256": "5dd1534de29dabb2b548f0d8bf41e490a7894eb183e98387e3f36d084244d5f9"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_decomposition.py",
+      "size_bytes": 33784,
+      "sha256": "0467ee9cbd754521648af570111dbdb1d79f7cd0628171725b3e8dab099e4021"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/verify_stage4.py",
+      "size_bytes": 12121,
+      "sha256": "7068d3a5e4fbe5b9348a461eae8f780c1a8e403c8ec5bedfea661ebca2b4964b"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/stage6_figures.py",
+      "size_bytes": 40206,
+      "sha256": "793390c61ff1a09e2b3888024d7f43fac0575f146fa08f3891cf63e0b1fe4567"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_03_meta_cohort_composition.csv",
+      "size_bytes": 16323,
+      "sha256": "61c0c7579c64c30eab31e0ce7194c14cb3299538208bbbef044296d7360022f2"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_03_primary_meta_inputs_and_weights.csv",
+      "size_bytes": 16917,
+      "sha256": "1d8dd3eb99a3a4c5b5ebbeb3c6234d9c9c5eb2775b455c9504765fe8da033b43"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_04_cohort_independence_overlap_matrix.csv",
+      "size_bytes": 2165,
+      "sha256": "4b6c090f550df004845894c6c203c520c80177db5ba70ad3092006155637aceb"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_04_dataset_candidate_screen.csv",
+      "size_bytes": 4425,
+      "sha256": "6723b69eade79acd894125d3778b224b9ea3e8b502557ba6dab39195b96883ab"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_baseline_covariate_smd.csv",
+      "size_bytes": 4335,
+      "sha256": "358c7c8a7834dd2f4fb046a847691ea04e289d5e3b55e70b8048d8da2c7577ac"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_baseline_signature_smd.csv",
+      "size_bytes": 9520,
+      "sha256": "01d56c3bbfe94a56e180fece750366929340366b4a46cb8bee60c6daa58ca54d"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_landmark_missingness_counts.csv",
+      "size_bytes": 2353,
+      "sha256": "5aca12a3ba4a8d37957ac954967a3909b5bf2745d1bd5e06c8507e4ce2ce0dbc"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_tipping_point_summary.csv",
+      "size_bytes": 4040,
+      "sha256": "8e923adb9b1ded594306bf2cd34ad355bd7cceb9fb3b9d0ac5bcb9a8e09afaf9"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/gene_contributions.parquet",
+      "size_bytes": 1851569,
+      "sha256": "c479856155fc81c359aaf0e53b888f730cc671042a66ad345c1d4f1fc43577c1"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/paired_changes_all_windows.parquet",
+      "size_bytes": 184032,
+      "sha256": "82c1e6e3d8ce9b0cf4be74e1df407cc65e2ae13e60ef2ed1c2f44ee607967ff8"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/score_matrix.parquet",
+      "size_bytes": 177603,
+      "sha256": "9ee1736d7e90411f66bc6f292e704b50b7246389b2b3086f99aedccb76d4c4dc"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_1_source_data.csv",
+      "size_bytes": 510,
+      "sha256": "4a461e5019352e0db9b7ba4176861f3a4ad3438e7e91bb224c40967f3547d77b"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_2_source_data.csv",
+      "size_bytes": 4214,
+      "sha256": "db839195729f60251f858bdd3d4f7b9ab1b586b32b8560c4a03fac2ebc80f364"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_3A_B_source_data.csv",
+      "size_bytes": 30441,
+      "sha256": "1fa0a3f2d09bb7fc2e9921ff668ceafbf40423d7b6eaa4d705e4408ee87351d2"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_3C_source_data.csv",
+      "size_bytes": 6968,
+      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_4A_source_data.csv",
+      "size_bytes": 24453,
+      "sha256": "8a1b807ad5efeedb1e46ea058a0d3c370edda6a2b1c2bb09324e28e79998e33a"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_4B_source_data.csv",
+      "size_bytes": 4776,
+      "sha256": "a322243f018c34459c0904eee6175527a38521193e8283f5e3a241b57dd1d820"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_6_source_data.csv",
+      "size_bytes": 2553,
+      "sha256": "01ce988de0ed747842dd3ece22974758db69c118013dd9eaa4e6a6157fbd2eec"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/platform_metadata/platform_feature_map.csv",
+      "size_bytes": 68895,
+      "sha256": "f4f13a2289bf6595ec435efcfe83bd025832f573d2024cb80ed5b7783f608a4d"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_04_cohort_signature_primary_effects.csv",
+      "size_bytes": 31287,
+      "sha256": "58f30878af25253d9935daf2c042a567a15b2053aca4661fbfbcf771e1e98b09"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_05_signature_level_meta_analysis.csv",
+      "size_bytes": 24777,
+      "sha256": "77e1082eaa98dc47a5c49155f65493f2145e58bcdd2948a27cefc32706269f25"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_06_temporal_stability_profile.csv",
+      "size_bytes": 6968,
+      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_07_gene_contribution_meta_analysis.csv",
+      "size_bytes": 240272,
+      "sha256": "a0b4da5bd314125b440dc7b552a4d22febf80d90fb68e3e53e807039b2a8fa62"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_08_signature_drift_architecture.csv",
+      "size_bytes": 3477,
+      "sha256": "5ad171a29e0e05b9d0fc7c5ccd33122f3e21d8ea25b0f1fe4cea65f9d288d658"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_20_integrated_signature_interpretation_matrix.csv",
+      "size_bytes": 4868,
+      "sha256": "9108210e06998528ff5470d76c7587ef16342df8f2e4782df9f641fb7b7daaaf"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/release_manifest.json",
+      "size_bytes": 8859,
+      "sha256": "4519ebb0caacb6506e335aeefe867108e9b484937508b8aada963f23b3971acf"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/build_main_figures.py",
+      "size_bytes": 27304,
+      "sha256": "bcb250ee4c29de0b25f7e14cf5f51873f2e6c9e969bf88d684fc0070fb076b60"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/build_supplementary_figures.py",
+      "size_bytes": 18599,
+      "sha256": "777489afc4ef9f8f135b57de722e8a27f3e4d074043acc0ab25b09ae4ee09337"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/input_snapshot/04_Data_S1.xlsx",
+      "size_bytes": 651533,
+      "sha256": "872abb3fc8946e39f7bc4addeb9bb9251af848b6cecc92caae72ab21da561ede"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/reconstruct_gse106878.py",
+      "size_bytes": 9399,
+      "sha256": "e4a5d6e28815bc8487dc15d86261c158001be5473919ee1a3cad255fb5a56738"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/reproduce_legacy_baseline.py",
+      "size_bytes": 8539,
+      "sha256": "9577c183a871c648624e046708c4a58f1d8074c8f92eff13de659a9ab1fca67c"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/run_formula_preserving_background.py",
+      "size_bytes": 11822,
+      "sha256": "64cf3cc784bc6e7023fcd883b1afb0fc3b33afdc09e28c1ad4915dcb7f658449"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/run_gse106878_secondary_modules.py",
+      "size_bytes": 8217,
+      "sha256": "91c7909a6fee0201efe8616624015238350f79b34500a3e3c4408b694c7cd5c7"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/run_v2_clinical_anchoring.py",
+      "size_bytes": 21901,
+      "sha256": "f91037734e381835da3d6464eb9b2217871fc2ed6b07d6f25359986788243c56"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/_work/run_v2_measurement_modules.py",
+      "size_bytes": 23461,
+      "sha256": "2a9934c9e88a91aa787a7c0e5c911de56d13f532be0fc786d0e392c55c37749d"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/fetch_public_inputs.py",
+      "size_bytes": 2098,
+      "sha256": "ebe20aae2591ed4dfe3dcd261c7c6e9548ecc486563a8e22e1bf40401da92988"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/requirements.txt",
+      "size_bytes": 127,
+      "sha256": "03edfb86797445a5e1a623886530cafac834890578d4b1cf62df8781838ffc1d"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1/run_all.py",
+      "size_bytes": 939,
+      "sha256": "4def21ad988b4c3e17cb313f07410e119c95486dfc83ac7508a29d6c6238a3a3"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Code_S1.zip",
+      "size_bytes": 3023810,
+      "sha256": "1fc9f0a45063cc1529b140beeca1180f2a8c41a34231169cd08799d839230c52"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Data_S1.xlsx",
+      "size_bytes": 4166222,
+      "sha256": "11ffcd3af67308506cba39fe49940d5fd25083da351d7128f97661fe742834ea"
+    },
+    {
+      "path": "analysis_v2/Supplementary_Data_S2.xlsx",
+      "size_bytes": 499053,
+      "sha256": "f925d9d50a592ef3585843ccd76750aa25806eea8fd346895bc7be02b851fee5"
     },
     {
       "path": "code/analyse_common_cohort_sensitivity.py",
@@ -87,9 +852,9 @@
       "sha256": "44e08209e1aa95c60b9799c4201f553454aa8e30b8d43937b33bd7ff1f19bb32"
     },
     {
-      "path": "code/build_biomedical_reports_figures.py",
-      "size_bytes": 26211,
-      "sha256": "69bf9325750be4d3c51ad97954b734f4fae13cef601388494c219b06251f5b95"
+      "path": "code/build_presentation_figures.py",
+      "size_bytes": 26195,
+      "sha256": "bab0f639beefbaf347b5b20563c41a012259509ae6085a31c3c09ee7ef8c6b52"
     },
     {
       "path": "code/modified_hk_sensitivity.py",
@@ -682,27 +1447,27 @@
       "sha256": "01ce988de0ed747842dd3ece22974758db69c118013dd9eaa4e6a6157fbd2eec"
     },
     {
-      "path": "data/figure_source_data/biomedical_reports_v1.3.0/Figure_1_source_data.csv",
+      "path": "data/figure_source_data/presentation_v1.3.0/Figure_1_source_data.csv",
       "size_bytes": 4214,
       "sha256": "db839195729f60251f858bdd3d4f7b9ab1b586b32b8560c4a03fac2ebc80f364"
     },
     {
-      "path": "data/figure_source_data/biomedical_reports_v1.3.0/Figure_2A_B_source_data.csv",
+      "path": "data/figure_source_data/presentation_v1.3.0/Figure_2A_B_source_data.csv",
       "size_bytes": 30441,
       "sha256": "1fa0a3f2d09bb7fc2e9921ff668ceafbf40423d7b6eaa4d705e4408ee87351d2"
     },
     {
-      "path": "data/figure_source_data/biomedical_reports_v1.3.0/Figure_2C_source_data.csv",
+      "path": "data/figure_source_data/presentation_v1.3.0/Figure_2C_source_data.csv",
       "size_bytes": 6968,
       "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
     },
     {
-      "path": "data/figure_source_data/biomedical_reports_v1.3.0/Figure_3A_source_data.csv",
+      "path": "data/figure_source_data/presentation_v1.3.0/Figure_3A_source_data.csv",
       "size_bytes": 22803,
       "sha256": "bdd4a4c7dead7a12c338c5b13aebb565016d7dd0a2515294782229ac42a88777"
     },
     {
-      "path": "data/figure_source_data/biomedical_reports_v1.3.0/Figure_3B_source_data.csv",
+      "path": "data/figure_source_data/presentation_v1.3.0/Figure_3B_source_data.csv",
       "size_bytes": 3471,
       "sha256": "aefd4e181c2a696e9d145dee53aa3f5d0c5c8cde1d0ffc237cabf74d965b24ab"
     },
@@ -790,781 +1555,6 @@
       "path": "environment/requirements_release.txt",
       "size_bytes": 77,
       "sha256": "b1e2aca8c6d991e032c91175ceb1c1ae3072cb1af34b77408c105bed5acdb45d"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_1A_cohorts.csv",
-      "size_bytes": 806,
-      "sha256": "db30ce9779db062c7986fcce9df1a2e610463d421f816234ac47f5a03dd9b912"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_1C_signatures.csv",
-      "size_bytes": 8261,
-      "sha256": "6a92f7a25e53dcb623bec81fc4e7aad9ffed008d502ddc944658d06c072e3ac4"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_2AB_pooled_effects.csv",
-      "size_bytes": 4574,
-      "sha256": "1c02366cf250fd834212eb823f3a60ef7c9247db60a1f632069df26100a92dcd"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_2C_cohort_effects.csv",
-      "size_bytes": 23264,
-      "sha256": "220ca5002c9d6031fbba5966b76a0fee44fa0de650d05cf1f9c35a82fc1e5feb"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_3AC_rank_meta.csv",
-      "size_bytes": 6093,
-      "sha256": "452fd422a56c082d052d45269fb472acf2e05af71bd482f403fdad440c4ceaa3"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_3B_rank_cohort.csv",
-      "size_bytes": 17319,
-      "sha256": "8a4600f7bd53d99b423af54f1e6c8ecfa6af365c1662f127e8c8d817e62e4900"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_3C_drift_rank_map.csv",
-      "size_bytes": 6496,
-      "sha256": "53b06573341dbac57742cd84d60804dfa9b25e0afb6b56d024897cf6d41f1931"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_4_gse95233_day_sensitivity.csv",
-      "size_bytes": 13241,
-      "sha256": "d1bba26668b5d7e9d5823c4ba70053bf0f4732ce4353809b8e9a75e9f6af1c68"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_4_primary_clinical_contrasts.csv",
-      "size_bytes": 44417,
-      "sha256": "3b25449e601d2d3427bbc7a86babd724e109c383713897f6460d0f3c6183c901"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_5A_replication.csv",
-      "size_bytes": 1250,
-      "sha256": "c2ee22cc0df0ef861007fe3512e13ebda0f96a91417d06600935e0847aa4b2d1"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_5B_patient_changes.csv",
-      "size_bytes": 50441,
-      "sha256": "bd025388808f8e2bdb2fda3ea0c99232ccc4eacf7de15a4ccd357c9c34729cea"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_5C_primary_concordance.csv",
-      "size_bytes": 4797,
-      "sha256": "788565486c2620e1a666bd5d0759bbdc41cd79ac42fd8de1c429d6aab7f37d8b"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_5C_replication_concordance.csv",
-      "size_bytes": 331,
-      "sha256": "b8fb3cf78bb0c1677d60a3016832e8ed6be188088c2e2f8851d2b4bb73cc98e9"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_5D_background_summary.csv",
-      "size_bytes": 1127,
-      "sha256": "5474ba3ef18ccf584c9b39ec50c98493c6310f62e28c7515942ffd1cc7f461c4"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_6A_top_contributions.csv",
-      "size_bytes": 5093,
-      "sha256": "69219f3d25f6e3a7716eb992294e06a9e2bea39bbc6b957b6ca476c9d61b3440"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_6BD_architecture.csv",
-      "size_bytes": 3471,
-      "sha256": "aefd4e181c2a696e9d145dee53aa3f5d0c5c8cde1d0ffc237cabf74d965b24ab"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_6C_recurrence.csv",
-      "size_bytes": 967,
-      "sha256": "a9d5440429bdfb8a4dcdea10fd3f5e7af5fdfe96c4a844b52ace214e878844ed"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_6D_architecture_rank.csv",
-      "size_bytes": 3815,
-      "sha256": "60216718f0dea647ab3655c94668625ad2e3665efc2f452ea7e938666c830a2d"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S1A_landmark_missingness.csv",
-      "size_bytes": 1924,
-      "sha256": "fec387f39865c63c0e4a8b3f9d57a60c97f62dd7f382d488a9d3e4364af17c7a"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S1B_tipping_point.csv",
-      "size_bytes": 4029,
-      "sha256": "681328415be14fcaada58c62b76096284a0bcd78a7b80bc0c382547857e27cf4"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S2_rank_persistence_all_cohorts.csv",
-      "size_bytes": 17319,
-      "sha256": "8a4600f7bd53d99b423af54f1e6c8ecfa6af365c1662f127e8c8d817e62e4900"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S3_clinical_group_trajectories.csv",
-      "size_bytes": 19453,
-      "sha256": "398f0ed6c5d42f8762882f7de06ef90e68370c7ce10610ef5ced2c1171d673bc"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S4A_gse106878_mortality.csv",
-      "size_bytes": 2937,
-      "sha256": "84c1b0ba002e3ddd366a0c9e2cb1ae9d0e8cde378317533ff29d19f0fab1c9a7"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S4B_gse106878_rank.csv",
-      "size_bytes": 1440,
-      "sha256": "f83f9ec68d07e96926643f9750083bd6e76829a0331115ef790bf43b7ce7f4c3"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S5_formula_preserving_null_distributions.csv",
-      "size_bytes": 418491,
-      "sha256": "8d3f268a5ea55b1d1ef961041b10cbf28970bd1e50b829fdcb5217fe7f5b4ed8"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S5_observed_effects_and_statistics.csv",
-      "size_bytes": 1127,
-      "sha256": "5474ba3ef18ccf584c9b39ec50c98493c6310f62e28c7515942ffd1cc7f461c4"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S6A_prespecified_pathway_correlations.csv",
-      "size_bytes": 37990,
-      "sha256": "5ff5d2153c1617dbaf6dc1d4754fa035e039477795f127b2147126536e170ccb"
-    },
-    {
-      "path": "frontiers_v2/Figure_Source_Data/Figure_S6B_hpa_broad_lineage_contributions.csv",
-      "size_bytes": 4559,
-      "sha256": "9913ff9efb5bc88af46201d6cb8899c015e028954c1fc7354ae2589eab82e6ba"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_1.pdf",
-      "size_bytes": 49838,
-      "sha256": "e2db9f58599baa9d5dff9e45bcffa6dcd68ae593a9945f3c063d617acd7aff7a"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_1.svg",
-      "size_bytes": 20663,
-      "sha256": "b0752645ba82d259caee56cb7f798d911420f13a9087dc9fe2e79c33bc2b37d9"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_1.tiff",
-      "size_bytes": 1040734,
-      "sha256": "100a3ce7f3df2414aa2aec8640974e24c30f38eb86e0e0fc6e1a17d5e51ec043"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_2.pdf",
-      "size_bytes": 195561,
-      "sha256": "5d22af7d2af02368710d50df036709ad7886f967a9fc7a753f57a4b0219e1000"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_2.svg",
-      "size_bytes": 1440049,
-      "sha256": "d463b0d1846aacfb2af678b48cbf53c5d3cc7b8eda83ceb302800e98734323af"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_2.tif",
-      "size_bytes": 1079036,
-      "sha256": "9b0047041d10f712d79e3394876bfaa3b0c3c6514f3cf1453b553acabeac4867"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_3.pdf",
-      "size_bytes": 320829,
-      "sha256": "61c12b2eabebfdd3c74bd488e97d48ba27ac329e8c41caf5668a31e550f147b1"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_3.svg",
-      "size_bytes": 2734702,
-      "sha256": "1fe60a0aa28472af09aaeede134c3a52ed1ed3c4f8b12c15f790e888b2c6f1e9"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_3.tif",
-      "size_bytes": 1364528,
-      "sha256": "0151de26dc26f920abb1ff113eeb4ee4bc4ce49dec4899129f5cd8c099601141"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_4.pdf",
-      "size_bytes": 50241,
-      "sha256": "499415ea5920ad5625655b94214238db6daf1da2bb96dcf469848fa4bf17866f"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_4.svg",
-      "size_bytes": 50251,
-      "sha256": "ffba65a9f0c77e6b5e72bae35b2296c333ca76a4b29f2671c8a3eca8ed86ca89"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_4.tiff",
-      "size_bytes": 897416,
-      "sha256": "47f13076f55d3a3ca6b70f554205bf2c0ce29799e833f4a461296b41a9a81994"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_5.pdf",
-      "size_bytes": 282711,
-      "sha256": "4c7c5a040b7dc3c0fe17ca2286953a9f2448ef53c74e5a0f2a66690e4475e3ff"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_5.svg",
-      "size_bytes": 348524,
-      "sha256": "e33195fe3546e21ac96e36fe213cdf40b18e860cfd74b0e806ef8e22f35f0918"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_5.tif",
-      "size_bytes": 1398388,
-      "sha256": "24655593a1179f64739a901076c0cf4f3bf96d7637c83f20196ce5190fbd66ff"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_6.pdf",
-      "size_bytes": 284439,
-      "sha256": "7603ca5691df91658b7e9ee5adc5e8bf894514c00df5a137a87bf448c1ca6920"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_6.svg",
-      "size_bytes": 229327,
-      "sha256": "d9e4826aa23c998d73bd52b81e97b47d5035b8ae4a04f411831f525e6ee23bd8"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_6.tif",
-      "size_bytes": 1680212,
-      "sha256": "8061c48af7f191f9c0467fe11738791bf75cedc3e6937982dbb96591b171b5aa"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S1.pdf",
-      "size_bytes": 44732,
-      "sha256": "29fa20e8a87e470ebfc1ab244a68f5f9f64759ef68ac844e7f52811854fd2ce4"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S1.svg",
-      "size_bytes": 26579,
-      "sha256": "9e76943f1820a79358b482860544e1c67bdd04b5886130145db5a70c9a3817cb"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S1.tiff",
-      "size_bytes": 667258,
-      "sha256": "7db96640ead1ebffa747cdcb6e407ae12032b723f989609e5f9c74eea66491cf"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S2.pdf",
-      "size_bytes": 50867,
-      "sha256": "a802e7a2c8f662b0d0f52e196bb5a6f76a456e84295bf4b46b2e0b0d6b480fcd"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S2.svg",
-      "size_bytes": 87787,
-      "sha256": "c8fa787b1a9934fe61f866c201fbe54ed511e1d9aabffb2fda90570c6d6ba379"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S2.tiff",
-      "size_bytes": 1494030,
-      "sha256": "607830c1d8919bac2f6708087e2f2d0882d5e080b433d6dafb41adeff6dab976"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S3.pdf",
-      "size_bytes": 59010,
-      "sha256": "b76735c203aad205dedd2304460daae3ba1a5b8ed10eb79e4c3beeac2e4a9558"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S3.svg",
-      "size_bytes": 126547,
-      "sha256": "a3c8828014d2725435697f26167e86d52f9c145bc2d5688deb20d9336c754455"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S3.tiff",
-      "size_bytes": 2260880,
-      "sha256": "cb952136fd7d36409712b13354f52ad6190bebf89f0147b8544f727e9dff8fb4"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S4.pdf",
-      "size_bytes": 44257,
-      "sha256": "4667557920d4f40b99513460c8e8c31dbab758262abd1c4ffaef3551bb52449a"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S4.svg",
-      "size_bytes": 23762,
-      "sha256": "0a75145f8f63bbb04f290ed6b78e1c81668b182bec399f8c56455482bc0c45ce"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S4.tiff",
-      "size_bytes": 495070,
-      "sha256": "7d24abd0d9425b8634e6bcbec00a978cdb24d0fec23525be599abb4f52f7b86f"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S5.pdf",
-      "size_bytes": 56412,
-      "sha256": "74f88210b18bd85f50bc6c195e125501786e11bbc9a8f8c72b7c2afab2bf49a3"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S5.svg",
-      "size_bytes": 132746,
-      "sha256": "386f01fdd63a8ee396ede140a5a1714f7d23024ce0b040ac63a353f4c32f7a04"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S5.tiff",
-      "size_bytes": 1590974,
-      "sha256": "ed7ee04429603db3bc7e90020dfc5da152eefddcabc1d6a2356dce0841a282ce"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S6.pdf",
-      "size_bytes": 54245,
-      "sha256": "6cac68437821eda81619f47cea6a1b7bb6c98037be644f38d64811c7758108cf"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S6.svg",
-      "size_bytes": 82989,
-      "sha256": "5ea672c7a6defc617e635b3fd4d275f3f765e499e5e9fd4313cdfe426cf2f9ad"
-    },
-    {
-      "path": "frontiers_v2/Figures/Figure_S6.tiff",
-      "size_bytes": 2045164,
-      "sha256": "ba604ee75feb1038a0057d25b106acf4d0af7d75b11aab7efc040146944ec75f"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/MANIFEST_SHA256.txt",
-      "size_bytes": 10925,
-      "sha256": "560c46f3dfc870c825b731a9d97883e1fe46d89049b9b663ef8924c29968c9d7"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/README.md",
-      "size_bytes": 3457,
-      "sha256": "48226d6f11d7e543ad0d1d6ce944fcdd074664a9ffa84663e377903ac2277882"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/SAP_FRONTIERS_V2_20260816.md",
-      "size_bytes": 13061,
-      "sha256": "0e48e6ac3801276e7e836259f068ab6b08ca44309edfa62f041c90de242913a6"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/AUDIT_QA.txt",
-      "size_bytes": 598,
-      "sha256": "017d334dd6bbf6de4acd11116d294418b86d779f4d5fde3668300ff09db36e17"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/ENA_analysis_return_fields.tsv",
-      "size_bytes": 9882,
-      "sha256": "2336a20e8c070f44dfa358de45f8e9fda5633f47065b8b7b27fe88cb830b6099"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/ENA_read_run_return_fields.tsv",
-      "size_bytes": 11958,
-      "sha256": "0af650cb8eb31f1e760a3c187c8df1019f8e4c038ae3592d1554c4a3f48a02e1"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_directional_replication_effects.csv",
-      "size_bytes": 3636,
-      "sha256": "0630d08a4b6fcf8bb42fd43b0f645891036a68b1df775916a7a130cadea6d511"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_eligibility_summary.csv",
-      "size_bytes": 387,
-      "sha256": "226ebea9f2cfdedc77fcb0cee10583c95705fa3f968d045a3a9c5d4b93c9c228"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_existing_sample_registry.csv",
-      "size_bytes": 5326,
-      "sha256": "3929c26e5be1d49d3b3747ba95a1d595eb790948c6c3a048598747500d41a9d4"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE106878_verified_sample_mapping.csv",
-      "size_bytes": 16965,
-      "sha256": "f23cb845decb70a08cbea3d57b2c431c94f3dc788feb0f62f80d903f99c1c183"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE110487_existing_score_qc.csv",
-      "size_bytes": 831,
-      "sha256": "9fc50580fe9846fb72a08e168c083c38d21ebe2c7c1e02f8a575708bca7af1b8"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE110487_verified_sample_mapping.csv",
-      "size_bytes": 11358,
-      "sha256": "a6a99b352ce8d2a4934e087622616e32671bec05be37924ea03e591f376c51ad"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE54514_existing_score_qc.csv",
-      "size_bytes": 852,
-      "sha256": "b3293c5cbe9c8251532bc750228d92750ec699202a43ba5e868a07b4b2ad930f"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE54514_verified_sample_mapping.csv",
-      "size_bytes": 34593,
-      "sha256": "eaf5e8c817bc3c428bd5e35baa258fdacfe68def79234e8e09825dc3fa91f312"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE57065_existing_score_qc.csv",
-      "size_bytes": 830,
-      "sha256": "40f8e0d74ef57b58d22938c4c0858ad2c389ec6601480ce76eea71e567940e74"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE57065_verified_sample_mapping.csv",
-      "size_bytes": 11101,
-      "sha256": "0dfb4abf404a279a8dc9e88567bccdf5941d0e41ccdd52ebfc9d8e8454aec7f5"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE95233_existing_score_qc.csv",
-      "size_bytes": 848,
-      "sha256": "a0f36b519c2de03d114dad1153f5ac4750a93f34b77ff31d38e52286050d9509"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/GSE95233_verified_sample_mapping.csv",
-      "size_bytes": 13037,
-      "sha256": "bc4e054a0085053a6372b9f5ce8cb3e9ef985ec1f83902737cf1a0255034dc05"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_ENA_analysis.tsv",
-      "size_bytes": 201,
-      "sha256": "093cb9f6de41df358e5f7bab454a2dade752c07593bcbdbcb87a54e2a7ec2f69"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_ENA_read_run.tsv",
-      "size_bytes": 15150,
-      "sha256": "96a233211124cd16a60cd895b3b9cf0829f1504bbdcbbccd894608d7387cd992"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/PRJEB111201_verified_sample_mapping.csv",
-      "size_bytes": 17210,
-      "sha256": "6feaba85c7877c6a570343f6ba4277f86018427091026cfdd3eb028a251146dd"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/PROVENANCE.csv",
-      "size_bytes": 5680,
-      "sha256": "e66165ecc9843098c971bfcde8a9678a348c56be5446e1796e09cab5ae11b55c"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/cohort_feasibility_audit.csv",
-      "size_bytes": 6387,
-      "sha256": "a5fb5d649ed7f6dcdfcce1fe932e906e750c0fde3feda56adfe9716e5a71c721"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/cohort_feasibility_audit.md",
-      "size_bytes": 9352,
-      "sha256": "9c8f60abb20ea42f94e0389bbacda603da5126733c09488b825587ed82cc59c8"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/existing_longitudinal_sample_manifest.csv",
-      "size_bytes": 649489,
-      "sha256": "80fc6853cc4cc818b96546c6cc657decb130ee3dd12826c4e6b6485188d0f4f5"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/extract_verified_metadata.py",
-      "size_bytes": 14787,
-      "sha256": "a8da5ab2c710e9bb5ec6ac8e2ef92e120fc8f942e846c1c635fc7df33e5f1a24"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/cohort_audit/validate_cohort_audit.py",
-      "size_bytes": 5242,
-      "sha256": "03597fa7fcdab7635a69951d1c014d32473ddda58aa9be292f7686916308c3e0"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CHANGELOG_v1.2.1.md",
-      "size_bytes": 3487,
-      "sha256": "1b84cd25846fe1faec923ef86ba00b78bda70279974211adf5fcef15e9a17926"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CHANGELOG_v1.3.1.md",
-      "size_bytes": 1515,
-      "sha256": "905af5baaabb2f53efb6cceaa0a4242577898acaeaeeb874bfe92a0e07e4a119"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/CITATION.cff",
-      "size_bytes": 733,
-      "sha256": "d18ef34817775e90cb3e0ca48895022e6a7ed104d3b06d39725198e339d4a510"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/MANIFEST_SHA256.txt",
-      "size_bytes": 73262,
-      "sha256": "2227d939b4671f8c8ec667b60535a1c6ccae1e6260e2bc30cf593470e2e1801b"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/README.md",
-      "size_bytes": 16710,
-      "sha256": "d8470be2601e9a8ff0537e561f266cbc7a01e9898dca2577a954e32b7301f5c8"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/analyse_common_cohort_sensitivity.py",
-      "size_bytes": 17900,
-      "sha256": "5bc27fc566955f5403d96a60194bbd6a5da0281a672a0090c672fe83a5b559fa"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/analyse_gse106878_directional_replication.py",
-      "size_bytes": 10410,
-      "sha256": "44e08209e1aa95c60b9799c4201f553454aa8e30b8d43937b33bd7ff1f19bb32"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/build_biomedical_reports_figures.py",
-      "size_bytes": 26211,
-      "sha256": "69bf9325750be4d3c51ad97954b734f4fae13cef601388494c219b06251f5b95"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/modified_hk_sensitivity.py",
-      "size_bytes": 4402,
-      "sha256": "b2b4484d10a9557305c91532421c6516402cff31955989bc79a2f1236b251ef7"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_08_protocol_deviations.json",
-      "size_bytes": 2143,
-      "sha256": "c843278126666b7dea808046386a22bd3877085d71bb89fb21c2c854747bc2fe"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/analysis_config.json",
-      "size_bytes": 184122,
-      "sha256": "cfdef8f27e1994cf41b467cdba39dc8a3c7fcae987ef7b213ef0eef1cef81247"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/run_stage3.py",
-      "size_bytes": 60297,
-      "sha256": "a4492a1b5ab4af9dda5d8758fcd1ac5fd3cafc520068d46b2f7e710f87cf531f"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/signatures.py",
-      "size_bytes": 12357,
-      "sha256": "106469dd5776f7dcc9927204c310678e0854f5aec25115af77ca5b13a02e944d"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/test_signature_functions.py",
-      "size_bytes": 5270,
-      "sha256": "92c995870428b6d77f5017cca9d8624ebba3a3b7d0459f12251f11cc813004ee"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/03_00_09_environment_lock/verify_stage3.py",
-      "size_bytes": 6407,
-      "sha256": "030efb84211e1f7585d5c9fc97593010b05a64d979936a8d442c752adc6756d5"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_clinical_audit.py",
-      "size_bytes": 6034,
-      "sha256": "9bcea54c3d18e2df035808b606aa36be5bf00b626811b89f69b3b8b6360a68e8"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_config.json",
-      "size_bytes": 2790,
-      "sha256": "5dd1534de29dabb2b548f0d8bf41e490a7894eb183e98387e3f36d084244d5f9"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/stage4_decomposition.py",
-      "size_bytes": 33784,
-      "sha256": "0467ee9cbd754521648af570111dbdb1d79f7cd0628171725b3e8dab099e4021"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/portable_analysis/04_environment/verify_stage4.py",
-      "size_bytes": 12121,
-      "sha256": "7068d3a5e4fbe5b9348a461eae8f780c1a8e403c8ec5bedfea661ebca2b4964b"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/code/stage6_figures.py",
-      "size_bytes": 40206,
-      "sha256": "793390c61ff1a09e2b3888024d7f43fac0575f146fa08f3891cf63e0b1fe4567"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_03_meta_cohort_composition.csv",
-      "size_bytes": 16323,
-      "sha256": "61c0c7579c64c30eab31e0ce7194c14cb3299538208bbbef044296d7360022f2"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_03_primary_meta_inputs_and_weights.csv",
-      "size_bytes": 16917,
-      "sha256": "1d8dd3eb99a3a4c5b5ebbeb3c6234d9c9c5eb2775b455c9504765fe8da033b43"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_04_cohort_independence_overlap_matrix.csv",
-      "size_bytes": 2165,
-      "sha256": "4b6c090f550df004845894c6c203c520c80177db5ba70ad3092006155637aceb"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_04_dataset_candidate_screen.csv",
-      "size_bytes": 4425,
-      "sha256": "6723b69eade79acd894125d3778b224b9ea3e8b502557ba6dab39195b96883ab"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_baseline_covariate_smd.csv",
-      "size_bytes": 4335,
-      "sha256": "358c7c8a7834dd2f4fb046a847691ea04e289d5e3b55e70b8048d8da2c7577ac"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_baseline_signature_smd.csv",
-      "size_bytes": 9520,
-      "sha256": "01d56c3bbfe94a56e180fece750366929340366b4a46cb8bee60c6daa58ca54d"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_landmark_missingness_counts.csv",
-      "size_bytes": 2353,
-      "sha256": "5aca12a3ba4a8d37957ac954967a3909b5bf2745d1bd5e06c8507e4ce2ce0dbc"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/analysis_audits/10_05_tipping_point_summary.csv",
-      "size_bytes": 4040,
-      "sha256": "8e923adb9b1ded594306bf2cd34ad355bd7cceb9fb3b9d0ac5bcb9a8e09afaf9"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/gene_contributions.parquet",
-      "size_bytes": 1851569,
-      "sha256": "c479856155fc81c359aaf0e53b888f730cc671042a66ad345c1d4f1fc43577c1"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/paired_changes_all_windows.parquet",
-      "size_bytes": 184032,
-      "sha256": "82c1e6e3d8ce9b0cf4be74e1df407cc65e2ae13e60ef2ed1c2f44ee607967ff8"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/derived_patient_level/score_matrix.parquet",
-      "size_bytes": 177603,
-      "sha256": "9ee1736d7e90411f66bc6f292e704b50b7246389b2b3086f99aedccb76d4c4dc"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_1_source_data.csv",
-      "size_bytes": 510,
-      "sha256": "4a461e5019352e0db9b7ba4176861f3a4ad3438e7e91bb224c40967f3547d77b"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_2_source_data.csv",
-      "size_bytes": 4214,
-      "sha256": "db839195729f60251f858bdd3d4f7b9ab1b586b32b8560c4a03fac2ebc80f364"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_3A_B_source_data.csv",
-      "size_bytes": 30441,
-      "sha256": "1fa0a3f2d09bb7fc2e9921ff668ceafbf40423d7b6eaa4d705e4408ee87351d2"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_3C_source_data.csv",
-      "size_bytes": 6968,
-      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_4A_source_data.csv",
-      "size_bytes": 24453,
-      "sha256": "8a1b807ad5efeedb1e46ea058a0d3c370edda6a2b1c2bb09324e28e79998e33a"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_4B_source_data.csv",
-      "size_bytes": 4776,
-      "sha256": "a322243f018c34459c0904eee6175527a38521193e8283f5e3a241b57dd1d820"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/figure_source_data/Figure_6_source_data.csv",
-      "size_bytes": 2553,
-      "sha256": "01ce988de0ed747842dd3ece22974758db69c118013dd9eaa4e6a6157fbd2eec"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/platform_metadata/platform_feature_map.csv",
-      "size_bytes": 68895,
-      "sha256": "f4f13a2289bf6595ec435efcfe83bd025832f573d2024cb80ed5b7783f608a4d"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_04_cohort_signature_primary_effects.csv",
-      "size_bytes": 31287,
-      "sha256": "58f30878af25253d9935daf2c042a567a15b2053aca4661fbfbcf771e1e98b09"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_05_signature_level_meta_analysis.csv",
-      "size_bytes": 24777,
-      "sha256": "77e1082eaa98dc47a5c49155f65493f2145e58bcdd2948a27cefc32706269f25"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage3/03_06_temporal_stability_profile.csv",
-      "size_bytes": 6968,
-      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_07_gene_contribution_meta_analysis.csv",
-      "size_bytes": 240272,
-      "sha256": "a0b4da5bd314125b440dc7b552a4d22febf80d90fb68e3e53e807039b2a8fa62"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_08_signature_drift_architecture.csv",
-      "size_bytes": 3477,
-      "sha256": "5ad171a29e0e05b9d0fc7c5ccd33122f3e21d8ea25b0f1fe4cea65f9d288d658"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/data/source_tables/stage4/04_20_integrated_signature_interpretation_matrix.csv",
-      "size_bytes": 4868,
-      "sha256": "9108210e06998528ff5470d76c7587ef16342df8f2e4782df9f641fb7b7daaaf"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_sources/repo_subset_v1.3.1/release_manifest.json",
-      "size_bytes": 109443,
-      "sha256": "06d5a02f979c2b1e8f147e578acc6220ce2b21a2f3ed854701e3ee23c5caa8c6"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/build_frontiers_figures.py",
-      "size_bytes": 27314,
-      "sha256": "273e282dee5f590600192dc5806de958c69b63c9f29983b34826da7476054e8a"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/build_supplementary_figures.py",
-      "size_bytes": 18602,
-      "sha256": "ffc1c8ac157900669919e104b64bd7c7f0f1d409424586f273177e1319a3cc7d"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/input_snapshot/04_Data_S1.xlsx",
-      "size_bytes": 651533,
-      "sha256": "872abb3fc8946e39f7bc4addeb9bb9251af848b6cecc92caae72ab21da561ede"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/reconstruct_gse106878.py",
-      "size_bytes": 9399,
-      "sha256": "e4a5d6e28815bc8487dc15d86261c158001be5473919ee1a3cad255fb5a56738"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/reproduce_legacy_baseline.py",
-      "size_bytes": 8539,
-      "sha256": "9577c183a871c648624e046708c4a58f1d8074c8f92eff13de659a9ab1fca67c"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/run_formula_preserving_background.py",
-      "size_bytes": 11822,
-      "sha256": "64cf3cc784bc6e7023fcd883b1afb0fc3b33afdc09e28c1ad4915dcb7f658449"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/run_gse106878_secondary_modules.py",
-      "size_bytes": 8217,
-      "sha256": "91c7909a6fee0201efe8616624015238350f79b34500a3e3c4408b694c7cd5c7"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/run_v2_clinical_anchoring.py",
-      "size_bytes": 21901,
-      "sha256": "f91037734e381835da3d6464eb9b2217871fc2ed6b07d6f25359986788243c56"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/_work/run_v2_measurement_modules.py",
-      "size_bytes": 23464,
-      "sha256": "09f637805f357a0a6b65b899e6fa42fa579437a3ba8cd94f49b36dd5671da955"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/fetch_public_inputs.py",
-      "size_bytes": 2106,
-      "sha256": "6e02d513c23f8cc54ba7321fed8ac6cc41d1a377df78a622a27b06ae66ca5803"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/requirements.txt",
-      "size_bytes": 127,
-      "sha256": "03edfb86797445a5e1a623886530cafac834890578d4b1cf62df8781838ffc1d"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1/run_all.py",
-      "size_bytes": 934,
-      "sha256": "81db3038d8c9744b56a3e4832f2641d4ba569b6c35e86d9dcdcf469758d7f8ae"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Code_S1.zip",
-      "size_bytes": 3066279,
-      "sha256": "c83ecc981a99e22c617b60533cf8ecdae9c18a8e18aa73e10e1e2991cfee04d1"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Data_S1.xlsx",
-      "size_bytes": 4166205,
-      "sha256": "a02535f17f7fb2376218140854bdda1b9c65cee30eba0cbe8cca751904065bce"
-    },
-    {
-      "path": "frontiers_v2/Supplementary_Data_S2.xlsx",
-      "size_bytes": 499044,
-      "sha256": "46b956339e0985054e141820bfc727dec4fae4ebe16c391d02add918973f4a71"
-    },
-    {
-      "path": "reference_outputs/biomedical_reports_v1.3.0/Figure_1.tiff",
-      "size_bytes": 516422,
-      "sha256": "b06848c6842296d4677399c7dd2e5fbd401d5b51bc28f4802d071c3defbfa815"
-    },
-    {
-      "path": "reference_outputs/biomedical_reports_v1.3.0/Figure_2.tiff",
-      "size_bytes": 1529492,
-      "sha256": "eaa36a25862acd63b8b296dd93e53be47382efa9cd44fe5e5877d8e29f684565"
-    },
-    {
-      "path": "reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff",
-      "size_bytes": 928756,
-      "sha256": "2ffb7e846cfd45d97c75ef89158ff491abe689c980dc95ca948b2ab105c25abe"
     },
     {
       "path": "reference_outputs/main_figures_v1.2.1/Figure_1_study_design.eps",
@@ -1715,6 +1705,21 @@
       "path": "reference_outputs/main_figures_v1.2.1/Figure_6_temporal_measurement_context.tiff",
       "size_bytes": 785958,
       "sha256": "6a0fbf1fbdf189e99b0f91631dc0b52707c70c7856ac1d5df2fd5a8e41b83a58"
+    },
+    {
+      "path": "reference_outputs/presentation_v1.3.0/Figure_1.tiff",
+      "size_bytes": 516422,
+      "sha256": "b06848c6842296d4677399c7dd2e5fbd401d5b51bc28f4802d071c3defbfa815"
+    },
+    {
+      "path": "reference_outputs/presentation_v1.3.0/Figure_2.tiff",
+      "size_bytes": 1529492,
+      "sha256": "eaa36a25862acd63b8b296dd93e53be47382efa9cd44fe5e5877d8e29f684565"
+    },
+    {
+      "path": "reference_outputs/presentation_v1.3.0/Figure_3.tiff",
+      "size_bytes": 928756,
+      "sha256": "2ffb7e846cfd45d97c75ef89158ff491abe689c980dc95ca948b2ab105c25abe"
     },
     {
       "path": "reference_outputs/supplementary_figures_v1.2.1/Supplementary_Figure_1_pilot_vs_validation.pdf",
@@ -3174,7 +3179,7 @@
     {
       "path": "scripts/build_release_manifest.py",
       "size_bytes": 2508,
-      "sha256": "1c74b59af329bf9bace50d7ca9181d8d635dea1dd03fec8b7b97407bf94a1a9f"
+      "sha256": "65b5579e29f91556793d244fd45f6012c74e63094c15a0287e7a345a8dbc2933"
     },
     {
       "path": "scripts/run_reproduction.py",
@@ -3183,8 +3188,8 @@
     },
     {
       "path": "tables/Figure_Source_Data.xlsx",
-      "size_bytes": 812822,
-      "sha256": "d0213e22585d54400b459b89390b495957bfcf204bc8386d5059e65ce6c051a2"
+      "size_bytes": 812792,
+      "sha256": "6cc783db5bb7fcac969e7901449c8aa5552e536caa6725187b1331aa98792b9f"
     },
     {
       "path": "tables/Signature_Implementation_Registry_v1.2.1.xlsx",

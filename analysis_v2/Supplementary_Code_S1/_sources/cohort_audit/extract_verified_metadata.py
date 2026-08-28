@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract sample-level metadata needed for the Frontiers V2 feasibility audit.
+"""Extract sample-level metadata needed for the version 2 feasibility audit.
 
 This script is deliberately read-only with respect to the established analysis
 workspace. It writes compact, reviewable CSV extracts beside this file.

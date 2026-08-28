@@ -37,7 +37,7 @@ def fetch(name: str, specification: dict[str, str]) -> None:
         print(f"verified existing file: {name}")
         return
     temporary = destination.with_suffix(destination.suffix + ".part")
-    request = urllib.request.Request(specification["url"], headers={"User-Agent": "Frontiers-V2-reproducibility-package/1.0"})
+    request = urllib.request.Request(specification["url"], headers={"User-Agent": "sepsis-temporal-signatures/2.0.1"})
     with urllib.request.urlopen(request, timeout=120) as response, temporary.open("wb") as output:
         shutil.copyfileobj(response, output)
     observed = sha256(temporary)

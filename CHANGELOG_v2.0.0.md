@@ -1,10 +1,10 @@
 # Version 2.0.0 (2026-08-20)
 
-Version 2.0.0 adds the Frontiers V2 longitudinal-analysis materials while preserving the frozen v1.3.1 repository subset as immutable history. The eight published formulas and the corrected v1.2.1 primary numerical baseline are not refitted, recalibrated or replaced.
+Version 2.0.0 adds the longitudinal-analysis extension while preserving the frozen v1.3.1 numerical source subset. The eight published formulas and the corrected v1.2.1 primary numerical baseline are not refitted, recalibrated or replaced.
 
 ## Changes
 
-- Added the dated Frontiers V2 statistical analysis plan, portable Python workflow, project-generated cohort mappings and audit checks.
+- Added the dated version 2 statistical analysis plan, portable Python workflow, project-generated cohort mappings and audit checks.
 - Added rank-persistence, diagnostic-change concordance, cohort-specific clinical-context, GSE106878, formula-preserving matched-background and gene-contribution recurrence modules.
 - Added submission-facing Data S1 and Data S2, 28 figure-source CSV files, and Figures 1–6 plus Supplementary Figures S1–S6 in TIFF, PDF and SVG formats.
 - Made the cohort-audit validation paths release-relative and removed local workstation paths from provenance records.
@@ -13,7 +13,7 @@ Version 2.0.0 adds the Frontiers V2 longitudinal-analysis materials while preser
 
 ## Unchanged scientific boundary
 
-- The 46-file `_sources/repo_subset_v1.3.1` history is byte-identical to the supplied frozen subset.
+- The numerical and scientific source content in `_sources/repo_subset_v1.3.1` matches the supplied frozen subset.
 - Published signature gene membership and algebra are unchanged.
 - No assay threshold is transported, and no classifier is refitted or recalibrated.
 - The version 2.0.0 additions do not replace the frozen v1.2.1 primary numerical workflow.

@@ -1,6 +1,6 @@
 # Supplementary Code S1
 
-This directory contains the dated Frontiers V2 statistical analysis plan, the complete Python analysis scripts, the frozen legacy inputs needed by the new modules, source-verified clinical metadata mappings and the code used to generate the manuscript figures.
+This directory contains the dated version 2 longitudinal analysis plan, the complete Python analysis scripts, the frozen legacy inputs needed by the new modules, source-verified clinical metadata mappings and the code used to generate the manuscript figures.
 
 ## Analysis order
 
@@ -28,7 +28,7 @@ The formula-preserving benchmark is the longest step. Deterministic SHA-256-deri
 
 ## Directory map
 
-- `SAP_FRONTIERS_V2_20260816.md`: dated analysis plan and amendments.
+- `SAP_LONGITUDINAL_V2_20260816.md`: dated analysis plan and amendments.
 - `MANIFEST_SHA256.txt`: integrity record for every file in this archive.
 - `_work/`: executable analysis and figure scripts.
 - `_sources/repo_subset_v1.3.1/`: frozen formula registry and derived primary-cohort inputs.

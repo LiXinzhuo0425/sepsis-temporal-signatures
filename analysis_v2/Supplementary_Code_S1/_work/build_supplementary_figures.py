@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Frontiers V2 Supplementary Figures S1-S6 with Python only."""
+"""Build version 2 Supplementary Figures S1-S6 with Python only."""
 
 from __future__ import annotations
 

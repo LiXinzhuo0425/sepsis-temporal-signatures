@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Biomedical Reports figure references from the frozen release data.
+"""Build version 1.3.0 presentation figure references from the frozen release data.
 
 The script is release-relative and changes presentation only. It does not
 estimate, refit, or alter any scientific value. Figures 1 and 2 reproduce the
@@ -32,7 +32,7 @@ GENERATED = Path(
         "BR_FIGURE_OUTPUT_DIR",
         SOURCE_RELEASE
         / "reproducibility_evidence"
-        / "generated_biomedical_reports_v1.3.0",
+        / "generated_presentation_v1.3.0",
     )
 ).resolve()
 OUT = GENERATED / "main_figures"
@@ -42,12 +42,12 @@ REFERENCE_SOURCE = (
     SOURCE_RELEASE
     / "data"
     / "figure_source_data"
-    / "biomedical_reports_v1.3.0"
+    / "presentation_v1.3.0"
 )
 REFERENCE_FIGURES = (
     SOURCE_RELEASE
     / "reference_outputs"
-    / "biomedical_reports_v1.3.0"
+    / "presentation_v1.3.0"
 )
 OUT.mkdir(parents=True, exist_ok=True)
 SOURCE_OUT.mkdir(parents=True, exist_ok=True)
@@ -748,7 +748,7 @@ def main() -> None:
         print(OUT / name)
     print(
         "AUTHORED_FINAL Figure 3: "
-        "reference_outputs/biomedical_reports_v1.3.0/Figure_3.tiff"
+        "reference_outputs/presentation_v1.3.0/Figure_3.tiff"
     )
 
 

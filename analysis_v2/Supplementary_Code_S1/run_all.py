@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the Frontiers V2 analyses in their dependency order."""
+"""Run the version 2 longitudinal analyses in their dependency order."""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ SCRIPTS = [
     ROOT / "_work" / "reconstruct_gse106878.py",
     ROOT / "_work" / "run_gse106878_secondary_modules.py",
     ROOT / "_work" / "run_formula_preserving_background.py",
-    ROOT / "_work" / "build_frontiers_figures.py",
+    ROOT / "_work" / "build_main_figures.py",
     ROOT / "_work" / "build_supplementary_figures.py",
 ]
 

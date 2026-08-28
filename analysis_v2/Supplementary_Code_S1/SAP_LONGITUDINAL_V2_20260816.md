@@ -1,13 +1,13 @@
-# Frontiers V2 statistical analysis plan amendment
+# Longitudinal analysis plan amendment
 
 Version: 1.1  
 Frozen: 16 August 2026, Asia/Shanghai  
-Target: *Frontiers in Medicine*, Intensive Care Medicine and Anesthesiology, Original Research  
+Scope: additional longitudinal, clinical-context, replication and contribution analyses
 Backend for all new statistical graphics and new quantitative analyses: Python
 
 ## 1. Purpose and status
 
-This document freezes the analyses added for the Frontiers V2 manuscript before their model outputs are examined. It is an amendment to the corrected v1.2.1 numerical workflow and the journal-neutral v1.3.1 release. It is not described as a prospective registration. The six-cohort T24/T48 analysis, study-family eligibility rules, eight fixed signatures, formula implementations, scale definitions, primary effect estimates, missingness sensitivity, and exact contribution decompositions remain unchanged.
+This document freezes the analyses added in the version 2 longitudinal extension before their model outputs are examined. It is an amendment to the corrected v1.2.1 numerical workflow and the venue-independent v1.3.1 release. It is not described as a prospective registration. The six-cohort T24/T48 analysis, study-family eligibility rules, eight fixed signatures, formula implementations, scale definitions, primary effect estimates, missingness sensitivity, and exact contribution decompositions remain unchanged.
 
 The new modules ask whether population-average temporal change is accompanied by preservation of patient rank, whether trajectories differ by independently defined clinical course, whether diagnostic signatures move together within patients, and whether leading formula contributors recur across cohorts. A new public cohort will be attempted as a source-defined external pressure test only when its subject-to-sample mapping and gene-level measurements can be reconstructed without outcome-driven decisions.
 

@@ -1,0 +1,231 @@
+{
+  "release_id": "sepsis-temporal-signatures-v1.3.1-normalized-subset",
+  "release_date": "2026-08-28",
+  "source_version": "1.3.1",
+  "doi": "10.5281/zenodo.21862582",
+  "concept_doi": "10.5281/zenodo.21415496",
+  "publication_status": "retained numerical source subset with public-facing path normalization",
+  "repository": "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures",
+  "files": [
+    {
+      "path": "CHANGELOG_v1.2.1.md",
+      "size_bytes": 3487,
+      "sha256": "1b84cd25846fe1faec923ef86ba00b78bda70279974211adf5fcef15e9a17926"
+    },
+    {
+      "path": "CHANGELOG_v1.3.1.md",
+      "size_bytes": 1511,
+      "sha256": "e743afc491078f83b5ce169d8f7fdafc8117f9b3c4d0b2077f2fd2b9e6bb7e07"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 733,
+      "sha256": "4bca4c5525ae76572272f94fd48a64b3e9274b8e1262d8c000ee3d65e1eba509"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 16623,
+      "sha256": "d487264fb49251a0655d4d1cb325714b18dd70fec6a76dee4eb70fe35699208b"
+    },
+    {
+      "path": "code/analyse_common_cohort_sensitivity.py",
+      "size_bytes": 17900,
+      "sha256": "5bc27fc566955f5403d96a60194bbd6a5da0281a672a0090c672fe83a5b559fa"
+    },
+    {
+      "path": "code/analyse_gse106878_directional_replication.py",
+      "size_bytes": 10410,
+      "sha256": "44e08209e1aa95c60b9799c4201f553454aa8e30b8d43937b33bd7ff1f19bb32"
+    },
+    {
+      "path": "code/build_presentation_figures.py",
+      "size_bytes": 26195,
+      "sha256": "bab0f639beefbaf347b5b20563c41a012259509ae6085a31c3c09ee7ef8c6b52"
+    },
+    {
+      "path": "code/modified_hk_sensitivity.py",
+      "size_bytes": 4402,
+      "sha256": "b2b4484d10a9557305c91532421c6516402cff31955989bc79a2f1236b251ef7"
+    },
+    {
+      "path": "code/portable_analysis/03_00_08_protocol_deviations.json",
+      "size_bytes": 2143,
+      "sha256": "c843278126666b7dea808046386a22bd3877085d71bb89fb21c2c854747bc2fe"
+    },
+    {
+      "path": "code/portable_analysis/03_00_09_environment_lock/analysis_config.json",
+      "size_bytes": 184122,
+      "sha256": "cfdef8f27e1994cf41b467cdba39dc8a3c7fcae987ef7b213ef0eef1cef81247"
+    },
+    {
+      "path": "code/portable_analysis/03_00_09_environment_lock/run_stage3.py",
+      "size_bytes": 60297,
+      "sha256": "a4492a1b5ab4af9dda5d8758fcd1ac5fd3cafc520068d46b2f7e710f87cf531f"
+    },
+    {
+      "path": "code/portable_analysis/03_00_09_environment_lock/signatures.py",
+      "size_bytes": 12357,
+      "sha256": "106469dd5776f7dcc9927204c310678e0854f5aec25115af77ca5b13a02e944d"
+    },
+    {
+      "path": "code/portable_analysis/03_00_09_environment_lock/test_signature_functions.py",
+      "size_bytes": 5270,
+      "sha256": "92c995870428b6d77f5017cca9d8624ebba3a3b7d0459f12251f11cc813004ee"
+    },
+    {
+      "path": "code/portable_analysis/03_00_09_environment_lock/verify_stage3.py",
+      "size_bytes": 6407,
+      "sha256": "030efb84211e1f7585d5c9fc97593010b05a64d979936a8d442c752adc6756d5"
+    },
+    {
+      "path": "code/portable_analysis/04_environment/stage4_clinical_audit.py",
+      "size_bytes": 6034,
+      "sha256": "9bcea54c3d18e2df035808b606aa36be5bf00b626811b89f69b3b8b6360a68e8"
+    },
+    {
+      "path": "code/portable_analysis/04_environment/stage4_config.json",
+      "size_bytes": 2790,
+      "sha256": "5dd1534de29dabb2b548f0d8bf41e490a7894eb183e98387e3f36d084244d5f9"
+    },
+    {
+      "path": "code/portable_analysis/04_environment/stage4_decomposition.py",
+      "size_bytes": 33784,
+      "sha256": "0467ee9cbd754521648af570111dbdb1d79f7cd0628171725b3e8dab099e4021"
+    },
+    {
+      "path": "code/portable_analysis/04_environment/verify_stage4.py",
+      "size_bytes": 12121,
+      "sha256": "7068d3a5e4fbe5b9348a461eae8f780c1a8e403c8ec5bedfea661ebca2b4964b"
+    },
+    {
+      "path": "code/stage6_figures.py",
+      "size_bytes": 40206,
+      "sha256": "793390c61ff1a09e2b3888024d7f43fac0575f146fa08f3891cf63e0b1fe4567"
+    },
+    {
+      "path": "data/analysis_audits/10_03_meta_cohort_composition.csv",
+      "size_bytes": 16323,
+      "sha256": "61c0c7579c64c30eab31e0ce7194c14cb3299538208bbbef044296d7360022f2"
+    },
+    {
+      "path": "data/analysis_audits/10_03_primary_meta_inputs_and_weights.csv",
+      "size_bytes": 16917,
+      "sha256": "1d8dd3eb99a3a4c5b5ebbeb3c6234d9c9c5eb2775b455c9504765fe8da033b43"
+    },
+    {
+      "path": "data/analysis_audits/10_04_cohort_independence_overlap_matrix.csv",
+      "size_bytes": 2165,
+      "sha256": "4b6c090f550df004845894c6c203c520c80177db5ba70ad3092006155637aceb"
+    },
+    {
+      "path": "data/analysis_audits/10_04_dataset_candidate_screen.csv",
+      "size_bytes": 4425,
+      "sha256": "6723b69eade79acd894125d3778b224b9ea3e8b502557ba6dab39195b96883ab"
+    },
+    {
+      "path": "data/analysis_audits/10_05_baseline_covariate_smd.csv",
+      "size_bytes": 4335,
+      "sha256": "358c7c8a7834dd2f4fb046a847691ea04e289d5e3b55e70b8048d8da2c7577ac"
+    },
+    {
+      "path": "data/analysis_audits/10_05_baseline_signature_smd.csv",
+      "size_bytes": 9520,
+      "sha256": "01d56c3bbfe94a56e180fece750366929340366b4a46cb8bee60c6daa58ca54d"
+    },
+    {
+      "path": "data/analysis_audits/10_05_landmark_missingness_counts.csv",
+      "size_bytes": 2353,
+      "sha256": "5aca12a3ba4a8d37957ac954967a3909b5bf2745d1bd5e06c8507e4ce2ce0dbc"
+    },
+    {
+      "path": "data/analysis_audits/10_05_tipping_point_summary.csv",
+      "size_bytes": 4040,
+      "sha256": "8e923adb9b1ded594306bf2cd34ad355bd7cceb9fb3b9d0ac5bcb9a8e09afaf9"
+    },
+    {
+      "path": "data/derived_patient_level/gene_contributions.parquet",
+      "size_bytes": 1851569,
+      "sha256": "c479856155fc81c359aaf0e53b888f730cc671042a66ad345c1d4f1fc43577c1"
+    },
+    {
+      "path": "data/derived_patient_level/paired_changes_all_windows.parquet",
+      "size_bytes": 184032,
+      "sha256": "82c1e6e3d8ce9b0cf4be74e1df407cc65e2ae13e60ef2ed1c2f44ee607967ff8"
+    },
+    {
+      "path": "data/derived_patient_level/score_matrix.parquet",
+      "size_bytes": 177603,
+      "sha256": "9ee1736d7e90411f66bc6f292e704b50b7246389b2b3086f99aedccb76d4c4dc"
+    },
+    {
+      "path": "data/figure_source_data/Figure_1_source_data.csv",
+      "size_bytes": 510,
+      "sha256": "4a461e5019352e0db9b7ba4176861f3a4ad3438e7e91bb224c40967f3547d77b"
+    },
+    {
+      "path": "data/figure_source_data/Figure_2_source_data.csv",
+      "size_bytes": 4214,
+      "sha256": "db839195729f60251f858bdd3d4f7b9ab1b586b32b8560c4a03fac2ebc80f364"
+    },
+    {
+      "path": "data/figure_source_data/Figure_3A_B_source_data.csv",
+      "size_bytes": 30441,
+      "sha256": "1fa0a3f2d09bb7fc2e9921ff668ceafbf40423d7b6eaa4d705e4408ee87351d2"
+    },
+    {
+      "path": "data/figure_source_data/Figure_3C_source_data.csv",
+      "size_bytes": 6968,
+      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
+    },
+    {
+      "path": "data/figure_source_data/Figure_4A_source_data.csv",
+      "size_bytes": 24453,
+      "sha256": "8a1b807ad5efeedb1e46ea058a0d3c370edda6a2b1c2bb09324e28e79998e33a"
+    },
+    {
+      "path": "data/figure_source_data/Figure_4B_source_data.csv",
+      "size_bytes": 4776,
+      "sha256": "a322243f018c34459c0904eee6175527a38521193e8283f5e3a241b57dd1d820"
+    },
+    {
+      "path": "data/figure_source_data/Figure_6_source_data.csv",
+      "size_bytes": 2553,
+      "sha256": "01ce988de0ed747842dd3ece22974758db69c118013dd9eaa4e6a6157fbd2eec"
+    },
+    {
+      "path": "data/platform_metadata/platform_feature_map.csv",
+      "size_bytes": 68895,
+      "sha256": "f4f13a2289bf6595ec435efcfe83bd025832f573d2024cb80ed5b7783f608a4d"
+    },
+    {
+      "path": "data/source_tables/stage3/03_04_cohort_signature_primary_effects.csv",
+      "size_bytes": 31287,
+      "sha256": "58f30878af25253d9935daf2c042a567a15b2053aca4661fbfbcf771e1e98b09"
+    },
+    {
+      "path": "data/source_tables/stage3/03_05_signature_level_meta_analysis.csv",
+      "size_bytes": 24777,
+      "sha256": "77e1082eaa98dc47a5c49155f65493f2145e58bcdd2948a27cefc32706269f25"
+    },
+    {
+      "path": "data/source_tables/stage3/03_06_temporal_stability_profile.csv",
+      "size_bytes": 6968,
+      "sha256": "7cc5381a8cf5142b54faf0521c607ec526f5061ac034804faf337dedf6f54035"
+    },
+    {
+      "path": "data/source_tables/stage4/04_07_gene_contribution_meta_analysis.csv",
+      "size_bytes": 240272,
+      "sha256": "a0b4da5bd314125b440dc7b552a4d22febf80d90fb68e3e53e807039b2a8fa62"
+    },
+    {
+      "path": "data/source_tables/stage4/04_08_signature_drift_architecture.csv",
+      "size_bytes": 3477,
+      "sha256": "5ad171a29e0e05b9d0fc7c5ccd33122f3e21d8ea25b0f1fe4cea65f9d288d658"
+    },
+    {
+      "path": "data/source_tables/stage4/04_20_integrated_signature_interpretation_matrix.csv",
+      "size_bytes": 4868,
+      "sha256": "9108210e06998528ff5470d76c7587ef16342df8f2e4782df9f641fb7b7daaaf"
+    }
+  ]
+}
