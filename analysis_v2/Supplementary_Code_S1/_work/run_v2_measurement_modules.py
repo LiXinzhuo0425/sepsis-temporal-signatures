@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run locked version 2 rank, concordance and contribution modules."""
+"""Run locked Longitudinal V2 rank, concordance and contribution modules."""
 
 from __future__ import annotations
 

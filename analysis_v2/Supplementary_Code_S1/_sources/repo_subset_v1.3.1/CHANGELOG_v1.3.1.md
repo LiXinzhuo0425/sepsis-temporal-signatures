@@ -1,6 +1,6 @@
 # Version 1.3.1 (2026-08-10)
 
-Version 1.3.1 is a venue-independent metadata- and wording-only maintenance release. It preserves the corrected v1.2.1 primary numerical workflow, all scientific source values, and the version 1.3.0 presentation figures and mappings.
+Version 1.3.1 is a journal-neutral metadata- and wording-only maintenance release. It preserves the corrected v1.2.1 primary numerical workflow, all scientific source values, and the v1.3.0 presentation-facing figures and mappings.
 
 ## Changes
 

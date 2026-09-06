@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this code or data, cite this release and the associated article."
-title: "Longitudinal behavior and clinical associations of published blood RNA signatures in sepsis: code and derived data release"
-version: "2.0.1"
-date-released: "2026-08-28"
-doi: "10.5281/zenodo.21415496"
-url: "https://doi.org/10.5281/zenodo.21415496"
+title: "Early longitudinal trajectories and rank persistence of published blood RNA signatures in sepsis: code and derived data release"
+version: "2.1.0"
+date-released: "2026-09-06"
+doi: "10.5281/zenodo.22413219"
+url: "https://doi.org/10.5281/zenodo.22413219"
 repository-code: "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures"
 license: "MIT"
 authors:

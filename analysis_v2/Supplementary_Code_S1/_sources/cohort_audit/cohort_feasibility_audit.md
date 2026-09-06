@@ -1,4 +1,4 @@
-# Version 2 cohort feasibility audit
+# Longitudinal V2 cohort feasibility audit
 
 Audit date: 2026-08-16. This document separates what is directly recoverable from primary deposits from what remains conditional. No FASTQ files were downloaded.
 

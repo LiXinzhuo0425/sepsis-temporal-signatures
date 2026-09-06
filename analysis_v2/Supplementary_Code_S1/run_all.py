@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the version 2 longitudinal analyses in their dependency order."""
+"""Run the frozen longitudinal analyses and current sensitivity in order."""
 
 from __future__ import annotations
 
@@ -15,10 +15,12 @@ SCRIPTS = [
     ROOT / "_work" / "run_v2_clinical_anchoring.py",
     ROOT / "fetch_public_inputs.py",
     ROOT / "_work" / "reconstruct_gse106878.py",
+    ROOT / "_work" / "run_gse106878_treatment_sensitivity.py",
     ROOT / "_work" / "run_gse106878_secondary_modules.py",
     ROOT / "_work" / "run_formula_preserving_background.py",
-    ROOT / "_work" / "build_main_figures.py",
+    ROOT / "_work" / "build_longitudinal_figures.py",
     ROOT / "_work" / "build_supplementary_figures.py",
+    ROOT / "_work" / "build_selection_figure1.py",
 ]
 
 

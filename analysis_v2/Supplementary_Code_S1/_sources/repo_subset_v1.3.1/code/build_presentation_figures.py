@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build version 1.3.0 presentation figure references from the frozen release data.
+"""Build presentation figure references from the frozen release data.
 
 The script is release-relative and changes presentation only. It does not
 estimate, refit, or alter any scientific value. Figures 1 and 2 reproduce the

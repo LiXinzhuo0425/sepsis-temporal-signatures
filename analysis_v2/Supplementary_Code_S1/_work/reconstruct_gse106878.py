@@ -142,7 +142,9 @@ def main() -> None:
     for signature in signatures.STAGE3_FUNCTIONS:
         subset = scores[scores["signature_id"] == signature]
         baseline_sd = float(subset.loc[subset["timepoint"] == "Pre", "oriented_score"].std(ddof=1))
-        for patient, group in subset.groupby("patient_id", sort=True):
+        # Preserve GEO sample order so the seeded bootstrap reproduces the
+        # archived S26 intervals bit-for-bit.
+        for patient, group in subset.groupby("patient_id", sort=False):
             pre = group[group["timepoint"] == "Pre"].iloc[0]
             post = group[group["timepoint"] == "Post(24h)"].iloc[0]
             pair_rows.append({"dataset": "GSE106878", "patient_id": patient, "signature_id": signature, "time_window": "T24", "treatment": pre.treatment, "baseline_sample_id": pre.sample_id, "followup_sample_id": post.sample_id, "baseline_score": pre.oriented_score, "followup_score": post.oriented_score, "baseline_sd": baseline_sd, "delta_z": (post.oriented_score - pre.oriented_score) / baseline_sd})

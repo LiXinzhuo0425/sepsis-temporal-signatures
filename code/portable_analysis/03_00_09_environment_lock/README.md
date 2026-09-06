@@ -3,7 +3,7 @@
 This directory contains the pre-unblinding analysis implementation.
 
 - Statistical and plotting backend: Python 3.9.6.
-- RNA-seq preprocessing only: R 4.5.2 with project-local DESeq2 1.50.2.
+- RNA-seq preprocessing only: R 4.5.2 with DESeq2 1.50.2. Install the package from its official distribution before running that optional preprocessing step.
 - All figure drawing, previewing, exporting and visual QA is Python-only.
 - Random seed: 20260716; patient bootstrap replicates: 2,000.
 - `signatures.py` contains the eight fixed A2 functions and frozen direction coefficients.

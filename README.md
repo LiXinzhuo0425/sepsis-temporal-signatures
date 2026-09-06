@@ -1,14 +1,29 @@
-# Published blood RNA signatures in sepsis: version 2.0.1
+# Published blood RNA signatures in sepsis version 2.1.0
 
-This venue-independent release accompanies *Longitudinal behavior and clinical associations of published blood RNA signatures in sepsis*. Version 2.0.1 retains the dated longitudinal analysis plan, portable analysis code, derived result workbooks, figure-source tables and publication figures. Numerical and scientific source content is preserved; public-facing paths, documentation and metadata have been normalized.
+This code and derived data release accompanies *Early longitudinal trajectories and rank persistence of published blood RNA signatures in sepsis: a multicohort transcriptomic study*. The current study files are in `analysis_v2/`. They preserve eight published formulas without refitting and include the final treatment-arm sensitivity, patient-count clarification, figures and supplementary appendix.
 
-The eight published formulas are not refitted, recalibrated or replaced. Version 2.0.0 extends the frozen longitudinal baseline with rank-persistence, diagnostic-change concordance, cohort-specific clinical-context, GSE106878, formula-preserving matched-background and contribution-recurrence analyses. Clinical endpoints remain cohort-specific, and GSE106878 is counted once as a separate replication cohort.
+The six primary cohorts contain 299 patients with observed baseline samples; 264 unique patients contribute a T24 or T48 pair (172 T24 pairs and 146 T48 pairs). The 302 unique case IDs include three patients without an observed baseline. GSE106878 remains one separate directional-replication cohort with 47 paired patients. Counts of patients with two recorded time categories and two fixed analysis windows are different descriptive quantities; see `analysis_v2/Supplementary_Code_S1/PATIENT_COUNT_CLARIFICATION_20260906.md`.
 
-The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 updated the reader-facing presentation.
+## Current files
 
-## Evidence boundary
+- `analysis_v2/Supplementary_Data_S1.xlsx`: final analysis-ready results and supporting analyses. `TreatmentSensitivity` reports formal GSE106878 arm comparisons; `S26_DirectionalReplication` retains frozen descriptive strata.
+- `analysis_v2/Supplementary_Data_S2.xlsx`: final exact figure-source tables.
+- `analysis_v2/Figure_Source_Data/`: CSV exports named after the 28 source-workbook sheets.
+- `analysis_v2/Figures/Fig1.tif` through `Fig6.tif`: byte-identical copies of the final supplied main figures.
+- `analysis_v2/S1_Appendix.pdf`: final supplementary methods, Tables S1–S13, and Figures S1–S6.
+- `analysis_v2/Supplementary_Code_S1/` and its ZIP: portable analysis code, dated plan, source mappings and frozen derived inputs.
 
-The study evaluates published blood transcriptomic formulas under repeated sampling. It does not create a classifier, validate clinical monitoring or treatment response, transport original assay thresholds, deconvolve cell abundance, or establish biological mechanism.
+The public workbook edits are limited to venue labels and the treatment-sensitivity tab name. All numerical cells and formulas were compared with the final supplied workbooks. Local submission correspondence and administrative forms are not part of this research archive. Venue wording and paths in public code copies were normalized; the plan date, scientific provisions and source numerical values are retained. Original input-file checksums and verification scope are recorded in `RELEASE_ALIGNMENT_v2.1.0.json`.
+
+## Current reproduction workflow
+
+Verify `MANIFEST_SHA256.txt` before executing code. In a separate working copy, change to `analysis_v2/Supplementary_Code_S1`, install `requirements.txt`, and run `python run_all.py`. The workflow reproduces the frozen baseline and longitudinal modules, verifies public input downloads, calculates the separate treatment-arm sensitivity, and builds the figures. The last figure step generates the current selection Figure 1. Final supplied TIFFs and the appendix are the authoritative presentation files; older PDF/SVG/TIFF alternatives are retained under `analysis_v2/Figures/historical_v2.0.1/`.
+
+The scientific interpretation remains bounded: this study does not train a new classifier, validate clinical monitoring or treatment efficacy, transport original assay thresholds, infer cell proportions, or establish causal mechanisms. Clinical endpoints remain cohort-specific.
+
+## Historical workflows and release history
+
+The sections below describe retained earlier analyses and their verification records. Their figure numbering and historical reproduction status are not a claim that version 2.1.0 was rerun in full.
 
 ## Public inputs
 
@@ -156,16 +171,12 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Version and citation
 
-Release identifier: `sepsis-temporal-signatures-v2.0.1`.
+Release: `sepsis-temporal-signatures-v2.1.0`.
 
-Public repository: `https://github.com/LiXinzhuo0425/sepsis-temporal-signatures`.
+Repository: https://github.com/LiXinzhuo0425/sepsis-temporal-signatures
 
-Concept DOI for all versions: `10.5281/zenodo.21415496`.
+Concept DOI: https://doi.org/10.5281/zenodo.21415496
 
-The version-specific DOI for v2.0.1 is assigned by Zenodo when the release is archived. Until then, use the concept DOI above for the current version.
+Version 2.1.0 DOI: https://doi.org/10.5281/zenodo.22413219
 
-Do not cite the superseded v1.0.1 version DOI as the corrected analysis.
-
-## License
-
-Original release code is available under the MIT License. Derived data, documentation and original figure/source-data materials are available under CC BY 4.0. Third-party source records and dependencies retain their original terms and are not relicensed by this repository. See `LICENSE_NOTICE.md`, `LICENSE_CODE` and `LICENSE_DATA`.
+Code is licensed under MIT. Derived data, documentation and original figures are licensed under CC BY 4.0. Third-party records and dependencies retain their own terms. See `LICENSE_NOTICE.md`, `LICENSE_CODE` and `LICENSE_DATA`.

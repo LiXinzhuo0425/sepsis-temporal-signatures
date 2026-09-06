@@ -1,10 +1,10 @@
 # Fixed blood transcriptomic signatures: version 1.3.1
 
-This venue-independent release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.1 is a metadata- and wording-only maintenance update of v1.3.0: it removes obsolete venue-specific labels from retained reproducibility provenance and makes the Data S1/Data S2 version boundary explicit. The S27 common-cohort sensitivity summary, Data S2 figure-source mapping, and author-adjusted Figure 3 layout introduced in v1.3.0 are retained unchanged.
+This journal-neutral release accompanies *Blood RNA signatures show distinct longitudinal behavior and gene-contribution patterns in sepsis*. Version 1.3.1 is a metadata- and wording-only maintenance update of v1.3.0: it removes obsolete journal-specific labels from retained reproducibility provenance and makes the Data S1/Data S2 version boundary explicit. The S27 common-cohort sensitivity summary, Data S2 figure-source mapping, and author-adjusted Figure 3 layout introduced in v1.3.0 are retained unchanged.
 
 The corrected v1.2.1 numerical workflow was not rerun. Cohorts, published formulas, analysis populations, effect estimates, uncertainty estimates, multiplicity conclusions, numerical figure-source values, and scientific conclusions are unchanged. S27 reports a common-cohort comparison from retained results and does not replace or redefine the frozen primary analysis; the Figure 3 revision changes typography only.
 
-The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 updated the reader-facing presentation.
+The public v1.0.1 archive is retained as superseded history. Version 1.1.2 corrected the SIG001 coefficient, version 1.2.0 reconciled Stage 4 architecture summaries with the signature-specific primary-independent cohort sets, version 1.2.1 completed the manuscript-facing data and documentation package, version 1.2.2 updated inference presentation in Table 2, and version 1.3.0 aligned the reader-facing package with the presentation submission.
 
 ## Evidence boundary
 
@@ -42,7 +42,7 @@ The final workbook-assembly step is presentation-only and runs when `ARTIFACT_TO
 ## Reproduce the retained v1.3.0 additions
 
 - In the frozen Stage 3 environment recorded by `code/portable_analysis/03_00_09_environment_lock/requirements_frozen.txt`, run `python code/analyse_common_cohort_sensitivity.py` to regenerate the S27 common-cohort evidence under `reproducibility_evidence/common_cohort_sensitivity`.
-- Run `python code/build_presentation_figures.py` to regenerate the version 1.3.0 presentation figure references and their source extracts under `reproducibility_evidence/generated_presentation_v1.3.0`.
+- Run `python code/build_presentation_figures.py` to regenerate the presentation figure references and their source extracts under `reproducibility_evidence/generated_presentation_v1.3.0`.
 
 The figure builder uses the frozen release data and does not alter the v1.2.1 reference outputs. Figures 1 and 2 are scripted layouts. For Figure 3, the script produces a computational reference, while `reference_outputs/presentation_v1.3.0/Figure_3.tiff` is the author-approved final layout.
 
@@ -55,7 +55,7 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 ## Version 1.3.0 changes
 
-- Adapted reader-facing terminology and file mapping for the version 1.3.0 presentation while keeping the public release venue-independent.
+- Adapted reader-facing terminology and file mapping for the presentation submission while keeping the public release journal-neutral.
 - Added Supplementary Data Table S27 and `code/analyse_common_cohort_sensitivity.py`, which derive the common-cohort sensitivity summary from retained inputs without replacing the primary analysis.
 - Identified `tables/Figure_Source_Data.xlsx` as manuscript Data S2 and retained its traceable mapping to the figure-source CSVs.
 - Updated the submission-facing Figure 3 typography and retained its final 600-dpi TIFF; plotted values, panel content, and numerical source data are unchanged.
@@ -117,11 +117,11 @@ The figure builder uses the frozen release data and does not alter the v1.2.1 re
 
 - `data/derived_patient_level`: corrected de-identified score, paired-change, gene-contribution and pathway-change matrices.
 - `data/figure_source_data`: versioned CSV source data for Figures 1–6.
-- `data/figure_source_data/presentation_v1.3.0`: source extracts for the three version 1.3.0 presentation figures.
+- `data/figure_source_data/presentation_v1.3.0`: source extracts for the three presentation-facing main figures.
 - `tables`: Supplementary Data (Data S1), the figure-source workbook (Data S2), implementation registry and main Tables 1–2.
 - `reference_outputs/main_figures_v1.2.1`: frozen main-figure references used by the numerical reproduction verifier.
 - `reference_outputs/supplementary_figures_v1.2.1`: frozen Supplementary Figures S1–S5, including the corrected S2 terminology.
-- `reference_outputs/presentation_v1.3.0`: TIFF files retained unchanged from the v1.3.0 presentation package.
+- `reference_outputs/presentation_v1.3.0`: presentation-facing TIFF files retained unchanged from the v1.3.0 presentation package.
 - `editable_author_sources`: retained PowerPoint sources for the earlier author-reviewed layouts of Figures 1, 4, 5, and 6.
 - `code/portable_analysis`: release-relative corrected analysis scripts.
 - `reproducibility_evidence`: numerical comparisons, clean-run results, sensitivity evidence and the frozen Stage 2 signature-selection audit.

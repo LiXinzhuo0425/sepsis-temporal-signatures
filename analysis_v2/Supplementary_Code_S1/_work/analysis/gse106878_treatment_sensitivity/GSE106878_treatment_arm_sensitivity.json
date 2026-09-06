@@ -1,0 +1,6 @@
+{
+  "analysis": "delta_z ~ hydrocortisone; HC3 covariance; Holm across four treatment coefficients",
+  "bootstrap_replicates": 2000,
+  "seed": 20260720,
+  "scope": "directional-replication sensitivity, not efficacy"
+}

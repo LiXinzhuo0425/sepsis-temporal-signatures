@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build version 2 Supplementary Figures S1-S6 with Python only."""
+"""Build Longitudinal V2 Supplementary Figures S1-S6 with Python only."""
 
 from __future__ import annotations
 
@@ -285,16 +285,19 @@ def _short_pathway(name: str) -> str:
 
 
 def figure_s6() -> None:
-    pathway = pd.read_excel(INPUT, sheet_name="S13_Pathway")
+    frozen_source = ROOT / "_sources" / "revision_addition"
+    frozen_pathway = frozen_source / "Figure_S6A_prespecified_pathway_correlations.csv"
+    frozen_cell = frozen_source / "Figure_S6B_hpa_broad_lineage_contributions.csv"
+    pathway = pd.read_csv(frozen_pathway) if frozen_pathway.exists() else pd.read_excel(INPUT, sheet_name="S13_Pathway")
     pathway = pathway[(pathway["analysis_set"].eq("INDEPENDENT_ONLY")) & (pathway["tier"].eq("PRESET_PRIMARY")) & (pathway["time_label"].isin(["T24", "T48"]))].copy()
-    cell = pd.read_excel(INPUT, sheet_name="S14_CellSource")
+    cell = pd.read_csv(frozen_cell) if frozen_cell.exists() else pd.read_excel(INPUT, sheet_name="S14_CellSource")
     cell = cell[cell["time_window"].isin(["T24", "T48"])].copy()
     pathway.to_csv(SRCDIR / "Figure_S6A_prespecified_pathway_correlations.csv", index=False)
     cell.to_csv(SRCDIR / "Figure_S6B_hpa_broad_lineage_contributions.csv", index=False)
 
     pathways = pathway["pathway"].drop_duplicates().tolist()
-    fig = plt.figure(figsize=(180 * MM, 180 * MM), constrained_layout=True)
-    gs = fig.add_gridspec(2, 2, height_ratios=[1.1, .9])
+    fig = plt.figure(figsize=(180 * MM, 194 * MM), constrained_layout=True)
+    gs = fig.add_gridspec(3, 2, height_ratios=[1.1, .9, .13])
     heat_axes = [fig.add_subplot(gs[0, 0]), fig.add_subplot(gs[0, 1])]
     for ax, landmark, letter in zip(heat_axes, ["T24", "T48"], ["A", "B"]):
         sub = pathway[pathway["time_label"].eq(landmark)]
@@ -342,7 +345,9 @@ def figure_s6() -> None:
         clean(ax)
         panel_label(ax, letter, x=-.12)
     handles = [Line2D([0], [0], color=lineage_colors[x], lw=7, label=lineage_labels[x]) for x in lineage_order]
-    fig.legend(handles=handles, loc="lower center", bbox_to_anchor=(.5, -.015), ncol=3, frameon=False)
+    legend_ax = fig.add_subplot(gs[2, :])
+    legend_ax.axis("off")
+    legend_ax.legend(handles=handles, loc="center", ncol=3, frameon=False)
     save(fig, 6)
 
 

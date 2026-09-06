@@ -1,0 +1,87 @@
+{
+  "release": "2.1.0",
+  "version_doi": "10.5281/zenodo.22413219",
+  "final_file_alignment": [
+    {
+      "final_file": "S1_Data.xlsx",
+      "source_sha256": "aaa2114c47d9f8575cb5bc5f5bcce0cf8079226c22ff58a6b0900a41717e3dff",
+      "public_path": "analysis_v2/Supplementary_Data_S1.xlsx",
+      "public_sha256": "d1d6ea1aacb218c38abdd4f58606a76fada284e07ef915428ed39cf2ca802d80",
+      "byte_identical": false
+    },
+    {
+      "final_file": "S2_Data.xlsx",
+      "source_sha256": "e3c0e491a50b1ced39f7d9c908704e6efac34fc592b4e077dfdd2a845f64701f",
+      "public_path": "analysis_v2/Supplementary_Data_S2.xlsx",
+      "public_sha256": "3ef867234d7b382b186f6ad1156f1875902e054535f453798f0484c3509943f3",
+      "byte_identical": false
+    },
+    {
+      "final_file": "S1_Appendix.pdf",
+      "source_sha256": "c75e3edcc016c80648a5d3290488dd5437b214cd307f23c7f15807496b38acc2",
+      "public_path": "analysis_v2/S1_Appendix.pdf",
+      "public_sha256": "c75e3edcc016c80648a5d3290488dd5437b214cd307f23c7f15807496b38acc2",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig1.tif",
+      "source_sha256": "356302188da35b4711af12b7176a04fcabbc863a65e52b998e5fe2d24e993cf5",
+      "public_path": "analysis_v2/Figures/Fig1.tif",
+      "public_sha256": "356302188da35b4711af12b7176a04fcabbc863a65e52b998e5fe2d24e993cf5",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig2.tif",
+      "source_sha256": "9b0047041d10f712d79e3394876bfaa3b0c3c6514f3cf1453b553acabeac4867",
+      "public_path": "analysis_v2/Figures/Fig2.tif",
+      "public_sha256": "9b0047041d10f712d79e3394876bfaa3b0c3c6514f3cf1453b553acabeac4867",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig3.tif",
+      "source_sha256": "0151de26dc26f920abb1ff113eeb4ee4bc4ce49dec4899129f5cd8c099601141",
+      "public_path": "analysis_v2/Figures/Fig3.tif",
+      "public_sha256": "0151de26dc26f920abb1ff113eeb4ee4bc4ce49dec4899129f5cd8c099601141",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig4.tif",
+      "source_sha256": "47f13076f55d3a3ca6b70f554205bf2c0ce29799e833f4a461296b41a9a81994",
+      "public_path": "analysis_v2/Figures/Fig4.tif",
+      "public_sha256": "47f13076f55d3a3ca6b70f554205bf2c0ce29799e833f4a461296b41a9a81994",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig5.tif",
+      "source_sha256": "24655593a1179f64739a901076c0cf4f3bf96d7637c83f20196ce5190fbd66ff",
+      "public_path": "analysis_v2/Figures/Fig5.tif",
+      "public_sha256": "24655593a1179f64739a901076c0cf4f3bf96d7637c83f20196ce5190fbd66ff",
+      "byte_identical": true
+    },
+    {
+      "final_file": "Fig6.tif",
+      "source_sha256": "8061c48af7f191f9c0467fe11738791bf75cedc3e6937982dbb96591b171b5aa",
+      "public_path": "analysis_v2/Figures/Fig6.tif",
+      "public_sha256": "8061c48af7f191f9c0467fe11738791bf75cedc3e6937982dbb96591b171b5aa",
+      "byte_identical": true
+    }
+  ],
+  "workbook_validation": [
+    {
+      "workbook": "Supplementary_Data_S1.xlsx",
+      "numeric_cells": 427866,
+      "formula_cells": 0,
+      "text_edits": 30,
+      "sheets": 64,
+      "styles_xml_identical": true
+    },
+    {
+      "workbook": "Supplementary_Data_S2.xlsx",
+      "numeric_cells": 35073,
+      "formula_cells": 0,
+      "text_edits": 1,
+      "sheets": 30,
+      "styles_xml_identical": true
+    }
+  ]
+}
