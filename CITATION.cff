@@ -3,8 +3,8 @@ message: "If you use this code or data, cite this release and the associated art
 title: "Early longitudinal trajectories and rank persistence of published blood RNA signatures in sepsis: code and derived data release"
 version: "2.1.0"
 date-released: "2026-09-06"
-doi: "10.5281/zenodo.22413219"
-url: "https://doi.org/10.5281/zenodo.22413219"
+doi: "10.5281/zenodo.22458532"
+url: "https://doi.org/10.5281/zenodo.22458532"
 repository-code: "https://github.com/LiXinzhuo0425/sepsis-temporal-signatures"
 license: "MIT"
 authors:
